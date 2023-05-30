@@ -4,13 +4,13 @@ import { PatternBg, PurpleBg } from '../PatternBg';
 import { StyledArrowButton } from '../common';
 import { motion } from 'framer-motion';
 
-interface OnboardingSuccessProps {
+interface WriteEmailSuccessProps {
   activeStepIndex: number;
   next: () => void;
   prev: () => void;
 }
 
-const OnboardingSuccess = ({ activeStepIndex, next, prev }: OnboardingSuccessProps) => {
+const WriteEmailSuccess = ({ activeStepIndex, next, prev }: WriteEmailSuccessProps) => {
   return (
     <div className='flex h-[500px] space-x-4'>
       <PurpleBg className='flex min-w-[4px] sm:min-w-[18px] md:w-1/4 lg:w-1/4 bg-[size:250px] min-h-[100vh] max-w-[800px] items-center justify-center text-[96px]'>
@@ -65,4 +65,4 @@ const TextP =  styled.p`
   whitespace: pre-line;
 `
 
-export default OnboardingSuccess;
+export default WriteEmailSuccess;

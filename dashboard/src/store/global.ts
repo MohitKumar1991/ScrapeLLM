@@ -7,7 +7,7 @@ interface EmailInfo {
   company: string;
   emailFormat: string;
 }
-interface OnboardingState {
+interface GlobalState {
   selectedAction: ActionType | null;
   selectAction: (card: ActionType) => void;
   removeSelectedAction: (card: ActionType) => void;
@@ -15,7 +15,7 @@ interface OnboardingState {
   setEmailInfo: (info: EmailInfo) => void;
 }
 
-export const useOnboardingStore = create<OnboardingState>()(
+export const useGlobalStore = create<GlobalState>()(
   devtools(
     (set) => ({
       selectedAction: null,

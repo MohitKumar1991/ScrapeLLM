@@ -2,19 +2,19 @@ import styled from 'styled-components';
 import React, { useEffect, useState } from 'react';
 import { PatternBg } from '../PatternBg';
 import * as Form from '@radix-ui/react-form';
-import { useOnboardingStore } from '@/store/onboarding';
+import { useGlobalStore } from '@/store/global';
 
-interface OnboardingAddCompanyProps {
+interface AddCompanyProps {
   activeStepIndex: number;
   next: () => void;
   prev: () => void;
 }
 
-const OnboardingAddCompany = ({
+const AddCompany = ({
   activeStepIndex,
   next,
   prev,
-}: OnboardingAddCompanyProps) => {
+}: AddCompanyProps) => {
 
   return (
     <div className='flex h-[500px] space-x-8 text-center'>
@@ -45,7 +45,7 @@ interface AddCompanyFormProps { }
 
 const AddCompanyForm = ({ }: AddCompanyFormProps) => {
 
-  const { emailInfo, setEmailInfo } = useOnboardingStore();
+  const { emailInfo, setEmailInfo } = useGlobalStore();
   const [companyName, setCompanyName] = useState<string>(emailInfo?.company ?? '');
   const [companyUrl, setCompanyUrl] = useState<string>(emailInfo?.company ?? '');
 
@@ -111,4 +111,4 @@ const AddCompanyForm = ({ }: AddCompanyFormProps) => {
 
 
 
-export default OnboardingAddCompany;
+export default AddCompany;

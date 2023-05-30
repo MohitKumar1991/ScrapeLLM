@@ -6,7 +6,7 @@ import * as Select from '@radix-ui/react-select';
 import { CheckIcon, ChevronDownIcon, ChevronUpIcon } from '@radix-ui/react-icons';
 
 export const Logo = () => {
-  return <img src='/magik-logo.png' className='h-8 w-7' />;
+  return <img src='/logo.png' className='h-8 w-7' />;
 };
 
 export interface SelectionItem {

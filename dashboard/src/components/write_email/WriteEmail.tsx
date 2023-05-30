@@ -3,18 +3,18 @@ import React, { useState } from 'react';
 import { PatternBg } from '../PatternBg';
 import * as Form from '@radix-ui/react-form';
 import useWriteEmail from '@/hooks/api/usePostUserDetails';
-import { useOnboardingStore } from '@/store/onboarding';
+import { useGlobalStore } from '@/store/global';
 import { FormSelect } from '../common';
 
 
-interface OnboardingPersonalInfoProps {
+interface WriteEmailProps {
   activeStepIndex: number;
   next: () => void;
   prev: () => void;
 }
 
-const OnboardingPersonalInfo = ({ activeStepIndex, next, prev }: OnboardingPersonalInfoProps) => {
-  const { emailInfo: emailInfo } = useOnboardingStore();
+const WriteEmail = ({ activeStepIndex, next, prev }: WriteEmailProps) => {
+  const { emailInfo: emailInfo } = useGlobalStore();
   const {
     data,
     isFetching,
@@ -59,7 +59,7 @@ interface WriteEmailFormProps { }
 
 const WriteEmailForm = ({ }: WriteEmailFormProps) => {
 
-  const { emailInfo, setEmailInfo } = useOnboardingStore();
+  const { emailInfo, setEmailInfo } = useGlobalStore();
   const [companyName, setCompanyName] = useState<string>(emailInfo?.company ?? '');
   const [subject, setEmailSubject] = useState<string>(emailInfo?.subject ?? '');
 
@@ -133,4 +133,4 @@ const WriteEmailForm = ({ }: WriteEmailFormProps) => {
 };
 
 
-export default OnboardingPersonalInfo;
+export default WriteEmail;

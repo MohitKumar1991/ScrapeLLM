@@ -4,16 +4,16 @@ import { PatternBg, GradientBg } from '../PatternBg';
 import { CenteredImage, StyledArrowButton } from '../common';
 import { ActionType } from '@/interfaces/action';
 import { CheckCircledIcon } from '@radix-ui/react-icons';
-import { useOnboardingStore } from '@/store/onboarding';
+import { useGlobalStore } from '@/store/global';
 
 
-interface OnboardingWelcomeProps {
+interface WelcomeProps {
   activeStepIndex: number;
   next: () => void;
 }
 
-const OnboardingWelcome = ({ activeStepIndex, next }: OnboardingWelcomeProps) => {
-  const { selectedAction: selectedAction, selectAction } = useOnboardingStore();
+const Welcome = ({ activeStepIndex, next }: WelcomeProps) => {
+  const { selectedAction: selectedAction, selectAction } = useGlobalStore();
     const onActionSelect = (actionType: ActionType) => {
       selectAction(actionType);
       next();
@@ -25,14 +25,14 @@ const OnboardingWelcome = ({ activeStepIndex, next }: OnboardingWelcomeProps) =>
       </PatternBg>
       <div className='flex flex-1 items-center mx-auto mt-[50px] flex-col'>
         <CenteredImage>
-          <img src='/welcome.jpg' height="300px"/>
+          <img src='/logo.png' height="300px"/>
         </CenteredImage>
-       
+
+        {/* <h2 className='text-[24px] text-center px-10 py-3 rounded-2xl text-gray-600 mt-100'>
+          SCRAPE LLM
+        </h2> */}
+        {/* <h3 className='text-[18px] text-gray-600 sm:text-[21px] font-light mt-50 h-10'>What would you like to do ?</h3> */}
         
-        <h2 className='text-[24px] text-center px-10 py-3 rounded-2xl text-gray-600 mt-100'>
-          SCRAPE-GPT
-        </h2>
-        <h3 className='text-[18px] text-gray-600 sm:text-[21px] font-light mt-50 h-10'>What would you like to do ?</h3>
         <ActionSelection
           cardType={ActionType.WriteEmail}
           onActionSelect={onActionSelect}
@@ -72,9 +72,9 @@ const CardContainer = () => {
       <h2 className='text-slate-200 p-3 md:p-5 text-[12px] md:text-[16px]'>Here's how it works</h2>
       <hr className='border-slate-600' />
       <p className='text-slate-400 p-3 md:p-5 font-mono leading-[32px] text-[12px] md:text-[16px] md:leading-[40px]'>
-        1. Connect your wallet <br />
-        2. Fund your card with crypto <br />
-        3. Spend anywhere! <br />
+        1. Scrape a website <br />
+        2. Write an email <br />
+        3. Or ask questions about it <br />
       </p>
     </div>
   );
@@ -111,4 +111,4 @@ const ActionSelection = ({ cardType: actionType, onActionSelect, isSelected }: A
 };
 
 
-export default OnboardingWelcome;
+export default Welcome;
