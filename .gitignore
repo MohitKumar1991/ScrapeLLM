@@ -1,0 +1,44 @@
+.env
+node_modules
+*.jsonl
+*.sqlite
+__pycache__
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+.yarn
+
+experiments
+
+# dependencies
+dashboard/node_modules
+dashboard/.pnp
+.pnp.js
+
+# testing
+dashboard/coverage
+
+# next.js
+dashboard/.next/
+dashboard/out/
+
+# production
+dashboard/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
