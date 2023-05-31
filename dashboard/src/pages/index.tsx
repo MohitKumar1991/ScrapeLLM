@@ -6,7 +6,7 @@ import AddCompany from '@/components/add_company/AddCompany';
 import WriteEmailSuccess from '@/components/write_email/WriteEmailSuccess';
 import { useMultistepForm } from '@/hooks/useMultistepForm';
 import { useGlobalStore } from '@/store/global';
-import { ActionType } from '@/interfaces/action';
+import { ActionType } from '@/interfaces';
 import AddCompanySuccess from '@/components/add_company/AddCompanySuccess';
 
 export default function Home() {

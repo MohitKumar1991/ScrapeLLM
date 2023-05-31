@@ -1,8 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 import { PurpleBg } from '../PatternBg';
-import { StyledArrowButton } from '../common';
+import { StyledArrowButton, SvgLoader } from '../common';
 import { motion } from 'framer-motion';
+import { Company } from '@/interfaces';
+import useGetCompanies from '@/hooks/api/useGetCompanies';
 
 interface AddCompanySuccessProps {
   activeStepIndex: number;
@@ -11,63 +13,8 @@ interface AddCompanySuccessProps {
 }
 
 const AddCompanySuccess = ({ activeStepIndex, next, prev }: AddCompanySuccessProps) => {
-  const companies = [
-    {
-      name: 'Company 1',
-      url: 'https://www.google.com',
-      status: 1,
-    },
-    {
-      name: 'Company 1',
-      url: 'https://www.google.com',
-      status: 1,
-    },
-    {
-      name: 'Company 1',
-      url: 'https://www.google.com',
-      status: 1,
-    },
-    {
-      name: 'Company 1',
-      url: 'https://www.google.com',
-      status: 1,
-    },
-    {
-      name: 'Company 1',
-      url: 'https://www.google.com',
-      status: 1,
-    },
-    {
-      name: 'Company 1',
-      url: 'https://www.google.com',
-      status: 1,
-    },
-    {
-      name: 'Company 1',
-      url: 'https://www.google.com',
-      status: 1,
-    },
-    {
-      name: 'Company 1',
-      url: 'https://www.google.com',
-      status: 1,
-    },
-    {
-      name: 'Company 1',
-      url: 'https://www.google.com',
-      status: 1,
-    },
-    {
-      name: 'Company 1',
-      url: 'https://www.google.com',
-      status: 1,
-    },
-    {
-      name: 'Company 1',
-      url: 'https://www.google.com',
-      status: 1,
-    },
-  ]
+  const  { isLoading, error, data } = useGetCompanies();
+  console.log("Data from useGetCompanies", data);
   return (
     <div className='flex h-[500px] space-x-4'>
       <PurpleBg className='flex min-w-[4px] sm:min-w-[18px] md:w-1/4 lg:w-1/4 bg-[size:250px] min-h-[100vh] max-w-[800px] items-center justify-center text-[96px]'>
@@ -84,8 +31,12 @@ const AddCompanySuccess = ({ activeStepIndex, next, prev }: AddCompanySuccessPro
         <h2 className='text-[18px] sm:text-[21px] text-gray-600 mt-100 h-10 mb-6'>
           👋 Company Added
         </h2>
-        <CompanyList companies={companies} />
-        <WriteAgainButton onClick={() => console.log('add funds')} />
+       { data && <CompanyList companies={(data && data.companies) || []} /> }
+       { isLoading && <SvgLoader /> }
+        <AddMoreButton onClick={() => {
+            console.log('Write Again');
+            prev(); }
+          } />
       </div>
       <PurpleBg className='flex min-w-[4px] sm:min-w-[18px] md:w-1/4 lg:w-1/4 bg-[size:250px] min-h-[100vh] max-w-[800px] items-center justify-center text-[96px]'>
         <motion.span
@@ -101,8 +52,11 @@ const AddCompanySuccess = ({ activeStepIndex, next, prev }: AddCompanySuccessPro
     
   );
 };
+interface CompanyListProps { 
+  companies: Company[];
+}
 
-const CompanyList = ({companies}) => {
+const CompanyList = ({companies}:CompanyListProps) => {
   return (<div className="rounded-md overflow-y-scroll text-gray-500 border-separate border-spacing-2 border border-slate-500 min-h-[300px]">
         <div className='border text-gray-700 font-semibold text-center py-2'>
           COMPANIES IN LIST
@@ -116,23 +70,23 @@ const CompanyList = ({companies}) => {
       <div>
         {
           companies.map(company => (<div className='border rounded-md border-separate p-2 flex justify-between'>
-            <span className='px-10'>{company.name}</span>
-            <span className='px-10'>{company.url}</span>
-            <span className='px-10'>{company.status == 2 ? "Scraped" : company.status == 1 ? "Scraping" : "Not Scraped"}</span>
+            <span className='px-10'>{company.company}</span>
+            <span className='px-10'>{company.website}</span>
+            <span className='px-10'>{company.status == "indexed" ? "Scraped" : company.status == "scraped" ? "Indexing": "Scraping"}</span>
           </div>))
         }
       </div>
       </div>);
 }
 
-const WriteAgainButton = ({ onClick }: { onClick: () => void }) => {
+const AddMoreButton = ({ onClick }: { onClick: () => void }) => {
   return (
     <StyledArrowButton
       whileHover={{ x: 3 }}
       onClick={() => onClick()}
       className='cursor-pointer mt-[100px] text-xl'
     >
-      &larr; Write Again
+      &larr; Add More
     </StyledArrowButton>
   );
 };

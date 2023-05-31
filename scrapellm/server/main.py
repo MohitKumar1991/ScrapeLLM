@@ -27,11 +27,25 @@ import scrapellm.prompts as prompts
 import scrapellm.utils as u
 import scrapellm.llm.gpt3_5 as gpt3_5
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from asyncer import asyncify
 from ..db import SqliteDB
 from fastapi.responses import JSONResponse
+from pydantic import BaseModel
 
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins= [
+        "http://localhost",
+        "http://localhost:8000",
+        "http://localhost:3000",
+    ],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # Register a function to be called when the server starts up
 @app.on_event('startup')
@@ -45,33 +59,35 @@ async def shutdown():
     # Close the connection to the database
     app.state.db.close()
 
+class EmailInfo(BaseModel):
+    own_company_info: str
+    subject: str
+    company: str
 
 # Define the GenerateEmail API
 @app.post("/generate-email")
 async def generate_email(
-    own_company_info: str,
-    subject: str,
-    style: str,
-    company: str,
+    email_info: EmailInfo
 ):
-    subject_dbinfo = await app.state.vectordb.aquery(subject, {
-        "company": company
+    subject_dbinfo = await app.state.vectordb.aquery(email_info.subject, {
+        "company": email_info.company
     })
-    about_company = await app.state.vectordb.aquery(f"About the company {company}", {
-        "company": company
+    about_company = await app.state.vectordb.aquery(f"About the company {email_info.company} itself", {
+        "company": email_info.company
     })
     
-    email_prompt = prompts.create_prompt_for_email(style, {
-        "about_own_company": own_company_info,
-        "company": company,
+    email_prompt = prompts.create_prompt_for_email("informal", {
+        "about_own_company": email_info.own_company_info,
+        "company": email_info.company,
         "about_other_company": about_company[0]['content'],
-        "subject": subject,
+        "subject": email_info.subject,
         "about_subject": subject_dbinfo[0]['content']
     })
     tokenized = u.tokenize(email_prompt['user_messages'][0])
     
     u.pencil.warning(f"Email Prompt Generated {len(tokenized)} tokens")
-    u.pencil.warning(f"Calling OpenAI")
+    u.pencil.warning(f"Calling OpenAI with Email")
+    u.pencil.info(email_prompt['user_messages'][0])
     openai = gpt3_5.GPT3_5()
     email_text = await openai.call_raw_api_async(email_prompt['system_messages'], email_prompt['user_messages'], temperature=0.2)
     u.pencil.warning(f"Email Generated")
@@ -82,17 +98,28 @@ async def generate_email(
         "email": email_text
     })
 
+
+class CompanyInfo(BaseModel):
+    company_name: str
+    company_url: str
+
 # Define the AddCompanyToDB API
-@app.get("/add-company")
+@app.post("/add-company")
 async def add_company_to_db(
-    company_name: str,
-    company_url: str,
+    info: CompanyInfo
 ):
     # Add the company to the database
-    app.state.db.add_company(company_name, company_url)
+    app.state.db.add_company(info.company_name,info.company_url)
 
     # Return a success message
     return JSONResponse({"message": "Company added to database"})
+
+# Define the AddCompanyToDB API
+@app.get("/get-companies")
+async def get_companies():
+    # Get Companies
+    companies = app.state.db.get_companies()
+    return JSONResponse({"companies": companies })
 
 # Define the GetVectorResults API
 @app.get("/query-db")

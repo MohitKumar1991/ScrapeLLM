@@ -13,11 +13,12 @@ class CrawledPage(Item):
 class StaticSiteCrawler(scrapy.Spider):
     name = "static_site_crawler"    
 
-    def __init__(self, start_urls=None, *args, **kwargs):
+    def __init__(self, start_urls, output_file, company='',*args, **kwargs):
         super(StaticSiteCrawler, self).__init__(*args, **kwargs)
         self.logger.info(f"start_urls: {start_urls}")
         self.start_urls = start_urls.split(",")
-        self.company = urlparse(self.start_urls[0]).netloc
+        self.output_file = output_file
+        self.company = company
         self.base_url = urlparse(self.start_urls[0]).scheme + "://" + urlparse(self.start_urls[0]).hostname
         self.allowed_domains = [ urlparse(self.start_urls[0]).hostname ]
         self.seen_links = set()

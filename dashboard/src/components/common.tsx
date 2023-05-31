@@ -17,6 +17,7 @@ export interface SelectionItem {
 export interface FormSelectOptions {
   placeholder: string;
   items: SelectionItem[];
+  onValueChange: (e:string) => void;
 }
 
 export const StyledArrowButton = styled(motion.h2)`
@@ -57,9 +58,18 @@ const SelectItem = React.forwardRef(({ children, className, ...props }, forwarde
   );
 });
 
+export const SvgLoader = () => {
+  return (<div className="loader loader--style8" title="7">
+      <img src="/loader.svg" ></img>
+    </div>);
+}
 
-export const FormSelect = ({ placeholder, items }):FormSelectOptions => {
-  return (<Select.Root>
+
+export const FormSelect = ({ placeholder, items, onValueChange }:FormSelectOptions) => {
+  return (<Select.Root onValueChange={(e) => {
+    console.log("SELECT ROOT VALUE CHANGE", e);
+    onValueChange(e);
+  }}>
     <Select.Trigger className="SelectTrigger text-gray-500 " aria-label="Food">
       <Select.Value placeholder={placeholder || "Please pick one"} />
       <Select.Icon className="SelectIcon">
@@ -72,7 +82,7 @@ export const FormSelect = ({ placeholder, items }):FormSelectOptions => {
           <ChevronUpIcon />
         </Select.ScrollUpButton>
         <Select.Viewport className="SelectViewport">    
-          { items.map(item => <SelectItem value={item.value}> {item.label} </SelectItem> )}
+          { items.map(item => <SelectItem value={item.company}> {item.website} </SelectItem> )}
         </Select.Viewport>
         <Select.ScrollDownButton className="SelectScrollButton">
           <ChevronDownIcon />

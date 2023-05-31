@@ -11,33 +11,33 @@ interface WriteEmailError {
 interface WriteEmailRequestBody {
   subject: string;
   company: string;
-  emailFormat: string
+  ownCompanyAbout: string
 }
 
-const endPoint = 'api/v1/user/details';
+const endPoint = 'generate-email';
 
 const useWriteEmail = (
   {
     subject,
     company,
-    emailFormat
+    ownCompanyAbout
   }: WriteEmailRequestBody,
   enabled: boolean,
 ): UseQueryResult<WriteEmailResult, WriteEmailError> => {
   return useQuery({
     queryKey: [
-      'userDetails',
+      'usePostWriteEmail',
       subject,
       company,
-      emailFormat
+      ownCompanyAbout
     ],
     queryFn: async () => {
       const { data } = await axios.post(`${API_URL}/${endPoint}`, {
         subject,
         company,
-        emailFormat,
+        own_company_info: ownCompanyAbout,
       });
-      return data.data;
+      return data;
     },
     refetchOnWindowFocus: false,
     refetchOnMount: false,

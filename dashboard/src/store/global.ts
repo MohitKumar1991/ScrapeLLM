@@ -1,11 +1,11 @@
-import { ActionType } from '@/interfaces/action';
+import { ActionType } from '@/interfaces';
 import { create } from 'zustand';
 import { devtools, persist } from 'zustand/middleware';
 
 interface EmailInfo {
   subject: string;
   company: string;
-  emailFormat: string;
+  ownCompanyAbout: string;
 }
 interface GlobalState {
   selectedAction: ActionType | null;

@@ -1,8 +1,9 @@
 import styled from 'styled-components';
-import React, { useEffect, useState } from 'react';
+import React, { use, useEffect, useState } from 'react';
 import { PatternBg } from '../PatternBg';
 import * as Form from '@radix-ui/react-form';
-import { useGlobalStore } from '@/store/global';
+import usePostAddCompany from '@/hooks/api/usePostAddCompany';
+import { SvgLoader } from '../common';
 
 interface AddCompanyProps {
   activeStepIndex: number;
@@ -45,22 +46,25 @@ interface AddCompanyFormProps { }
 
 const AddCompanyForm = ({ }: AddCompanyFormProps) => {
 
-  const { emailInfo, setEmailInfo } = useGlobalStore();
-  const [companyName, setCompanyName] = useState<string>(emailInfo?.company ?? '');
-  const [companyUrl, setCompanyUrl] = useState<string>(emailInfo?.company ?? '');
+  const [companyName, setCompanyName] = useState<string>('');
+  const [companyUrl, setCompanyUrl] = useState<string>('');
+  //submit form when isSubmitting is true
+  const [ isSubmitting, setIsSubmitting ] = useState<boolean>(false);
+  const { isLoading, error, data } = usePostAddCompany(companyName, companyUrl, isSubmitting);
 
   return (
     <div className='flex flex-col items-center'>
       <Form.Root className='w-[320px]' onSubmit={
         (event) => {
           event.preventDefault();
-          alert(`companyName + companyUrl ${companyName} ${companyUrl}`)
+          !isLoading && setIsSubmitting(true);
         }
       }>
         <h3 className='text-[25px] text-slate-500 leading-8'>
           Add Company Details
         </h3>
         <Separator className='border-slate-100 border-[1px] mt-8 mb-8 max-w-[500px]' />
+        { isLoading && <SvgLoader /> }
         <Form.Field className='grid mb-[12px]' name='firstName'>
           <div className='flex items-center justify-between'>
             <Form.Label className='text-[15px] leading-[35px] text-slate-500'>
@@ -100,7 +104,7 @@ const AddCompanyForm = ({ }: AddCompanyFormProps) => {
           </Form.Control>
         </Form.Field>
         <Form.Submit asChild>
-          <button className='box-border w-full text-white inline-flex h-[35px] items-center justify-center rounded-[6px] bg-slate-800 px-[16px] py-[8px] font-medium leading-none focus:outline-none mt-[10px]'>
+          <button className='box-border w-full text-white inline-flex h-[35px] items-center justify-center rounded-[6px] bg-slate-800 px-[16px] py-[8px] font-medium leading-none focus:outline-none mt-[10px]' >
             Add &nbsp; &rarr;
           </button>
         </Form.Submit>

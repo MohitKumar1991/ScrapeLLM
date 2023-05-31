@@ -1,7 +1,7 @@
-import staticscraper
+from scrapellm.scraper.spider import StaticSiteCrawler
 from scrapy.crawler import CrawlerProcess
 from tabulate import tabulate
-import utils as u
+import scrapellm.utils as u
 from typer import Typer
 app = Typer()
 
@@ -16,7 +16,7 @@ def add_website(url:str):
             "DOWNLOAD_DELAY": 0.5
         }
     )
-    crawler = process.create_crawler(staticscraper.StaticSiteCrawler)
+    crawler = process.create_crawler(StaticSiteCrawler)
     process.crawl(crawler, start_urls=f"{url}")
     process.start()
     stats_obj = crawler.stats
@@ -25,8 +25,4 @@ def add_website(url:str):
     u.pencil.warning(f" {url} Added Successfully")
     #Add Progress Bar for Weaviate Indexing 
     print(tabulate(stats_dict.items(), ['Heading', 'Value'], tablefmt="rounded_grid"))
-
-
-if __name__ == "__main__":
-    app()
 

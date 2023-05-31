@@ -22,13 +22,6 @@ class WeaviateStore:
     def add_data(self, page):
         chunks = page['html_elements']
         page_url = page['url']
-        # new_chunks = []
-        # for row in chunks:
-        #     if len(utils.tokenize(str(row))) > 1200:
-        #         new_chunks = new_chunks + utils.divide_text_into_chunks(str(row), 1200, 200)
-        #     else:
-        #         new_chunks.append(row)
-        # chunks = new_chunks
         self.client.batch.configure(batch_size=10)
         with self.client.batch as batch:
             for row in chunks:
@@ -61,13 +54,13 @@ class WeaviateStore:
 
         w_query = w_query.with_limit(params.get('k', 3))
 
-        if params.get('company', None):
-            where_filter = {
-                "path": ["company"],
-                "operator": "Equal",
-                "valueText": params.get('company'),
-            }
-            w_query = w_query.with_where(where_filter)
+        # if params.get('company', None):
+        #     where_filter = {
+        #         "path": ["company"],
+        #         "operator": "Equal",
+        #         "valueText": params.get('company'),
+        #     }
+        #     w_query = w_query.with_where(where_filter)
 
         print(w_query.build())
 

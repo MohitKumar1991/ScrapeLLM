@@ -1,8 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { PatternBg, GradientBg } from '../PatternBg';
+import { PatternBg, GradientBg, PatternBg2 } from '../PatternBg';
 import { CenteredImage, StyledArrowButton } from '../common';
-import { ActionType } from '@/interfaces/action';
+import { ActionType } from '@/interfaces';
 import { CheckCircledIcon } from '@radix-ui/react-icons';
 import { useGlobalStore } from '@/store/global';
 
@@ -24,13 +24,10 @@ const Welcome = ({ activeStepIndex, next }: WelcomeProps) => {
         &nbsp;
       </PatternBg>
       <div className='flex flex-1 items-center mx-auto mt-[50px] flex-col'>
-        <CenteredImage>
-          <img src='/logo.png' height="300px"/>
-        </CenteredImage>
-
-        {/* <h2 className='text-[24px] text-center px-10 py-3 rounded-2xl text-gray-600 mt-100'>
-          SCRAPE LLM
-        </h2> */}
+  
+        <h2 className='text-[24px] text-center px-10 py-3 rounded-2xl text-gray-600 mt-100'>
+          Welcome to SCRAPE LLM !
+        </h2>
         {/* <h3 className='text-[18px] text-gray-600 sm:text-[21px] font-light mt-50 h-10'>What would you like to do ?</h3> */}
         
         <ActionSelection
@@ -66,19 +63,6 @@ const GetStartedButton = ({ onClick }: { onClick: () => void }) => {
   );
 };
 
-const CardContainer = () => {
-  return (
-    <div className='block w-[320px] rounded-3xl mt-10 bg-slate-800 md:w-[420px] py-[12px] px-[20px]'>
-      <h2 className='text-slate-200 p-3 md:p-5 text-[12px] md:text-[16px]'>Here's how it works</h2>
-      <hr className='border-slate-600' />
-      <p className='text-slate-400 p-3 md:p-5 font-mono leading-[32px] text-[12px] md:text-[16px] md:leading-[40px]'>
-        1. Scrape a website <br />
-        2. Write an email <br />
-        3. Or ask questions about it <br />
-      </p>
-    </div>
-  );
-};
 
 interface ActionSelectionProps {
   cardType: ActionType;
@@ -95,7 +79,7 @@ const ActionSelection = ({ cardType: actionType, onActionSelect, isSelected }: A
       className={`flex border flex-col mt-[20px] md:space-x-7 sm:space-y-4 items-start p-3 py-4 max-w-[800px]  min-w-[600px] cursor-pointer hover:bg-slate-100 rounded-xl ${selectedClassAttrs}`}
     >
       <div className='flex space-x-4'>
-       <div className='text-[50px] text-red'>{ actionType == ActionType.AddCompany ? `\u2753` : `\u2B55`} </div>
+       <div className='text-[50px] text-red'>{ actionType == ActionType.AddCompany ? `\u261D` : `\u270D`} </div>
         <div className='flex flex-col'>
           <div className='flex items-center space-x-4'>
             <h3 className='text-[18px] text-slate-700'>{actionType}</h3>

@@ -5,19 +5,15 @@ from itemadapter import ItemAdapter
 import json
 import time
 
-
 class ScrapePipeline:
     def __init__(self):
         self.logger = utils.pencil
         self.write_file = None
 
     def open_spider(self, spider):
-        self.weaviate = WeaviateStore()
+        self.write_file = f"data/{spider.output_file}.jsonl"
 
-    def _write_to_jsonl(self, company, data):
-        if not self.write_file:
-            company = company.replace('.',"_")
-            self.write_file = f"data/{company}.jsonl"
+    def _write_to_jsonl(self, data): 
         json_string = json.dumps(data)
         with open(self.write_file, "a") as f:
             f.write(json_string + "\n")
@@ -35,7 +31,7 @@ class ScrapePipeline:
         page_text = "\n".join(crawled_page['html_elements'])
         page_text_chunks = utils.divide_text_into_chunks(str(page_text), 1200, 200)
         crawled_page['html_elements'] = page_text_chunks
-        self._write_to_jsonl(crawled_page.get('company'), crawled_page)
+        self._write_to_jsonl(crawled_page)
         end_time = time.time()
         utils.pencil.warning(f"Time taken to process item {crawled_page.get('url')}: {end_time - start_time}")
         return item

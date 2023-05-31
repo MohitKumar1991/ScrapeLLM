@@ -1,9 +1,9 @@
 from tabulate import tabulate
-import utils as u
 from tqdm import tqdm
 import os
 import time
 import json
+import scrapellm.utils as u
 from scrapellm.vectorstores.WeaviateStore import WeaviateStore
 from typer import Typer
 app = Typer()
@@ -64,9 +64,5 @@ def delete(company:str, query:str):
     end = time.time()
     print(f"Time taken {end - start}")
     print(output)
-    
 
-
-if __name__ == "__main__":
-    app()
 
