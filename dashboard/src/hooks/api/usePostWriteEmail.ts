@@ -2,7 +2,9 @@ import { useQuery, UseQueryResult } from 'react-query';
 import axios from '../../utils/axiosHelper';
 import { API_URL } from '@/constants/api';
 
-interface WriteEmailResult {}
+interface WriteEmailResult {
+  email: string;
+}
 
 interface WriteEmailError {
   error: string;

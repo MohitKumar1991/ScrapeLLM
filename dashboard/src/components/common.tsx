@@ -16,7 +16,7 @@ export interface SelectionItem {
 
 export interface FormSelectOptions {
   placeholder: string;
-  items: SelectionItem[];
+  // items: SelectionItem[];
   onValueChange: (e:string) => void;
 }
 
@@ -47,16 +47,16 @@ export const CenteredImage = styled.div`
 `
 
 
-const SelectItem = React.forwardRef(({ children, className, ...props }, forwardedRef) => {
-  return (
-    <Select.Item className={classnames('SelectItem', className)} {...props} ref={forwardedRef}>
-      <Select.ItemText>{children}</Select.ItemText>
-      <Select.ItemIndicator className="SelectItemIndicator">
-        <CheckIcon />
-      </Select.ItemIndicator>
-    </Select.Item>
-  );
-});
+// const SelectItem = React.forwardRef(({ children, className, ...props }, forwardedRef) => {
+//   return (
+//     <Select.Item className={classnames('SelectItem', className)} {...props} ref={forwardedRef}>
+//       <Select.ItemText>{children}</Select.ItemText>
+//       <Select.ItemIndicator className="SelectItemIndicator">
+//         <CheckIcon />
+//       </Select.ItemIndicator>
+//     </Select.Item>
+//   );
+// });
 
 export const SvgLoader = () => {
   return (<div className="loader loader--style8" title="7">
@@ -65,7 +65,7 @@ export const SvgLoader = () => {
 }
 
 
-export const FormSelect = ({ placeholder, items, onValueChange }:FormSelectOptions) => {
+export const FormSelect = ({ placeholder, onValueChange }:FormSelectOptions) => {
   return (<Select.Root onValueChange={(e) => {
     console.log("SELECT ROOT VALUE CHANGE", e);
     onValueChange(e);
@@ -82,7 +82,7 @@ export const FormSelect = ({ placeholder, items, onValueChange }:FormSelectOptio
           <ChevronUpIcon />
         </Select.ScrollUpButton>
         <Select.Viewport className="SelectViewport">    
-          { items.map(item => <SelectItem value={item.company}> {item.website} </SelectItem> )}
+          {/* { items.map(item => <SelectItem value={item.company}> {item.website} </SelectItem> )} */}
         </Select.Viewport>
         <Select.ScrollDownButton className="SelectScrollButton">
           <ChevronDownIcon />

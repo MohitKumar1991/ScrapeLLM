@@ -4,9 +4,10 @@ import Head from 'next/head';
 import { QueryClient, QueryClientProvider } from 'react-query';
 import { Footer } from '@/components/footer';
 
-export default function App({ Component, pageProps }) {
+
+
+export default function App({ Component, pageProps }: {Component: any, pageProps: any}) {
   const queryClient = new QueryClient();
-  console.log("APP IS LOADED");
   return (
     <>
       <Head>

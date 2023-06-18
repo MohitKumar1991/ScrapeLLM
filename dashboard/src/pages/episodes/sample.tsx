@@ -13,7 +13,6 @@ import {
 import YoutubeEmbed from "@/components/podcast/video"
 import { cn, readableTime } from "@/lib/utils"
 import { Avatar, AvatarFallback } from "@/components/ui/avatar"
-import ReactTextFormat from 'react-text-format';
 import polygonAlphaPodcast from '../../../public/podcasts/polygon_alpha_podcast/details.json'
 
 export interface Album {
@@ -143,7 +142,7 @@ export default function EpisodePage() {
                           Description
                         </h2>
                         <p className="text-sm text-muted-foreground whitespace-break-spaces">
-                          <ReactTextFormat linkDecorator={LinkText}>{episodeDetails.description}</ReactTextFormat>
+                          {episodeDetails.description}
                         </p>
                       </div>
                       <Separator className="my-4" />

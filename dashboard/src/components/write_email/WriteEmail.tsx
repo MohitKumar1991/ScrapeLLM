@@ -81,7 +81,8 @@ const WriteEmail = ({ activeStepIndex, next, prev }: WriteEmailProps) => {
                 </Form.Message>
               </div>
               <Form.Control asChild>
-                <FormSelect items={isSuccess ? companyData.companies : []} placeholder={"Pick a company.."}  onValueChange={(value) => {
+                <FormSelect // items={isSuccess ? companyData.companies : []} 
+                     placeholder={"Pick a company.."}  onValueChange={(value) => {
                     setCompanyName(value);
                   }}/>
               </Form.Control>

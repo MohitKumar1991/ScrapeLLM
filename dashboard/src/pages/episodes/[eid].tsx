@@ -12,10 +12,25 @@ import {
 import YoutubeEmbed from "@/components/podcast/video"
 import { cn, readableTime } from "@/lib/utils"
 import { Avatar, AvatarFallback } from "@/components/ui/avatar"
-import ReactTextFormat from 'react-text-format';
 import polygonAlphaPodcast from '../../../public/podcasts/polygon_alpha_podcast/details.json'
 import { useEffect, useState } from "react"
 
+export interface EpisodeDetails {
+  summaries: Summary[],
+  transcripts: Transcript[]
+}
+
+export interface Transcript {
+    speaker: string,
+    podcast: string,
+    start: number,
+    end: number
+}
+
+export interface Summary {
+  title: string,
+  summary: string
+}
 
 export interface Album {
   name: string
@@ -73,8 +88,11 @@ const LinkText = (
 
 export default function EpisodePage() {
   const router = useRouter()
-  const episodeId = router.query.eid || 'NaN';
-  
+  let episodeId = router.query.eid || 'NaN';
+  //check if is array
+  if (Array.isArray(episodeId)) {
+    episodeId = episodeId[0]
+  }
 
   //check if episode Id is a valid number
   if (isNaN(parseInt(episodeId))) {
@@ -88,7 +106,7 @@ export default function EpisodePage() {
   }
   const fileName = episodeDetails.file.split(".")[0] + "_summary.json"
   
-  const [ episodeSummary, setEpisodeSummary ]  = useState();
+  const [ episodeSummary, setEpisodeSummary ]  = useState<EpisodeDetails>();
   //get the filename from the podcast details and make http request to /podcasts/{filename} to load the details
   useEffect(() => {
     fetch(`/podcasts/polygon_alpha_podcast/${fileName}`)
@@ -125,7 +143,7 @@ export default function EpisodePage() {
                       value="summary"
                       className="h-full flex-col border-none p-0 data-[state=active]:flex"
                     >
-                    {  episodeSummary && episodeSummary['summaries'].map((sm) => (<Card className={cn("w-[800px] my-4")}>
+                    {  episodeSummary && episodeSummary['summaries'].map((sm:Summary) => (<Card className={cn("w-[800px] my-4")}>
                         <CardHeader>
                           <CardTitle>{sm['title']}</CardTitle>
                         </CardHeader>
@@ -167,7 +185,7 @@ export default function EpisodePage() {
                           Description
                         </h2>
                         <p className="text-sm text-muted-foreground whitespace-break-spaces">
-                          <ReactTextFormat linkDecorator={LinkText}>{episodeDetails.description}</ReactTextFormat>
+                          {episodeDetails.description}
                         </p>
                       </div>
                       <Separator className="my-4" />
@@ -176,7 +194,7 @@ export default function EpisodePage() {
                       value="transcript"
                       className="h-full flex-col border-none p-0 space-y-2"
                     >
-                    { episodeSummary && episodeSummary['transcripts'].map(t => (<div className=" flex items-center space-x-4 rounded-md border p-4">
+                    { episodeSummary && episodeSummary['transcripts'].map((t:Transcript) => (<div className=" flex items-center space-x-4 rounded-md border p-4">
                         {
                           t['speaker'] == '0'? <UtteranceInfo start={t['start']} end={t['end']} name={"MM"} /> :  null
                         }
