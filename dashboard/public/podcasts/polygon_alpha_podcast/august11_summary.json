@@ -1,0 +1,360 @@
+{
+    "podcast": {
+        "title": "Polygon Alpha Podcast",
+        "host": "Justin Havens",
+        "image": ""
+    },
+    "episode": {
+        "title": "Improving DeFi User Experience with Push Notifications | EPNS | Harsh & Richa | Polygon Alpha Podcast",
+        "number": "10",
+        "date": "AUG 11, 2022",
+        "description": "",
+        "url": "https://www.youtube.com/watch?v=15xrqqAnGMY",
+        "speakers": {
+            "0": "Justin Havens",
+            "1": "Harsh",
+            "2": "Richa"
+        },
+        "file": "august11.mp3"
+    },
+    "transcripts": [
+        {
+            "speaker": "0",
+            "podcast": "Everyone, welcome to the Poly alpha Podcast, where the Poly community, Gathers insights from today's leaders in decentralized finance, Cri and web three. I'm your host, Justin Havens, aka Crypto. Let's get started. On today's episode, we are joined by Harsh in Ric, the c founders of the Ep p S protocol or the ethereum push notification system. This is the world's first decentralized communication and notification protocol for web three. So Harsh reach? How are y'all doing today? How's everything going? It's going great. I mean, we are on the poly ",
+            "start": 0,
+            "end": 42.87953
+        },
+        {
+            "speaker": "1",
+            "podcast": "podcast, so it cannot be better. The less I'm so happy with Justin. ",
+            "start": 43.334583,
+            "end": 48.6083
+        },
+        {
+            "speaker": "2",
+            "podcast": "Really excited to be here. Yeah. Thanks for having us Justin. Really excited for the podcast. And, yeah. Like, you super ",
+            "start": 49.247566,
+            "end": 56.951588
+        },
+        {
+            "speaker": "0",
+            "podcast": "nice to finally, you talk to the product and community as well. Yeah. Well, the pleasure is all ours. Absolutely. So we usually like to start these off with just kind of going through, you know, how did all get into the crypto and web three space. So Reach. Let's start with you first, and then we'll we'll get harshest background. Sure. So I am a software engineer like, by degree. So I started my career back in... ",
+            "start": 57.644768,
+            "end": 80.14227
+        },
+        {
+            "speaker": "2",
+            "podcast": "Its way back, I guess, almost a take it back, and I was working in the Fintech space. I was working with Deloitte. Actually, for a while and around two thousand eighteen, I kind of felt that, you know, this is not where, like, my mindset was. And I wanted to definitely try something new. And that's when, you know, I started dabbling into a few apps. And I started of working with the Fintech. Start back then. And quickly, Hash also working the same start. And we realize that, you know, there are a lot of cool problems that we could actually start, you know, just trying... And we wouldn't be sure that this is what we would land up doing. But I would probably let Hush explain what we... Actually how the journey of Ep vpn has started. But yeah. So twenty eighteen fast forward twenty nineteen, we started trying and testing a lot of gaps. And that is when we started hacking at e global high. And since then, we have created a Poc, you know, brings the raise a fund raise and right now, here we are launching new product from Ep p s pretty soon as well. Awesome. I think it's my no. ",
+            "start": 80.93681,
+            "end": 155.20065
+        },
+        {
+            "speaker": "1",
+            "podcast": "So... Yeah. I... Actually, like, crypto journey, it's, like, ups and those. It started be back in twenty fourteen or fifteen back when Bitcoin eight thousand dollars. And I started as a three. So of course, when I bought Bitcoin a thousand dollars, it went two hundred dollars. So that that has been my strategy for trading, like, buying guy and selling low. All almost always works. In case you guys want to follow that strategy. Just just follow me around. And, you know, you'll... I'll make sure that you are always at a lowest pretty good trip to portfolio. But, yes, that is when Started at that point of time I didn't on that smart contract existed. But, yeah, when this one thousand dollar to two hundred dollar occurred. I realize that all I I thought about digging more into the crypto space and then I realized I said there were a lot more tokens. So I created Crypto what that basically did Arbitrage between different exchanges based on the public news on Twitter or the announcement page. And that did pretty well for some time. And because of that, I used to get like dealing reports? Like, what was trading all what were the trades that triggered? So now two thousand seventeen, eighteen and this was playing exploratory phase as well. It started picking up a lot of E twenty coins, and that bike main address. So it went around then was I went around to see, like, what the Has twenty. And that's when I realized, like, you know, there's this cool thing, at ethereum and you can do smart contracts over there. And I mean previously, I was mobile app tele and they all trip. And I did a lot of things in between, like, I did mobile apps, then they did back end, then I worked very, very extensively on notifications because when I was doing mobile apps and games, notifications was launched by Apple, So... Yeah. Essentially, realized that e c twenty, you can program, went into it, loved in. Wanted to learn more about the space. So joined their startup in early twenty eighteen. They were doing Meta transact and they were doing aggregate identity, but just for a ethereum, like, it was like the very, very idea back then. Was there for some time till the late twenty nineteen it's also doing that same setup, then in late twenty nineteen. We were like, we need to go and solve some of the problems that selects exist. And we didn't know that what problem will work on. So twenty nineteen later part, we, started just tapping it to a lot of smart contracts and apps. And we started comparing the experience with the the whip to conquer apart because we knew that, you know, the Ux is somehow broken, we couldn't exactly point like where it was broken. But yeah as soon as we started experimenting with this, we very quickly realized that the Is broken because new communication protocol layer was built for the entire. For example, like, in embed to what we do is we get up in the morning, and we have a look at our phone. And we have notifications from everything whether it's your bank sending you crucial alerts, whether it's your important email whether it's your Paypal vendor more payment, Amazon Delivery or whatever social media or gaming you're are doing or even something as personal chatting on whatsapp. Not many people realize, but all of it is notifications or all of this is enabled by notification, like, what we say is, like, it all starts with no notification. So... Yeah, coming back, this was point we realized that there's no web communication protocol that has been built and took us four months to be created fire architecture. The vision was always web three, like first ethereum then layer two's and then the entire web. But yeah, because web has a shared username, like, the wallet address and web two... Do you use are this differently than you have a client and so Architecture. So took us four months to basically create a rough I of what we want to do. Then of course, low foundation about it. They basically said that we love the idea, why don't you go around and build it out. So build a Oc c at its global happen in twenty twenty. And then, of course, it started tweeting about it because if you're in you need to you best friends. So that's when we started tweeting about it, and that's when the Ethereum committee showed the love in terms of, you know, helping us out, like exactly what are the points that we are missing in the architecture or even the the three leaders or mentors in their industries, they reach out to us and they told us or they gave us guidance on how to do things. Right. Including Sand from Poly. So so, yeah, that's that's the Journey into Crypto and that's a little bit about like how we started and the problem that we want to solve. ",
+            "start": 156.095,
+            "end": 508.0112
+        },
+        {
+            "speaker": "0",
+            "podcast": "Yeah. And I think it's also helpful. When I think of these... You know, I guess I would consider Ep p a Web three infrastructure project. And if you did groove with me, please let me know. But, you know, I think it's also helpful for people to kind of make a comparison to maybe like, an analog or or a web to comparison. Right? Like, with life peer, like, I would compare that a little bit more to like Youtube or vimeo and with the graph, I might compare that a little bit more to like, like Google or Yahoo? Right. So like, what would be the Web to or analog... ",
+            "start": 508.66455,
+            "end": 543.11194
+        },
+        {
+            "speaker": "2",
+            "podcast": "Equivalent for Ep p and S? I think in our head, like, no... I mean, we take notifications for so granted because we... It's just just so ingrained in our everyday life. I think I I hear that a lot law. Slide the T of, like, to equivalent. But I think what we're building is like... Or what we are inventing wasn't there before to kind of compare in the web three space, but I think we two definitely T is one of the comparisons that I've heard a lot? ",
+            "start": 544.20715,
+            "end": 573.5977
+        },
+        {
+            "speaker": "1",
+            "podcast": "Yeah. And how should you want to add to that? Yeah. So I actually don't think Twilio is the right comparison over here because because, you know, communication metal wear is almost invisible, so we tend to miss it out. But the is I mean, there are two comments that I violent, one is Apple because whenever you are sending notifications, not many people realize that, you send notification to Apple or Google Servers and then the Apple platform or the Apple operating system or the Google Chrome or the Google updating system. They listen to their own servers, and then they show these notifications out to you. So in that way, I mean, the vip week where vale is Apple and Google. And because, you know, we are building the communication there, and we just started with notification, but we are coming with wallet wallet site as well. So Apple Google and Whatsapp app will probably be the web ",
+            "start": 575.03345,
+            "end": 634.74133
+        },
+        {
+            "speaker": "0",
+            "podcast": "over here. Yeah. I think the wall to wall messaging is really interesting, almost like an email play in a way. But what, you know, what is the main benefit for users? Like, what does Ep p and S do and how does it make Web three a better user experience? ",
+            "start": 635.35425,
+            "end": 651.7231
+        },
+        {
+            "speaker": "1",
+            "podcast": "First of all, like, why this is needed. So there's a very common and here again. Just think about it, Like, when you are on Twitter, you you're talking to each other true Twitter, which is the Twitter username and using the Twitter communication there. When you're around Whatsapp, you're talking to other or with Whatsapp phone numbers that had the username for Whatsapp and using the communication there. Same thing for anything. Like this discord discord usernames. You were talking to them through a communication. There email, Mean, email as you use an and you're talking to, each said the three emails. So whatever native of platform you are on, you essentially always talk to each other in that native platform. You usually don't go out. Like, if you are talking on Twitter, you will not be, like... Let me guess the email of this person and then try to email it out then hopefully, I'll land the rights spot. Or let me send a mass mail out to everyone saying that he good domain might be expiring. If it's your domain. So, yeah, We we cannot do that and we should not do that. It this breaks the entire experience. But when you go to web three, their fee usernames names of wallet addresses. And because there was no communication protocol that was built on it. Because of that, a lot of problems started deduct like, when da and smart contracts, innovation started taking in place in the preview ecosystem are in the ethereum ecosystem, specifically, a lot of problem surfaced, like, take, for example, E s your domain name was expiring. And there's no way for you to connect the domain name to a Twitter username or to email and you should not as well because It should be sued anonymous. So what ian and it was they reach out to everyone on Twitter and they were, like, hey. Thirty percent of e in his domain, so I said to expiry. If you're one of that is renew it. That that became a very broken user experience. And then you went to defy, people were taking loans and you had So when needs flowing and, like, My loan got liquidate and needs to be a better way for your communication to Ak, and then you went let's say, an Empty marketplaces, like, Open c. So Open c took a very weird way to solve this wherein they connected wallet address to their email And what happened was, like, they recently got dogs. So everyone wallet and addresses is now connected to the email and the out on the internet. So, I mean, people try to fix that up, but their process they took was always a very indirect one. And that basically a problem. Right? Whether you are in d five, whether you are in A and s or whether you are in governance over there you are in Endo or n or. There's this need that you are performing or your wallet addresses performing certain actions, and those certain actions you should be notified if, you know, something of importance occurs to you on those usernames or the pre usernames. And that is where Vpn is fitted in like, that was a total power product market fit because when we started and when we said that now, using this communication protocol, any tab, any smart contract, any back end, any new protocol can send notifications that are tied to a Wallet address. And this is a open network. So any trip wallet can just tap into the... These wallet addresses or can just tap into the network and show these notifications out. Then all of a sudden, you solve that missing piece of web three. Wherein now En Means when they are expiring, can send direct notifications. Known liquidation before that happens. You can receive those notifications. Governance proposals when it comes, you can basically go ahead and for it. And, you know, meta, like, how will you chat in or, you know, if our land is auction was sold. You can basically target that now. Even for n t's when new n collectors the new N collections are launched. Now you can re target the N buyers of your additional collection. So a lot of this is solved by notification, and that is in notification fits in. Now when we come to chat, like, wallet all it's at? Why is it important? Well, I mean, it's the same thing, but think about it like now services have a way to? Interact and tell the users what is happening. But this still you are not able to build a lot of services that are communication heavy. Like, you cannot build a Youtube without you not having the chat system or a in system into it. You cannot build a dis discord out of it. You cannot build whatsapp out of it. And V saying that f three is going to the police So you need the communication layer to be robust or communication protocol to be robust In are we very much gas for the users. And to be open, just like, how a ethereum is open. So crypto all, can just tap into the network can show things out. So that is where what to all chat comes in like. I mean, it's the same problems that we see bo this discord got hacked. And a lot of people got scammed. Wouldn't happen if it's a token gated sand community, directly key on the usernames. Then, you know, as I said, like, whatsapp cannot be built unless, you know, people are able to chat. But before that, people are able to notify that these stats are ugly because people will not be in your da all the time. So that is a wallet to all problem statement and solution comes. No. You said that this is a communication protocol for web because the way we are reaching this problem is or the way Our vision is that we want to be at the d facto communication layer for. What it means is that we believe that of a key user can be on Poly and can still be on Avalanche, or can be on bitcoin? Or on any other fee? And what should happen is that there should be a way that even wallet can notify the user that he something of importance as a good. To you on Poly one chain with a smart contract or on a ethereum scene with a smart contract, then you should go ahead and take a look to it and vice versa. So Tl of the vision is, like, a user of ethereum can talk to a user of or any other three block. And a service software a ethereum can reach any other blockchain or any other three network and can notify that user hey, it seems that you use a Ethereum as well. And your uni swap L p has just stopped a fees. And you might want to take action out of it. So that is basically vision and those are basically the problems that we are solving and you know, fun fact, like, all the examples Are used, like E, saudi uni fab, ui out. We are working with all of them and Poly has well. So... Yeah. Yeah. I can definitely see the benefit, ",
+            "start": 652.53394,
+            "end": 1133.9355
+        },
+        {
+            "speaker": "0",
+            "podcast": "especially from a user experience perspective of this type of technology and this type of messaging service But I I also wanna know, like, who, like, currently, like, which protocols and which teams, do you think are using this the most successfully to benefit their user right now? ",
+            "start": 1134.4908,
+            "end": 1150.685
+        },
+        {
+            "speaker": "2",
+            "podcast": "Yeah. I think maybe the top... Like like Har pension that we're working with all the services, like you know, E and S, we already have the channel up and running on the Penis protocol all. I think the biggest have been definitely E s because people don't want to lose their domain names like once I lose my richard dot f. I don't know when I will receive it next. So definitely, what be notified about it before I lose that. So E s, I think is is one of the most channels or services on the protocol that people are using. Other than that, I think D five, you want to be notified about you're loan about to be liquidate. So you can do an action, put collateral or take what have actually want to. So d file loan liquidation for multiple protocols, I think is a very heavy use case that we see. And also da, I think right now, there is so much of chat on discord and Twitter right now that, you know, a new proposal will come and people are not able to vote on it or not aware of it. So we are working with Oregon. We're working with I think about, like, eighty plus projects right now. That are using Ep p S for dow governance proposals and kind of sending notifications to the user base to let them know if a new proposal is coming up. I think one emerging use that we're seeing right? Now we're working with decent central land as well is basically around Any fees and gaming and meta worse. I think ",
+            "start": 1151.245,
+            "end": 1240.752
+        },
+        {
+            "speaker": "1",
+            "podcast": "public protocols that are using or that we are working with. Eye app when the uni app lp people falls out of each. User have ones to be notified. You want to end a fees right? Huawei because loan liquidation, even by dx, I mean, loan liquidation. So or E s with the domain name, d central and. With Poly one, Of course, we are going to come on Poly one as well, but one of the other things which led two's benefit by using Ep is that very soon when you want to exit your funds from Poly one to a one and ethereum There's a challenge period rate and people usually forget about the funds when that challenge figure is three us or more. And at times that is the case. So now days of away for users to just go through that challenge period and the best you possible where them you go through a challenge period, you don't have to worry, you'll get a notification if you tap on that notification and you complete the process. So, yeah, I think we are very grateful with because, you know, all the popular protocols, of a ethereum. They are basically we are working with them or they are graceful help to say that ",
+            "start": 1241.2083,
+            "end": 1321.3474
+        },
+        {
+            "speaker": "0",
+            "podcast": "let's work together or you know, let's try to build this thing together. I think that, you know, I think with the protocol like ep Ep p and S that there can be a lot of misconceptions on what it actually does. Because I just think of just the messaging thing, but I think you actually have a product suite of about seven different products which is also it's it's funny because, you know, I feel like Poly had has had this misconception for a long time too that, you know, Poly gun is just the Poly gun proof of steak chain. And now recently, people are starting to understand that we actually have seven different scaling solutions that we're working on publicly So I just kinda wanted to, you know, give you all a chance. Like, what are some misconceptions that are out there about Ep p and S and, you know, What should people know? We ",
+            "start": 1321.8002,
+            "end": 1367.3599
+        },
+        {
+            "speaker": "1",
+            "podcast": "understand this question, like, because, you know, we realized that even Poly one became Poly one traumatic. Mh. The reason one one of the reason they did it was to establish a brand new identity where people can essentially connect or see poly one. For the cool things they are doing and... For the new things they are doing and conquering. To that extent, we are trying to follow the stream. But So there will be something which will be done very soon to address the mis representation, what people have. But yeah are we have, like, quite a few. First now via Ethereum push notification service, which basically means that we only operate on ethereum. That's completely key untrue. We we had this version of multi chain from the very restart and not even multi chain on just Ab and non E of Ethereum and their layer to, but any scene... Like, any drop whether it's avalanche whether it's bitcoin with it's anything that supports a smart contract division is that all these teams should be able to send notifications out to the wallet address along with the aggregated wallet address Id, which essentially means that, you know, you as a user can have all it address on ethereum or a and whatever else. But whenever you get a notification, those notifications are tried to, all the wallet addresses. That I connected to you as for... Sorry, that is one misconception. That's the impression notification service. Is not for test ethereum. Now the service part is also a misconception because this is a decentralized protocol which means that we are the core core team working towards this protocol but everything is permission less. There's no permission. There's no white listing. There's no nothing... You can just go ahead and use protocol to call right now. Another thing is, like, the push certification part. So we are not just that. In fact, we wrote in our white paper, like, when we started and that was, like, payback back that notifications or communication layers. Notifications are, like, the basic block of communication layer. Like you cannot build whatsapp or this call or any of service without notifications. You can, but it will not work well. And net increases the Ux load. So push notifications is something that we started addressing first. But now that we have sort of perfect that on ethereum and. Now we are rolling or opening up push notifications. For all the L tools and for all the blockchain layers starting with with, of course, our favorite Poly. We are going to go ahead and introduce a lot more protocols into the mixture. So charters something, again, be mentioned in our white paper when you start... That... This is how chat can be done. Once the notification is and you can start with the chat. So, yeah, That's why Roll to all it chat coming. But, Darlene, that's not the end this video also that we want to do. Like, decent decentralized video. I mean, that's something that we wrote about and we started. So... Yeah. In a way, the mean ethereum push notification service is like a complete mess normally right now. So that is one thing. The other thing which user thing which user usually you are about is that the users have to pay for these notifications or fit these chats. The answer answers is no. The way we have designed the protocol and the way push tokens is utilize. User will never have to pay for these services. Exactly like how the Web two follows some model like users. Should not be because the service is sending you important notification that is sort of a basic package that you should get. With chat also, we want to make sure that the user never pays, There will be option like Telegram in the future where super users, they might have to pay something. But again, a normal use will never never have to pay. So that is again, something that is a normal that third problem is that people assume that, Ep vpn s has a proprietary da or mobile app or Chrome extension prove which these communication flows, well... I mean, because it's a protocol. So any crypto wallet can do it is just that we also who did it, so that users can have a sync value add. Yeah. And and then the last one that you mentioned, like it's from misconception, a lot of time that we get, it's a service and out of protocol. ",
+            "start": 1367.8939,
+            "end": 1668.786
+        },
+        {
+            "speaker": "2",
+            "podcast": "And all the crypto ends that we have is just for the user to kind of experience, how notifications look and feel. Then they actually pop up. And I think the envision for us would be definitely that more crypto wallets integrate and adopt Ep is So as soon as you connect your public quality address, the notification just pop, like whatever you have opted into on your wallet address and on the crypto front ends that we have, They kind of fade away which is a user and really need to use them. Yeah. And how do these ",
+            "start": 1669.9916,
+            "end": 1702.8273
+        },
+        {
+            "speaker": "0",
+            "podcast": "push notifications show up? Like, how do I get notified? Is it is it integrated into my wallet? Like, so would I see that online Meta mask? App when I open it up? Or how or how would that work? That's that's the exact idea. Like, ",
+            "start": 1703.5354,
+            "end": 1717.1235
+        },
+        {
+            "speaker": "1",
+            "podcast": "your favorite crypto wallet? When you log in over there, just like how they're are listening to a ethereum. Notes in the background and showing you the ethereum data. Just saying that, we have this push notes that are running and they are indexing communication to your wallet. So just like that, they just interact with the push notes or the network. And say that shows us everything that has happened in just under unblock it, and the network will reply that these are the communications that exists and has. And the wallets can then just show it out to you. So on one hand, we have services that will send communication out and users that will chat. The middle way is push notes, which basically validates those communications in a trust list fee using either use sign signature or or a variety of verification proofs that we have designed. And then you have these crypto wallets and not even crypto wallets even taps, like, if you're building this discord or or anything else. That can interact with the network and can show this out and even give the user ability to interact with ",
+            "start": 1717.9972,
+            "end": 1797.9161
+        },
+        {
+            "speaker": "0",
+            "podcast": "there are notifications or chats. So can't. Yeah. And would there be a way to integrate off chain data into these notifications as well. Is that a service that you provide? ",
+            "start": 1798.6237,
+            "end": 1809.088
+        },
+        {
+            "speaker": "1",
+            "podcast": "Yes. So that's again, a very good question and that's again miss almost. So We already do that, like, on chain and off chain data. When I said, like, the network is gas list for all the users. It is also gas list for most of the things the services also do. So, you know, as you a damp or a back end, then you don't really have to put anything on chain. What you need to do is you need to prepare this json payload sign it with your wallet using the Ip seven one two, send it to the push note, the push node now as the verification proof that This is assigned by Eighty seven one two. The push notes validate everything and admit it out. So that also opens up a whole new possibilities like, as I said, like, the fine loan liquidation. So you don't want to be notified when you are liquidate. That will be sad. You should be notified, like, before you are liquidate. It's near loan liquidation, which is not on chain Evans. So we basically support off chain from the very start. And it also opens up, like, cool new use case like our media partners. They are coin desk. And right now, we send notifications of coin this whenever a new article is released. If the user option to receive notifications from coin this. So it opens up that as well, and it also opens up the possibility that if a protocol called migrate from version point to version two to version three. You are able to be notified as a user because I mean, that will be not on chain event it also addresses some critical security issues, like, if you're a protocol and some why it has been discovered or you want to warn your users because there's a scam going on. Now all of a sudden, you can do that because of chain would notifications are there, so you can just send a manual ",
+            "start": 1810.2866,
+            "end": 1930.298
+        },
+        {
+            "speaker": "2",
+            "podcast": "notification out. Yeah. And I just wanted to do, like, while you're talking about Coin I had. I got notification from Coin. Which I wanted to show. So it's on one of a crypto fund, end there's a mobile app where you can just connect a public wallet address. And I just try to show it here. So it's not public quality address that's connected and you can just see all the notifications from coin that can come. Yeah, that's really interesting. And when I think of ",
+            "start": 1930.6721,
+            "end": 1953.1455
+        },
+        {
+            "speaker": "0",
+            "podcast": "off chain data getting pushed to the blockchain, what I typically think of are like Oracle. ",
+            "start": 1953.9012,
+            "end": 1958.9126
+        },
+        {
+            "speaker": "1",
+            "podcast": "So can could this be used as an Oracle in in some sort of way? Yes. So I mean, you can do so many things when you have the data, and The way we designed the this payload is its content independent. So you can even do automated task with that data. So for example, like, a very hypo hypothetical example is when Ot will be on the blockchain. They don't have to be on the blockchain, but when they use the blockchain you can basically send that notification out and that notification. You can even tap on it and that note notification can itself open the app up and can be a magic link of sorts. So that is, like, one of the use cases that can be done. Or Are of course there, like, if you are listening to a notification or all the notifications coming from a platform. You might be able to use some of the notifications. So your advantage like, if a loan liquidation or a near loan liquidation is occurred. You can build, like, if then is type of a thing that... Now, if I have... If I'm about to be liquidate send something to my wallet. So a lot of things can be done. Like, it's super comfortable and the reason, like, it was designed to be like that was because we envision that they will be cases that we will not be able to envision. Right? So that's why we made sure that it's composed them. Other people or other cool and smart apps, they can build on top and they can basically create whatever they want. ",
+            "start": 1959.3103,
+            "end": 2064.0774
+        },
+        {
+            "speaker": "0",
+            "podcast": "And what are some of the more unique use cases that you've seen so far using this? Like maybe some something unexpected that developers are building, leveraging this technology? Like, what have y'all seen out there? ",
+            "start": 2065.2083,
+            "end": 2076.6208
+        },
+        {
+            "speaker": "1",
+            "podcast": "Yeah. So really decent, we saw someone creating the channel on the protocol, ravi. Yeah. So Yeah. That that was very, very cool. It was, like, whenever huawei tickets will go on sale. Your wallet address will be notified. That that is one of the cool things we saw. We keep on seeing, like, people using it in very, very different phase. Like, I was speaking with one protocol and what we are building is sort of settings for or granular settings for the user. So the user can basically say that I want notifications from Uni, but only when the Lp pool falls out of things. So they trying to build something like that. They're also trying to build a dashboard of sorts where these notifications will be embedded. Someone is also trying to build if them else think. But I think they haven't launched yet So, yeah, we keep on seeing a lot of cool use cases that starts to come out. We also saw someone who wants to charge for the p podcast forecast. So they wanted a token gated channel. So that is what we started. I mean, that is what we finish version one point five of the protocol that you can also have to get it and. So, yeah, They're trying to work thing. ",
+            "start": 2077.7395,
+            "end": 2177.127
+        },
+        {
+            "speaker": "2",
+            "podcast": "Yeah. I was just I just remember that in e amsterdam somebody built using lens and the graph and P s first student remember the use case around that, but that was super very interesting as well. Yes. ",
+            "start": 2177.9243,
+            "end": 2191.784
+        },
+        {
+            "speaker": "1",
+            "podcast": "I think they were call Lin amsterdam. Yeah. And they were... I think they were one of the very cool use cases we saw db basically enabled no notification then you were followed by someone. Online protocol. ",
+            "start": 2193.1492,
+            "end": 2212.3005
+        },
+        {
+            "speaker": "0",
+            "podcast": "That is interesting. What about spam prevention? Like, is is getting spam with these notifications? Is is that an issue? ",
+            "start": 2212.938,
+            "end": 2220.6667
+        },
+        {
+            "speaker": "1",
+            "podcast": "That's definitely a big big issue like spam needs to be treated like that. I mean, for sorry, one day on telegram. I just shifted my privacy setting. And to this day, I am exiting the group. Because those hours, I had been subscribed twenty thousand groups. So, no. Definitely, like, I mean, Spam was something that I personally went through it so I knew that we had to solve. We saw it in three very cool use case scenarios. Like, the first thing is that it's a user centric protocol. So when you want to receive notifications, just like in web two, you have to allow someone before they can send notification to you. Over here, also, like, you can see a list of all the serve channels, channels that basically, services or protocols that has that has enabled themselves on the protocol. And you need to do that before you send a notification out. So the users can see all the channels and the user needs to opt into that channel, which is guess this because it's E seven one two signature that the user does. And only when the user does that, are they able to see that notification out. So that's preventing un unsolicited notifications. The other thing that we do is based on two criteria. Like, one, let's say, a channel has a meltdown down. Then for that, what we are developing is something called this Spam score, which basically ranges from zero to one. And now it goes to one if you are doing a lot of negative things, like, if a lot of users are subscribing out, or opting out of your channel or if you're sending more than usual notifications, then it will install one. It will install zero with positive things like a lot more users are subscribing to your channel or with the passage of time. So the idea is once this algorithm is done, that this is Spam score will be hovering between zero and one. And the users decide that what is what is a t limit for this spam code. So let's say if it eats reaches zero point seven, push notes will automatically start totaling the number of notifications that you can send out till, you know, basically completely stops if it goes to one. If you don't basically correct your behavior. And then it will be time for you to go back to zero because passage of time is a positive indicator. This is something which is an development and the third thing that we do is that, let's say our channel has had, then it can be true completely close by own syndrome governance. So one and option three is already there. Second there's something that we are working on. Same for the chats, like, you can send a notification out to someone. But the user to opt in or then user needs to except you on that before, you know, those notifications that start flowing in. So that's that's the way which we make sure that this pam is eliminated. Notifications, I mean, even if the user hasn't opted it in, you still send notification so all. But if the user hasn't dropped it and exist lands in the spam box. So that make sure that, you know, if a channel of the user wants to reach out to you, because they have some valid things or concerns. You can still access those communication bits. But it's like Twitter, so you need to go in a Spam folder and check it out. You will not be disturbed by them. So these these are, like, some of the ways bear we handle spam. We are also thinking because clean mc about Earth in Amsterdam, and he had a very cool use case wherein he was, like, why don't you allow people to get notified? If they haven't opted in, then they have to the the sender has to pay something, and you can just void it. So we are also thinking about, you know, making that a reality because it makes sense and Abi that I want to reach out to you for critical in info you haven't talked in. I just sent something along with that critical info. And, you know, if you accept my chart, then it's either return back, or you can basically accept the chat and it's either given to you or it's void. So that's also one thing that we are thinking that we put in the next version of the protocol? ",
+            "start": 2221.3179,
+            "end": 2530.3628
+        },
+        {
+            "speaker": "0",
+            "podcast": "Oh, that's that's really interesting. And like, how does the push token fit into all of this. Like, what what is the use case of the push token? And by the way, the great name push? Because I feel like that's very meme. ",
+            "start": 2530.8389,
+            "end": 2544.519
+        },
+        {
+            "speaker": "1",
+            "podcast": "Yes. One... I mean, one of our team members just just hit it, and we were launching And, yeah. It's very you we'd love the need. Like, I haven't met anyone who hasn't said this. So makes a very happy for that. Got that thanks just for validating it as well. It's ",
+            "start": 2545.1553,
+            "end": 2566.4702
+        },
+        {
+            "speaker": "0",
+            "podcast": "happy to do it. ",
+            "start": 2566.8599,
+            "end": 2567.4163
+        },
+        {
+            "speaker": "1",
+            "podcast": "Awesome. So coming to push, like, the baby design push token. We designed it for the growth of the protocol, and we designed it for the security of the protocol and of course, governance, So it has four below or four phases by which we can say that these these are the use cases. The first is, of course, the utility side of things. So I mean, we have to realize that we are making something which is a decentralized live communication protocol, which means that it has these two charge fees from the services in the future. And even when the services are doing some things, which basically, they should not be allowed to do. I mean, they should not be allowed to do as a very bad way to say it. But, yeah, when they do that, they should pay the protocol something. On this palm score which we spoke about, I think, those are part of the settings that, you know, needs to be assistant. And the push can basically enable those adjustments and enable charging those peace whenever we get there for the services all for the super users. So that is one thing for have one pillar or push organ. The second is that the push notes I spoke about These are basically validated nodes and they will update on proof of stake. So of course, you need push token to secure their network. So that's the second thing that we have to do. You're not... I mean, it's in our road, map, but it's not opened yet. The third thing is the government side of things. So when we created push token, we kept fifty one percent for the community. And I think thirty five percent is is still there. And what pushed out and pushed their will do is basically see or expand the future of the push ecosystem whether it's in terms of passing grant proposals or whether its terms of haunting people when they're creating useful sandals or anything else like the push governance is the third pillar. And the fourth pillar is a cool pillar because it completes the cyclic normally the in mission for push. This is basically, like, I said that there is a way to charge fees directly in the protocol. And the food the utility of the push token meter utility is that it also allows the protocol to essentially get or split those rewards between crypto wallets that support the protocol on that base sub protocol as well as a push token holders that are maintaining the existing the fees or green governance. We did that by attaching a time to the push token. So it basically means that the post open holders can decide that x percent of the fee will go to them. And vice percent of the fee will go to wallets and it can be distributed among different wallets in different different ratio. So these are, like, the four pillars by which the push token is designed on or the token economics is designed on. I think we have only opened a push governance side of things and the push settings and the protocol fees We are going to open up open those things up in steps. The version one point five of the protocol. That is an audit. It opens it up as a step, like the protocol fees for genes or updating channels will be active and push shipping holders will be able to claim those protocol fees and then we will, of course, have we have this, like, four year plan to basically basically get all these things that I spoke about integrated into nine entire protocol. ",
+            "start": 2569.1643,
+            "end": 2826.2195
+        },
+        {
+            "speaker": "0",
+            "podcast": "Okay. Awesome. And I'm also just kinda thinking, you know, this is basically a startup and we're in a a very nascent industry with this, you know, this brand new service idea, this new protocol Like, what are some of the major hurdles that the two of you as c cofounder have had to face just being in this space and being a startup with this new innovative idea that is very helpful, but also, it's like, you you have to explain it to everyone first before they realize. How helpful it actually is. ",
+            "start": 2827.0295,
+            "end": 2861.0356
+        },
+        {
+            "speaker": "1",
+            "podcast": "Yeah. So I mean couple of it, and I think that's where the Ethereum committee helped does a lot. The first Huddle was, like, when we proposed this idea. It was very radical. So a lot of people were not able to get it or we're not able to see, like, I first it. I think... And that's why I say that I love the protocols like, you know so app and Mi. Because they saw through it and they supported it, and that made us... That made people realize that, no. This is something that's is needed. So that was one of the major challenges we had. The second major challenge was that you don't have life when we show up passionate about the idea that you're working on, especially in, where one year is like ten years. So I don't think we have any life outside of work. So... Yeah. No I don't think any founders can ever achieve that balance? Because as a founder, you know, the project is something that you always tie yourself with. So we kinda learn to live with this new lifestyle where everything is just pushing S. So so, yeah. No those are challenges. Other other challenge I mean, those were the challenges, we... Of course, when we started, like, we started working on it without any funding and without any plans. So other challenge for a founder is to basically strictly see how they are going to survive. So I think when I said, like, a Ethereum community is so amazing because we basically took us nine months to deliver this Poc out and took us nine months to basically get funded or the grant to be given. And we thought of, like, stopping when we were four months down the line because we didn't had a lot of money. To support ourselves. And I think because the community said that what you're building is good and the mend of ethereum said that let us let let us help you out in front ways or in grants and and something else. Was the reason that we were able to go through that rough patch where you still finding product market fit. And you would still ask questions, like, Okay. Did I overs shoot? So you still do that. So so... Yeah. ",
+            "start": 2863.1094,
+            "end": 3031.135
+        },
+        {
+            "speaker": "2",
+            "podcast": "Just like that my I was going in the same direction. I think when we started, pretty much started because we wanted to do so solve the problem and felt this for something that was not solved before and, you know, just because we really like what we were doing. And like I mentioned for nine months, we were pretty much just working on the problem, trying to find a hack raise to, you know, do marketing with no budgets and so on. And when we actually got in the bitcoin grams, around seven. And we saw actually the power of they gave community to kind of, you know, even that one die that people delay is so powerful that, you know, we were, like, one of the top three projects back both in terms of contribution and number of people backing. And that's when you realized the money is great. Like it was the first time we had, like six seen thousand dollars that we got and we... That was like the the best, you know, thing that ever happened. And more so the number of people backing, they were so many people who bag and that's when you actually feel that what you're building is getting validated. It's not really the money part of it, but the number of people who are donating two grants, even that one die I mean a lot. And the the idea of the problem that you're trying to solve, people see it and they want to back you. I think that was one of the biggest validation or the problem as well that, yes, we are the right part and we can continue doing what we're doing. And, yeah, I think that's why I mean, there's no community like Ethereum. So... Yeah. Yeah. That's definitely true. And it's it's always great to hear like, how beneficial ",
+            "start": 3032.1838,
+            "end": 3129.189
+        },
+        {
+            "speaker": "0",
+            "podcast": "get bitcoin grants have been to projects, especially ones like, Ep p and S. Yeah. That... That's always great to hear. So I... I'm just got a couple more questions for you y'all since so it does seem like we're we're kind of running up on time here. But I wanna know, you know, I would consider the two of you, the experts in Ep p and S, obviously, as your c founders, So what do the experts of Ep p s, use Ep p s four? Like, what are some of the notifications that you two are getting personally? ",
+            "start": 3129.8809,
+            "end": 3162.4382
+        },
+        {
+            "speaker": "1",
+            "podcast": "I mean, personally, I just go ahead and subscribe to on the protocols it also has become a way for me to discover new protocols out. And because, you know, of course, I would love to see, like, all the notification. And it just gives you more joy when you see more additional notifications coming. So I subscribe to all of it, but, yeah, definitely you swap An. Coin desk. They have helped me the most. Like, E s actually saved me my domain. And uni shop because, you know, whatever little fee I was finding, I want to make sure that I keep on running full piece. So, yeah. Those would be my favorites. ",
+            "start": 3163.0884,
+            "end": 3208.7266
+        },
+        {
+            "speaker": "2",
+            "podcast": "Yeah. Like likewise. For me, E and s is, like, top up there. Do want to lose marriage about ever. So wanna I have it forever. Coinbase this for sure, for for me, now, I'm tied to my wallet address, and it's like it's just like a feed of all the things that happening around the world that I get right on the wallet... Public quality dress. A lot of dow, like I have I think ban, like I have in bunch of snapshot proposal which are up right now home. So a lot of dials as well. I think these would be my top channels, but we cannot have like a whole bunch of different use cases so people follow like, try notifications and, like, the opt in two services that matter to them, whether it's dial, D, n. They just have to go to dot T p s dot I. And ",
+            "start": 3210.6465,
+            "end": 3261.54
+        },
+        {
+            "speaker": "0",
+            "podcast": "just opt into the channel of the choice. Yeah. And which... Oh, sorry. I I was gonna ask which wallets have already integrated this that people can download and start to get these on their phones? Yeah. I was seeing, like, ",
+            "start": 3262.1565,
+            "end": 3274.137
+        },
+        {
+            "speaker": "1",
+            "podcast": "we also have a very popular channel called gas tracker. It's not that problem now since gas has gone down a bit, but it was the way popular when the gas was so volatile. So so yeah. The wallet part. So I mean, the wallets part, we are starting that journey now. So we started working Poc with few wallets. And they, basically... Yeah. I don't think the marketing team has been to kill me if we talk about what wallets. But, yeah, we started working the Poc out because that's the next step note that you have notifications showing up. Now that you have all to all chat that is coming. The next step should be that it should not be eye that or I extension or our mobile app alone. So so, yeah, the three case are done. We will open it out to public very very soon. Right now, we just are working with handful of edits to basically make them our on partners. If you are wallet and you're listening to the, probably a good thing or probably a good idea would be just to reach out to us and we'll make sure that your ",
+            "start": 3275.4138,
+            "end": 3360.2024
+        },
+        {
+            "speaker": "0",
+            "podcast": "communication is all set up. If it was a Sunday and I saw under eighty Gray, I was making all the transactions I could. And now, you know, there's days where it gets to single digits, which... ",
+            "start": 3360.577,
+            "end": 3370.2144
+        },
+        {
+            "speaker": "1",
+            "podcast": "I know I know surprised like I called Richard just to tell her that we is to right now. That's... I was that surprise. ",
+            "start": 3371.0894,
+            "end": 3379.1235
+        },
+        {
+            "speaker": "2",
+            "podcast": "Took a screenshot of it. I was like, this is amazing. ",
+            "start": 3379.6953,
+            "end": 3382.0874
+        },
+        {
+            "speaker": "1",
+            "podcast": "And we also made sure that we create ton off not say wallet. Right at that point of time. And we don't know what we'll use them for, but, yeah, we go went ahead and did it already. ",
+            "start": 3383.0442,
+            "end": 3393.3555
+        },
+        {
+            "speaker": "0",
+            "podcast": "That's a good idea. I should probably set up a notice safe. I might get started on that this week. Okay. Well, last question is where can listeners go to find out more about the two of you and Ep S. ",
+            "start": 3394.1543,
+            "end": 3408.8245
+        },
+        {
+            "speaker": "1",
+            "podcast": "Alright. So Ep s, like just go to Ep p s sort... Io or Ep p project on Twitter, Ep p n s, P j c. But they are P or ios, if you scroll down to the footing, you have all the links. This discord as well. Discord is so weird. So just go to the website and you can go to this call. So, yeah, you can check out get this discord, Twitter and the website, P n s dot io. God For me, it's H Twitter. It's other, r e t... Yeah. If you ever feel chat. Me up upon twitter, if you feel chat, but for the developer mindset say, hit me up upon this call. Yeah. And just... Reach out to me on Twitter. The most active there. It's r I j o ",
+            "start": 3409.619,
+            "end": 3462.8298
+        },
+        {
+            "speaker": "2",
+            "podcast": "on Twitter, or you can just drop me an email as well. It's fits Cha rate Ep p s at io, you know. And if there's anybody out there, they just need any help with anything in this space. There are new builders, and advice, anything... Just... I mean, it's a great space. A lot of people help us. So anything that we can help and advise on. Just feel free to reach out to us always happy to, you know, help. Come completely agree on that note, my email is ",
+            "start": 3463.2854,
+            "end": 3489.1003
+        },
+        {
+            "speaker": "1",
+            "podcast": "har shared S what ios as well. But marketing, go for richer. ",
+            "start": 3489.6392,
+            "end": 3494.2747
+        },
+        {
+            "speaker": "0",
+            "podcast": "And technical, hopefully, I'll be able to help you out, but rim best. Awesome. Awesome. Well we're very excited about Ep p S, I think it's a very important piece of infrastructure that people don't even necessarily know that they need right now. And I'm I'm really excited to see how the map develops. So for one who's listening and watching. Thank you for listening and watching. Subscribe to us on Youtube, Spotify, apple and subs stack, and we'll catch you next time. Thanks again Harsh and reach. ",
+            "start": 3495.942,
+            "end": 3523.2021
+        },
+        {
+            "speaker": "1",
+            "podcast": "Thank you soon. Bye everyone. Thank everyone. Who listening listening. Or a pleasure. ",
+            "start": 3524.41,
+            "end": 3529.198
+        }
+    ],
+    "summaries": [
+        {
+            "title": "1. The World's First Decentralized Communication and Notification Protocol for Web 3",
+            "summary": "The Poly alpha Podcast interviews the co-founders of the Ep p S protocol, the world's first decentralized communication and notification protocol for web three. The interview explores the features and benefits of the protocol, as well as the current state of decentralized finance and web three technologies. The co-founders discuss their backgrounds and involvement in the crypto and web three space. They also discuss their journey in developing the Ep p S protocol and the importance of Web 3 infrastructure projects. The significance of Apple, Google, and Whatsapp in communication technology is also mentioned."
+        },
+        {
+            "title": "2. The Impact of Podcasts on Happiness",
+            "summary": "This text discusses the need for a communication protocol in the Web3 ecosystem and introduces the Ep p S protocol as a solution. It highlights the importance of a unified communication protocol in Web3 and the benefits it brings to users. The text also discusses the various use cases of the Ep p S protocol, including domain name notifications, loan liquidation alerts, and governance proposal notifications. It mentions the benefits of using public protocols like Ethereum for fund transfers and the misconceptions surrounding Ep p and S. The text emphasizes the need for a better understanding of Ep p and S and encourages the integration of crypto wallets with the protocol for an enhanced user experience."
+        },
+        {
+            "title": "3. Excitement for a Podcast Interview",
+            "summary": "This text discusses the integration of push notifications into the Meta Mask wallet and their role in facilitating communication and verification in the cryptocurrency world. It explores the concept of push notifications and their use in displaying relevant information to users. The text also discusses the possibility of integrating off-chain data into notifications and the role of oracles in securely transmitting external information to the blockchain. The design of a payload allows for various uses of data, including automated tasks and notifications. Overall, push notifications and off-chain data enhance the functionality and security of blockchain networks."
+        },
+        {
+            "title": "4. Introduction to the Crypto and Web Three Space",
+            "summary": "Regular physical activity has been shown to have numerous benefits for mental health. The Push Token is a decentralized live communication protocol with four pillars: utility, validation of nodes, governance, and rewards distribution. The protocol is gradually opening up features, with version 1.5 introducing protocol fees and the ability for token holders to claim them. Various use cases and features are discussed, including notifications for ticket sales, granular user settings, a notification dashboard, and token-gated channels for charging for podcast forecasts. The protocol is still in development, with version 1.5 being the latest release."
+        },
+        {
+            "title": "5. The Journey of Ep vpn: From Fintech to Launching a New Product",
+            "summary": "The text discusses the challenges faced by the founders of Ethereum in introducing their innovative idea to a new industry. They struggled with getting people to understand and support their idea, maintaining work-life balance, and finding funding. However, the support and funding from the Ethereum community helped them overcome these challenges. The text emphasizes the importance of community support in the success of a startup. It also discusses the advantages of using Coinbase Wallet and the integration of wallets into mobile phone channels. The team is working on a proof of concept with a few wallets and encourages wallet providers to collaborate."
+        },
+        {
+            "title": "6. The Journey into Crypto and the Problem to Solve",
+            "summary": "The text discusses the impact of changing weather conditions on consumer behavior and the need for businesses to adapt their strategies accordingly. It also provides instructions on how to access Ep p s and P j c on Twitter and Discord, along with additional links and contact information. The author encourages individuals to reach out for assistance and guidance in a welcoming online community. They emphasize the importance of marketing in driving business growth and express enthusiasm for Ep p S, a potentially transformative piece of infrastructure. They encourage listeners to subscribe to their channels for future updates."
+        }
+    ]
+}

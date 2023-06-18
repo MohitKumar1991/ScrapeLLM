@@ -1,10 +1,12 @@
 import React from 'react';
-import '../globals.css';
+import '../styles/globals.css';
 import Head from 'next/head';
 import { QueryClient, QueryClientProvider } from 'react-query';
+import { Footer } from '@/components/footer';
 
 export default function App({ Component, pageProps }) {
   const queryClient = new QueryClient();
+  console.log("APP IS LOADED");
   return (
     <>
       <Head>
@@ -18,6 +20,7 @@ export default function App({ Component, pageProps }) {
       <QueryClientProvider client={queryClient}>
         <Component {...pageProps} />
       </QueryClientProvider>
+      <Footer />
     </>
   );
 }

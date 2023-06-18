@@ -1,0 +1,350 @@
+{
+    "name": "Polygon Alpha Podcast",
+    "host": "Justin Havens aka Crypto Texan",
+    "image": "https://substackcdn.com/image/fetch/w_512,h_512,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fea37d999-885e-4616-aecc-33f8454a88cc_1400x1400.png",
+    "episodes": [
+        {
+            "title": "Swapping Through Time | TimeSwap | Ricsson Ngo, Harshita Singh, Ameeth Devadas | Polygon Alpha Pod",
+            "number": "26",
+            "date": "APR 6, 2023",
+            "description": "Decentralized and oracle-less fixed time preference protocol. Lend and borrow without the use of oracles",
+            "url": "https://polygonalpha.substack.com/p/swapping-through-time-timeswap-ricsson",
+            "speakers": {
+                "0": "Justin Havens",
+                "1": "Ricsson Ngo",
+                "2": "Harshita Singh",
+                "3": "Ameeth Devadas"
+            },
+            "image": "https://substackcdn.com/image/fetch/w_320,h_213,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_center/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fba97d23e-9b49-474a-b8c6-4f3e6465fada_640x640.png",
+            "file": "april.mp3"
+        },
+        {
+            "title": "The Emergence of Crypto Intelligence | Arkham Intelligence | Miguel Morel | Polygon Alpha Podcast",
+            "number": "25",
+            "date": "March 10, 2023",
+            "description": "Today we are joined by Miguel Morel, the CEO of Arkham Intelligence, an early-stage startup at the forefront of the rapidly expanding crypto intelligence industry.",
+            "url": "https://polygonalpha.substack.com/p/the-emergence-of-crypto-intelligence",
+            "speakers": {
+                "0": "Justin Havens",
+                "1": "Miguel Morel"
+            },
+            "image": "https://substackcdn.com/image/fetch/w_320,h_213,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_center/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F42c452bc-b8ac-4ff5-92e2-f1128a16bf43_640x640.png",
+            "file": "march.mp3"
+        },
+        {
+            "title": "Risk-Aware DAO Treasury Management | Aera | Tarun Chitra | Polygon Alpha Podcast",
+            "number": "24",
+            "date": "DEC 7, 2022",
+            "description": "Aera is the world’s first autonomous, data-driven treasury management protocol. Hedge risk to grow safely.",
+            "url": "https://polygonalpha.substack.com/p/risk-aware-dao-treasury-management#details",
+            "speakers": {
+                "0": "Justin Havens",
+                "1": "Tarun Chitra"
+            },
+            "image": "https://substackcdn.com/image/fetch/w_320,h_213,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_center/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F52a90aae-5fef-48e9-955a-2ad12c787fe6_640x640.png",
+            "file": "december.mp3"
+        },
+        {
+            "title": "Staking Incentives for Uniswap V3 | Revert Finance | Mario Zavala | Polygon Alpha Podcast",
+            "number": "23",
+            "date": "NOV 28, 2022",
+            "description": "Revert is incentivizing 8 Uniswap V3 pools on Polygon with 150k MATIC over 28 days, ending on December 21. ",
+            "url": "https://polygonalpha.substack.com/p/staking-incentives-for-uniswap-v3",
+            "speakers": {
+                "0": "Justin Havens",
+                "1": "Mario Zavala"
+            },
+            "image": "https://substackcdn.com/image/fetch/w_320,h_213,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_center/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7cc838c6-1285-4bad-941c-8fb35d8d3fb1_640x640.png",
+            "file": "november28.mp3"
+        },
+        {
+            "title": "Democratizing Work with DAOs in Web3 | Opolis | John Paller | Polygon Alpha Podcast",
+            "number": "22",
+            "date": "NOV 15, 2022",
+            "description": "Opolis celebrates your independence while providing the employee benefits you need.",
+            "url": "https://polygonalpha.substack.com/p/democratizing-work-with-daos-in-web3",
+            "speakers": {
+                "0": "Justin Havens",
+                "1": "John Paller"
+            },
+            "image": "https://substackcdn.com/image/fetch/w_320,h_213,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_center/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F83bfca46-a36b-4f2a-8f6a-e29b2cfe7624_640x640.png",
+            "file": "november15.mp3"
+        },
+        {
+            "title": "A Self-custody Wallet for Web3 Citizens | Alexander Guy | Zerion | Polygon Alpha Podcast",
+            "number": "21",
+            "date": "NOV 4, 2022",
+            "description": "Zerion Wallet is a non-custodial cryptocurrency wallet that secure open source technologies and lets you stay in control of your private keys and seedphrase.",
+            "url": "https://polygonalpha.substack.com/p/a-self-custody-wallet-for-web3-citizens#details",
+            "speakers": {
+                "0": "Justin Havens",
+                "1": "Alexander Guy"
+            },
+            "image": "https://substackcdn.com/image/fetch/w_320,h_213,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_center/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F45748ba2-3388-49be-aff5-c1608ad83e6a_640x640.png",
+            "file": "november4.mp3"
+        },
+        {
+            "title": "The DeFi UI/UX Wallet Revolution | Giddy | Eric Parker & Ethan Parker | Polygon Alpha Podcast",
+            "number": "20",
+            "date": "OCT 24, 2022",
+            "description": "The self-custody, recoverable crypto wallet that connects users to passive income earning opportunities with crypto.",
+            "url": "https://polygonalpha.substack.com/p/the-defi-uiux-wallet-revolution-giddy",
+            "speakers": {
+                "0": "Justin Havens",
+                "1": "Alexander Guy"
+            },
+            "image": "https://substackcdn.com/image/fetch/w_320,h_213,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_center/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ff5e3cc14-aaae-421d-855e-79ef709009ab_640x640.png",
+            "file": "october24.mp3"
+        },
+        {
+            "title": "Win By Saving & DeFi Composability | PoolTogether | Leighton Cusack | Polygon Alpha Podcast",
+            "number": "19",
+            "date": "OCT 7, 2022",
+            "description": "PoolTogether is a prize savings protocol, enabling you to win by saving. Every dollar you deposit gives you a chance to win prizes.",
+            "url": "https://polygonalpha.substack.com/p/no-loss-lotteries-and-defi-composability",
+            "speakers": {
+                "0": "Justin Havens",
+                "1": "Leighton Cusack"
+            },
+            "image": "https://substackcdn.com/image/fetch/w_320,h_213,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_center/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F40667336-82c6-4154-b4b8-25c04df40e25_640x640.png",
+            "file": "october7.mp3"
+        },
+        {
+            "title": "An Unreal Primer on Real World Assets | TJ Ragsdale & Jack Chong | Polygon Alpha Podcast",
+            "number": "18",
+            "date": "OCT 18, 2022",
+            "description": "Since the genesis of smart-contract blockchains, entrepreneurs have sought to bring real world assets (RWAs) on-chain.",
+            "url": "https://polygonalpha.substack.com/p/an-unreal-primer-on-real-world-assets#details",
+            "speakers": {
+                "0": "Justin Havens",
+                "1": "TJ Ragsdale",
+                "2": "Jack Chong"
+            },
+            "image": "https://substackcdn.com/image/fetch/w_320,h_213,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_center/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb0735c94-0a09-4182-89e7-678861ba7e86_640x640.png",
+            "file": "october18.mp3"
+        },
+        {
+            "title": "Cross Chain DeFi Borrowing Aggregation | Fuji Protocol | Boyan & Daigaro | Polygon Alpha Podcast",
+            "number": "17",
+            "date": "SEP 30, 2022",
+            "description": "DeFi Lending and Borrowing Aggregator. The borrowing markets in DeFi are still maturing, and the infrastructure that will make the market liquid and fluid is still being built",
+            "url": "https://polygonalpha.substack.com/p/cross-chain-defi-borrowing-aggregation#details",
+            "speakers": {
+                "0": "Justin Havens"
+            },
+            "image": "https://substackcdn.com/image/fetch/w_320,h_213,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_center/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fcb431ad8-c165-49e7-a996-a23dcc00c659_640x640.jpeg",
+            "file": "september30.mp3"
+        },
+        {
+            "title": "The Web3 Connectivity Problem | API3 | Dave Connor & Ashar Shahid | Polygon Alpha Podcast",
+            "number": "16",
+            "date": "SEP 23, 2022",
+            "description": "First-party oracles are the next-generation technology to access off-chain data. API3 is leading the movement from legacy third-party oracle networks to first-party oracle solutions",
+            "url": "https://polygonalpha.substack.com/p/the-web3-connectivity-problem-api3#details",
+            "speakers": {
+                "0": "Justin Havens"
+            },
+            "image": "https://substackcdn.com/image/fetch/w_320,h_213,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_center/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F5e4aac9f-b835-45ac-b9b7-7f0762627e76_640x640.png",
+            "file": "september23.mp3"
+        },
+        {
+            "title": "Importance of Oracles in DeFi | Tellor Oracle Protocol | Nicholas Fett | Polygon Alpha Podcast",
+            "number": "15",
+            "date": "SEP 16, 2022",
+            "description": "First-party oracles are the next-generation technology to access off-chain data. API3 is leading the movement from legacy third-party oracle networks to first-party oracle solutions.",
+            "url": "https://polygonalpha.substack.com/p/importance-of-oracles-in-defi-tellor#details",
+            "speakers": {
+                "0": "Justin Havens",
+                "1": "Matt Hougan"
+            },
+            "image": "https://substackcdn.com/image/fetch/w_320,h_213,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_center/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F29c1c16d-4350-4e80-8094-7d572feb6ffd_640x640.png",
+            "file": "september16.mp3"
+        },
+        {
+            "title": "What is DeFi Lending 2.0? | 0VIX Protocol | Garry Krugljakow & Daniele Pinna | Polygon Alpha Podcast",
+            "number": "14",
+            "date": "SEP 13, 2022",
+            "description": "The next evolutionary step in money-market protocols. 0VIX’s elegant technology, smart tokenomics and frictionless UX makes DeFi lending future-proof and attractive to all users.",
+            "url": "https://polygonalpha.substack.com/p/what-is-defi-lending-20-0vix-protocol#details",
+            "speakers": {
+                "0": "Justin Havens",
+                "1": "Garry Krugljakow",
+                "2": "Daniele Pinna"
+            },
+            "image": "https://substackcdn.com/image/fetch/w_320,h_213,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_center/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F4810ead4-ad56-445b-8977-658f853ad507_640x640.png",
+            "file": "september13.mp3"
+        },
+        {
+            "title": "Unsecured Institutional Lending in DeFi | Clearpool | Rob Alcorn | Polygon Alpha Podcast",
+            "number": "13",
+            "date": "SEP 9, 2022",
+            "description": "Clearpool allows institutions to borrow funds from a decentralized network of lenders without the need for collateral.",
+            "image": "https://substackcdn.com/image/fetch/w_320,h_213,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_center/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F2637462e-25d4-4580-9894-ed93f4838ba3_640x640.png",
+            "url": "https://www.youtube.com/watch?v=15xrqqAnGMY",
+            "speakers": {
+                "0": "Justin Havens",
+                "1": "Rob Alcorn"
+            },
+            "file": "september9.mp3"
+        },
+        {
+            "title": "World's Largest Crypto Index Fund | Bitwise | Matt Hougan & Ryan Rasmussen | Polygon Alpha Podcast",
+            "number": "12",
+            "date": "AUG 24, 2022",
+            "description": "Bitwise offers a suite of index-based crypto funds, including Decentralized Finance (DeFi), “blue-chip” NFT art & collectibles, and large-cap cryptocurrencies",
+            "url": "https://polygonalpha.substack.com/p/worlds-largest-crypto-index-fund#details",
+            "image": "https://substackcdn.com/image/fetch/w_320,h_213,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_center/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ffee1ec57-2e74-4854-a2f7-85ed2bfef478_640x640.jpeg",
+            "speakers": {
+                "0": "Justin Havens",
+                "1": "Matt Hougan",
+                "2": "Ryan Rasmussen"
+            },
+            "file": "august24.mp3"
+        },
+        {
+            "title": "Liquid Staking on Polygon with MaticX | Stader Labs | Amit Gajjala | Polygon Alpha Podcast",
+            "number": "11",
+            "date": "AUG 18, 2022",
+            "description": "Stader is a non-custodial smart contract-based staking platform that helps users conveniently discover & access staking solutions. Building key staking middleware infra for multiple PoS networks.",
+            "url": "https://polygonalpha.substack.com/p/liquid-staking-on-polygon-with-maticx#details",
+            "image": "https://substackcdn.com/image/fetch/w_320,h_213,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_center/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fe657b243-80af-44f0-bdf6-893d5b7cb68c_640x640.jpeg",
+            "speakers": {
+                "0": "Justin Havens",
+                "1": "Amit Gajjala"
+            },
+            "file": "august18.mp3"
+        },
+        {
+            "title": "Improving DeFi User Experience with Push Notifications | EPNS | Harsh & Richa | Polygon Alpha Podcast",
+            "number": "10",
+            "date": "AUG 11, 2022",
+            "description": "EPNS is the native communication protocol of Web3. A protocol for blockchain based notifications that are chain agnostic, platform independent, and incentivized!",
+            "url": "https://polygonalpha.substack.com/p/improving-defi-user-experience-with#details",
+            "speakers": {
+                "0": "Justin Havens",
+                "1": "Harsh",
+                "2": "Richa"
+            },
+            "image": "https://substackcdn.com/image/fetch/w_320,h_213,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_center/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ff3e49252-1372-44f1-8a18-ed0d10a4e432_640x640.jpeg",
+            "file": "august11.mp3"
+        },
+        {
+            "title": "The Decentralized VPN | Orchid Protocol | Travis Cannell",
+            "number": "9",
+            "date": "AUG 3, 2022",
+            "description": "Orchid is a platform that enables a decentralized onion routing network incentivized by the OXT token and a multi-hop VPN client. Orchid believes in open-source software and privacy.",
+            "url": "https://polygonalpha.substack.com/p/polygon-alpha-podcast-travis-cannell#details",
+            "image": "https://substackcdn.com/image/fetch/w_320,h_213,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_center/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ff2603a13-83f6-45a2-a7ef-e0ebb6ff564d_640x640.jpeg",
+            "speakers": {
+                "0": "Justin Havens",
+                "1": "Travis Cannell"
+            },
+            "file": "august3.mp3"
+        },
+        {
+            "title": "Bringing Privacy to DeFi | Railgun Protocol | Alan Scott",
+            "number": "8",
+            "date": "JUL 27, 2022",
+            "description": "RAILGUN is bringing (much-needed) privacy to the Ethereum & Polygon Networks.",
+            "url": "https://polygonalpha.substack.com/p/polygon-alpha-podcast-alan-scott#details",
+            "image": "https://substackcdn.com/image/fetch/w_320,h_213,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_center/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F3085ce62-4f39-4ad0-af62-d5ecd94034c0_640x640.jpeg",
+            "speakers": {
+                "0": "Justin Havens",
+                "1": "Alan Scott"
+            },
+            "file": "july27.mp3"
+        },
+        {
+            "title": "Building with the ERC-4626 Standard | mStable | Dimitri Goleko",
+            "number": "7",
+            "date": "JUL 20, 2022",
+            "description": "mStable is an autonomous and non-custodial infrastructure for pegged-value crypto assets. A secure savings layer built for DeFi. Building on ERC-4626",
+            "url": "https://polygonalpha.substack.com/p/polygon-alpha-podcast-dimitri-goleko#details",
+            "image": "",
+            "speakers": {
+                "0": "Justin Havens",
+                "1": "Dimitri Goleko"
+            },
+            "file": "july20.mp3"
+        },
+        {
+            "title": "Using Stablecoins in DeFi | QiDAO | Ben & Pablo",
+            "number": "6",
+            "date": "JUL 13, 2022",
+            "description": "QiDao's hope is to make a stablecoin, MAI, that can help any crypto community member use their tokens as collateral, serving as a catalyst for DeFi innovation on Polygon.",
+            "url": "https://polygonalpha.substack.com/p/polygon-alpha-podcast-ben-and-pablo#details",
+            "image": "https://substackcdn.com/image/fetch/w_320,h_213,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_center/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F978a3126-4462-48e4-9af5-987a7526abd0_640x640.jpeg",
+            "speakers": {
+                "0": "Justin Havens",
+                "1": "Ben",
+                "2": "Pablo"
+            },
+            "file": "july13.mp3"
+        },
+        {
+            "title": "Self-custody & the DeFi Mullet Thesis | Streams | Kieran Daniels",
+            "number": "5",
+            "date": "JUL 6, 2022",
+            "description": "Self-custody is important! Streams is built on Ethereum which is a decentralized network and the backend is powered by Idle Finance; Gnosis Safe; Polygon Network; and Wyre",
+            "url": "https://polygonalpha.substack.com/p/polygon-alpha-podcast-kieran-daniels#details",
+            "image": "https://substackcdn.com/image/fetch/w_320,h_213,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_center/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fbd6e89ce-35e9-4031-910e-137182a1411c_640x640.jpeg",
+            "speakers": {
+                "0": "Justin Havens",
+                "1": "Kieran Daniels"
+            },
+            "file": "july6.mp3"
+        },
+        {
+            "title": "Cross-Chain Optimistic Oracles Bridges | UMA & Across Protocol | Hart Lambur",
+            "number": "4",
+            "date": "JUL 1, 2022",
+            "description": "UMA is an optimistic oracle and dispute arbitration system. Across allows users to move tokens between chains by leveraging UMA's optimistic oracle technology.",
+            "url": "https://polygonalpha.substack.com/p/polygon-alpha-podcast-hart-lambur#details",
+            "image": "https://substackcdn.com/image/fetch/w_320,h_213,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_center/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ff9b70bc6-4da6-4c5f-9784-b6785e915d09_640x640.jpeg",
+            "speakers": {
+                "0": "Justin Havens",
+                "1": "Hart Lambur"
+            },
+            "file": "july1.mp3"
+        },
+        {
+            "title": "Understanding Layer 2 Risks | L2BEAT | Bartek Kiepuszewski",
+            "number": "3",
+            "date": "JUN 22, 2022",
+            "description": "L2BEAT provides transparent & verifiable insights into emerging layer two (L2) technologies which, in line with the rollup-centric Ethereum scaling roadmap, are aimed at scaling Ethereum",
+            "url": "https://polygonalpha.substack.com/p/polygon-alpha-podcast-bartek-kiepuszewski#details",
+            "image": "https://substackcdn.com/image/fetch/w_320,h_213,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_center/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F739748bd-14ea-4cb4-836c-1187b556977e_640x640.jpeg",
+            "speakers": {
+                "0": "Justin Havens",
+                "1": "Bartek Kiepuszewski"
+            },
+            "file": "june22.mp3"
+        },
+        {
+            "title": "Governance, Multi-sigs, & Scaling in DeFi | Synthetix | Kain Warwick",
+            "number": "2",
+            "date": "JUN 15, 2022",
+            "description": "Synthetix is a decentralized synthetic asset issuance protocol built on Ethereum. These synthetic assets are collateralized by the Synthetix Network Token (SNX)",
+            "url": "https://polygonalpha.substack.com/p/polygon-alpha-podcast-kain-warwick#details",
+            "image": "https://substackcdn.com/image/fetch/w_320,h_213,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_center/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F6ad60c56-df32-4b56-8884-138abf246492_640x640.jpeg",
+            "speakers": {
+                "0": "Justin Havens",
+                "1": "Kain Warwick"
+            },
+            "file": "june15.mp3"
+        },
+        {
+            "title": "Impermanent Loss Protection & Single-Sided Staking | Bancor | Mark Richardson",
+            "number": "1",
+            "date": "JUN 1, 2022",
+            "description": "Bancor is a decentralized network of on-chain automated market makers (AMMs) supporting instant, low-cost trading, as well as Single-Sided Staking and 100% Impermanent Loss Protection.",
+            "url": "https://polygonalpha.substack.com/p/polygon-alpha-podcast-mark-richardson#details",
+            "image": "https://substackcdn.com/image/fetch/w_320,h_213,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_center/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ff1ea34ec-2b7a-4851-b166-212a03f6c031_640x640.jpeg",
+            "speakers": {
+                "0": "Justin Havens",
+                "1": "Mark Richardson"
+            },
+            "file": "june1.mp3"
+        }
+    ]
+}

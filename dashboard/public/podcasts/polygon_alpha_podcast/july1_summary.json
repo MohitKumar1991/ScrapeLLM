@@ -1,0 +1,353 @@
+{
+    "podcast": {
+        "title": "Polygon Alpha Podcast",
+        "host": "Justin Havens",
+        "image": ""
+    },
+    "episode": {
+        "title": "Cross-Chain Optimistic Oracles Bridges | UMA & Across Protocol | Hart Lambur",
+        "number": "4",
+        "date": "JUL 1, 2022",
+        "description": "",
+        "url": "https://www.youtube.com/watch?v=15xrqqAnGMY",
+        "speakers": {
+            "0": "Justin Havens",
+            "1": "Hart Lambur"
+        },
+        "file": "july1.mp3"
+    },
+    "transcripts": [
+        {
+            "speaker": "0",
+            "podcast": "Welcome to the Poly Alpha podcast. This is where the Poly community gathers insights from today's leaders in decentralized finance in Crypto. I'm your host Justin, K crypto. Let's get started. On today's episode of apollo on Alfa, we're joined by Art Lambert. Who was one of the c founders of Oo protocol. Art. Thanks for being here with us As Everything Going. ",
+            "start": 0,
+            "end": 28.109676
+        },
+        {
+            "speaker": "2",
+            "podcast": "Justin Going Great. Thank you for Having me. Yeah. Absolutely. ",
+            "start": 28.826374,
+            "end": 31.61353
+        },
+        {
+            "speaker": "1",
+            "podcast": "So Let's We Like To Get Started Off With Just Your Background Art like, what is your background? ",
+            "start": 32.091328,
+            "end": 37.30187
+        },
+        {
+            "speaker": "0",
+            "podcast": "And how did you get into decentralized finance and crypto? ",
+            "start": 38.311214,
+            "end": 41.568222
+        },
+        {
+            "speaker": "2",
+            "podcast": "Yeah. Well, I am a Canadian I'm Canadian and an nerd, and I studied Cs in College. Long story short, when I graduated... I was going to university in the United States And when I graduated in New York City, there was no texting here whatsoever. And I needed to get a visa from a finance company to really stick around here. So well, I ended up working at Goldman Sachs as a bond trader for eight years, which was not a path I expected to take. And people get confused Like, what do mean no In New York. But In In two thousand five, There is No Here. And It's Kind of actually Very Cool To See That I I think New York is Now the Crypto center or a Crypto center with Thriving Community. But It was Justin I worked at Goldman for eight years. Learned a lot about financial markets, then started a Fintech business called Open poll. That was all about trying to help people invest better. Should have started a crypto business then, but didn't it. That was acquired by an Nasa manager in two thousand seventeen and I gave you my time to go full time in Crypto. And at that time in two thousand seventeen, just to remind the audience, D five did not exist. There was no concept. There was no term. People were debating between calling it D fire or open finance and like, late two thousand eighteen. If you remember that. And the idea what drew me the space is I'm just sitting here and I I I was technical and I knew a lot about finance And I was like, hey, This smart contract platform system. This seems like the ideal way to write right financial contracts. And like, we should go and try and do that. And that was really the birth of a lot of the ideas around Oo. ",
+            "start": 42.600933,
+            "end": 155.999
+        },
+        {
+            "speaker": "1",
+            "podcast": "I was listening to one interviews from about a year ago, I think, and you said that it's interesting because traditional finance is not as global as people might actually think and you kinda of felt like smart contracts on an Ethereum actually provide this foundation to have a truly global financial system is that accurate. ",
+            "start": 157.11537,
+            "end": 176.84271
+        },
+        {
+            "speaker": "2",
+            "podcast": "A hundred percent One of... If if you Wanna Get Kinda of Nerdy and A little bit of philosophical about what we've done here. I have a view that financial products and services, traditional financial and products and services, they're mostly legal contracts. Like insurance is a legal contract, derivatives or legal contracts. The mostly legal contracts where the underlying enforcement mechanism for that financial product and service is actually like legal recourse. That's how they operate. And that's kind of all well and good, but it's not global. It's like in the U S. You have your Us products, but they're not the same as what's offering in other parts of the world. It's not like a global or Internet native system. And what D defy has done is they've in my opinion, it's invented a new form of contracting. So new way of writing contracts that aren't enforced by legal recourse. But are enforced by economic incentives alone and economic incentives on a blockchain. And this is like ludicrous cool because we've invented to the new form of contracting that is Internet native and global by default. Because you don't need to know who people are, all they're doing is responding to economic incentives. And I think this is like a wildly cool and wildly powerful innovation that we've invented an entirely new way of enforcing an entirely new contracting system that just has trade offs And Pros and Cons Relative To Traditional Finance And That's What Really Gets Me Super Excited Space. ",
+            "start": 177.56055,
+            "end": 277.03934
+        },
+        {
+            "speaker": "1",
+            "podcast": "I Think That Is Very well put honestly. And so this so this philosophy that you had and I guess like this moment where you realized that be smart contracts could provide this type of utility or revolution in financial products. This is this what cause you to found Oo protocol? And what does Oo stand for? And what I know it's it's pivoted, quite a bit. Oo protocol has, but what we trying to solve initially let's just kinda go through the history ",
+            "start": 277.75323,
+            "end": 311.40997
+        },
+        {
+            "speaker": "2",
+            "podcast": "there. Yeah. These these these are all great questions. And answers so kinda like, yes, yes. Yes. But So the original philosophy here wasn't as well articulated as is now. The site idea of inventing a new contracting system But what Was Articulated Was This Idea that Financial Product and Services are not globally accessible. Like you start up Fintech business and Fintech businesses like you look at Robinhood hood, Robinhood code only serves Us people. It's like it's supposed to be an Internet business. But you can't open a Robinhood account as a Canadian with I am or in Europe or whatever else, which is kinda crazy. Right? So embedded from day one was this idea that the Internet is global and businesses built on the Internet are generally global businesses. But finance wasn't. And so that that was like a lot of the initial impetus for what oo I should be. And then the name stands for universal market access. So it was embedded in this idea of like, hey, How do we make markets universally accessible? And that's that that was kinda core to our initial focus. With regards to our path and how we got here. So We here we start thinking from like blue Ocean, blank slate, d default doesn't really exist. We want to financial contracts from blockchain. Smart contract platforms like Ethereum are a Beautiful way of writing the If this and not logic Of A contract. But we run into this oracle problem. We're like, wait. What happens when we need data that is not native to a blockchain itself. And so we spend a lot of time in energy thinking through the Oracle problem. But in a fundamentally different way than say something of chain link. Or what maker was doing at the time. We wanted to figure out a way to get any bit of arbitrary data on a blockchain to ask it any kind of noble question. And this is just a a very different sort of oracle design that I think we'll probably get spend more time talking about. We call it now an optimistic Oracle. And so original path was we ended up This is sort of research project, spending a lot of time thinking about How do I get any bit of data? Onto a blockchain in a truly decentralized way. And our path has kind of taken us more and more in that direction ",
+            "start": 311.78998,
+            "end": 456.12662
+        },
+        {
+            "speaker": "1",
+            "podcast": "over the year. Yeah. Let's go ahead and start on that. Yeah. The optimistic oracle. This is something that y'all are working on happen working on and it's... Kind of transitioning to an optimistic bridge which we can get into as well, but let's let's start on the Oracle side first, Like, how does that compare to chain length thin. And I think when people think of optimistic solutions in the blockchain space, particularly with ethereum smart contracts, I think anti ent to that is zero knowledge. So are there are also like zero knowledge, you know, solutions to Oracle as well and just kinda want to go through the comparisons of that to lay that foundation. Yeah. There's a lot to talk about here. ",
+            "start": 457.6976,
+            "end": 497.20734
+        },
+        {
+            "speaker": "2",
+            "podcast": "Was great. We got some time. So like, what is Oo? Now? Oo is now an optimistic Oracle? That's that's what we wanna be, That's what we think is the biggest contribution we can make to this space. What is an optimistic oracle. An Opt snorkel at a high level is a truth machine it's a machine that you can you can you can truthfully record any any know data onto a blockchain and on any blockchain chain in a truly decentralized way in a completely decentralized way. And the initial design for this is actually pretty simple where the the historical functions says this escalation game, where in the optimistic path, you don't... You have to do very little. And then we'll go and talk about what happens when you are in the test path. In the optimistic path, all we do is we have anyone say, hey, here's my question, I wanna know you know, who won the sports game last night? I wanna know did the merge happen. I wanna know some facts or some price... It it doesn't have to be just a price data. I wanna know if this thing happened or not. I wanna know if a snapshot go passed. These are my questions. Someone else anyone on the network can respond to that question, and there's a challenge period or a waiting period. Provided nobody disputes that answer in that challenging waiting period. It can get... It's taken as truth and we have our answer. We move on with our day. However, if there is if Someone's like that's not right, they disputed it. And in that dispute process, those disputes, this is now the pessimistic path. Those disputes are rare that happens like one in a thousand, one and ten thousand times. And disputes that then So because of this, the system's really lightweight, really easy to operate, it can really answer any arbitrary question. Disputes then get escalated to our token holders in what is a voting coin or shelling point style system. Where our token holders vote in this game in a game with a two stage commit reveal process on what the right answer should be. And that part gets more complicated. It's super interesting. But the the high level is that we we have a a lightweight system where anybody can request any know bit of data? Anybody else can respond to it. And only if that response is disputed, do we need to involve this broader system? To basically do its dispute arbitration. ",
+            "start": 498.73413,
+            "end": 647.43286
+        },
+        {
+            "speaker": "1",
+            "podcast": "Okay. And you're saying the disputes are rare, and that's because that the economic incentives of the protocol are aligned in such that those that are providing this information or incentivized to be truthful. Is that why they're rare? ",
+            "start": 648.38446,
+            "end": 663.8588
+        },
+        {
+            "speaker": "2",
+            "podcast": "Exactly. So if you get anyone can go and respond to one of these requests. And this whole thing is very p, for the protocol that's integrating it depending on their use case. They can set different... You can set a different challenge period for how long you have to dispute something. And different bonds that proposed people to proposed answers. They said bonds that they will lose if they're wrong. And you can set these parameters in your system as a protocol and make it super sensible for developers to use. But what you said is exactly right. Somebody that causes a response, which could be a human being or it can be like, an automated bot doesn't matter. Anyone that proposes response posts a bond and that bond they'll lose if it if they get disputed and it turns out they're wrong. So the analogy here just to maybe kinda hammer at home. If you think of traditional legal contracts, they're also optimistic enforced. Like you and I can write a contract under the laws of the state Texas. And our hope is that we will follow that contract. Right? And if we don't follow that a contract then we can sue each other. And it's annoying and investing costly and it's not great or whatever, but that's our enforcement process. And the same thing here is how the opt to oracle works, which is sharper and clear incentives. So anyone can kinda of say here, here's what the answer here's what I think the answer is. But again, the disputes disputes are meant to be rare And We Can Make The Incentives For Triggering A False Dispute, Very Explicit And Very Like Precise. ",
+            "start": 664.5749,
+            "end": 769.35
+        },
+        {
+            "speaker": "1",
+            "podcast": "I think It's Also A good Idea Just to touch on, you know, why do developers need to utilize Oracle to provide this data? Like, there there are limitations in the sense that blockchain cannot pull this data themselves. There needs to be someone or or protocol that pushes this, ",
+            "start": 770.14996,
+            "end": 788.9218
+        },
+        {
+            "speaker": "2",
+            "podcast": "Information To Them. Correct? It's it's Worth Just going Back to, like, What A Blockchain Knows. Right? A Blockchain knows What's happened On The Blockchain. That's that's great. And like that it knows for sure any the security model of the blockchain itself defines how accurate like that data is, and that'll work great. Oracle are when you wanna know something that's not on that blockchain. And the most common use case to date has been great we wanna know, like, the price of ethereum or the price of bitcoin because we wanna build a lending protocol that uses that to manage liquidation or we want to build up her protocol or things like that. And in those cases something lake chain like actually, I think works pretty well They're pushing data on blockchain and it exists there in, like a high frequency basis and it's it's worked. Right? But what about all the other things that a blockchain might wanna know? It might wanna to know did this governance vote past? It might wanna know, like facts about the world that are the bespoke aren't really related to price data. Who want an election, right? Who want an election who won the sports game, all that other kind of stuff? How many Twitter followers does Crypto texts and have? These are things that there are use cases where you you might want it you like that one. I There everyone's use cases where. You want... If you need to have that data on blockchain chain, what do you do? Well, the opposite to oracle is a solution built for that. So we really think this Oracle works well, what in the growing world of, like Web three, where when you need to know other facts that aren't just like the price data, of the top fifty cryptocurrencies this is like this is kind of the only way you can do it. You can't push every back or data point about the world. Onto a blockchain, it just doesn't make any sense. So the soften go, you almost think of it is instead of pushing data, the optimal functions a pull function where people request the data they want and it... They pull it onto the blockchain in a way that is economically secure and like, truly decentralized. ",
+            "start": 789.891,
+            "end": 923.17725
+        },
+        {
+            "speaker": "1",
+            "podcast": "Day that's interesting. So It is like a whole mechanism as opposed to like, the traditional pushing information to the blockchain Then. Exactly. Lake another sort of Cs nerdy way of thinking about this ",
+            "start": 923.74945,
+            "end": 935.1815
+        },
+        {
+            "speaker": "2",
+            "podcast": "would be like lazy evaluation. So this a cons nuclear science of, like, a lazy evaluation where I'm only gonna do this complication complicated computation if I need to. Otherwise, I'll kind of like, try to ignore it as long as possible. And that's what's happening here too. Optimistic we're saying, hey, here's the answer. Here's the answer. Here's the answer. And if people are like, y, looks good. No disputes. No issue. Great. Move on with your day. It's only when someone's like, hey, wait. I don't like, I dispute this, then we go and we do this whole dispute arbitration to see who's right. And that's like a complicated expensive process. So the the the sort of the the point we really wanna push in the space is, you know, there are many types of oracle designs and there's treat ups between them. And to today, the Oracle design had the most utility best use case has been something like a chain length or like Maker style Oracle. Because what we really needed is like a credible way to get the price of the ethereum and bunch of other cryptocurrencies on a blockchain. And that's worked pretty well, but there are definitely use cases for other types of data where that design may not be the ultimate or the the right set of trade offs. And that's a space that we're really interested it in exploring and further in kind of research up. Yeah. I think it's really interesting to think that the Oo started as a synthetic. ",
+            "start": 936.0309,
+            "end": 1032.7705
+        },
+        {
+            "speaker": "1",
+            "podcast": "Asset type of protocol. And now you've kind of pivoted or evolved to create a separate protocol that works on optimistic Oracle or like, how did that transition? Like, how did working on synthetic assets previously? Help prepare the team and you, I guess to, you know, provide the service to the ecosystem. ",
+            "start": 1033.8231,
+            "end": 1056.7203
+        },
+        {
+            "speaker": "2",
+            "podcast": "They're very tied plan ways that also feel different. Like basically back in the day, we're starting this thing and we have a he that Decentralized finance should Be Useful. Markets should be universally accessible. And we spent some A lot of time in energy, Thinking through this Oracle problem of how to get any bit of data on blockchain? And then we're like, how we're gonna to tell people about this? Like why would they care? And again, this is before D defy existed? And the thought process then was like, well, people like tokens, let's make it so you can make a token that tracks anything. Using our Oracle system. And these were the synthetic acid idea. And we did that. And kinda cool. And so it it's a big learning a dog food our own technology. We figured out how to improve the Oracle. We figured out how to make it work better. And people thought the concept of synthetic assets was pretty cool. Like, wait. I can spin up my own token that kinda attracts anything. Turns out, like, the use... In my opinion, the actual current use case for synthetic assets is relatively limited. That's not what people are really wanting to do. The idea was cool, but the use cases are much more around, hey, I I'm really interested in treating crypto or borrowing against my crypto or those sorts of things. And so we realized that, like, the real contribution we have here is actually this Oracle, which has always been centered to what we've done, we were just using synthetic assets to describe it. To kind of tell the ecosystem about it. And we're realizing now look, Keep is big enough. The web three use cases for this software oracle are really big than big enough, Like let's focus on that. And maybe Justin's we're getting into use cases for this soft score. So market... Yeah. Toll markets a prediction market that previously was rather centralized in how they responded to events stake and they now use our optimistic oracle very successfully to resolve and settle any type of prediction market response, and it's worked pretty well for the last six months or so. We focus this other crushing bridge, which we can talk about in a second called Cross. And a across uses the to oracle, to verify whether a transaction happened on another chain, which is a very cool use case. Right? Like, did this deposit happen on this other chain Let's ask the oracle, we get back an answer and it works really quite well. So it's a really cool way of doing cross chain communications in bridging and No mad is another bridge that shares some of the similar kind of concepts too. And then insurance, like, what if we we have a protocol called Sherlock that uses the oracle to validate whether insurance claims should happen. And there's a whole bunch more in this phase too. Like, if we wanna create insurance for whether In a Given the Event happened somewhere. The Often Score a great a Great Thing to ask. I could keep going. But like, the use cases here, are are pretty broad and buried. And if we really think that crypto and Web three is going to grow to take over the world, which what kinda all do. That's why we're here. The need for there to be truthful data around any fact. To me that seems like like an like just a a necessary thing. We we gotta have the primitive the ability tools set to be able to get ",
+            "start": 1057.4386,
+            "end": 1289.7501
+        },
+        {
+            "speaker": "1",
+            "podcast": "any any truthful fact on a blocking. And I think the approach we built is like A really elegant way to do that. Yeah. You've kind got my mind going a little bit here, especially on the insurance side, which is something that's always kind of fascinated me in the crypto and the D f space, and thinking about Nexus mutual and how their structure is set up from an insurance standpoint and how maybe leveraging the technology of optimistic oracle would be a better solution for them or just a better solution for insurance claims on the blockchain in general. ",
+            "start": 1290.2101,
+            "end": 1325.653
+        },
+        {
+            "speaker": "2",
+            "podcast": "Have you y'all seen any implementation of that from the insurance side? At all. This gets nuance, like So of all, I'm a huge fan of Nexus mutual. I'm a huge fan of next, a huge fan they do. Me too. Meet too full disclosure. Yeah. Yeah. There's there's different approaches. So if you think of traditional insurance, you really you do have a group of people that are like claims that that that manage claims that say, hey, your claims should be made or not. Right? And You like, that's they're the ones that make the decision. And Nexus this is sort of set up in that model. In a way that I I I think is like should exist, where the next mutual members are the ones that are ultimately gonna decide whether claims payout should have. I shouldn't should happen or not. That's not the only model. The other... There's a whole other field of insurance called like, para insurance. Where you're not validating specific claims, you're making a payout based on an index or whether like an event happened. So an example here Could Be like weather, Right? The weather insurance where you're not saying, hey, did I crash my car And I ordered to, like like was is to any car insurance here. Instead it's like, did it rain in New York City on this date. And it's like a factual payout and the payout happens based on that factor not. And I think the office to Go is well suited for this type of para insurance where payouts are based on facts. Ne mutual is a bit blur. Because when you get to the concept of a hack, like, did a hack happen, that could be a yes or no binary decision, But it also could be nuanced, right? Where you're like, wait, What how do you define a hat? What are the types of hacks, all that kind of stuff? And so toward thing like, the design space is big here. There's more than one way to do it. And I I I think ",
+            "start": 1326.2091,
+            "end": 1451.7227
+        },
+        {
+            "speaker": "1",
+            "podcast": "We Are Still So So So Early In This Space. We Should Be Exploring All Of Them. Yeah. Absolutely. Yeah. That That Makes Sense. I've Just Got Been under the impression that like insurance might be like the next big unlock that we need for D defy. And I'm starting to see optimistic oracle as a potential The product market fit that we've been looking for in this space from just, like a trip standpoint. What is true ",
+            "start": 1452.7512,
+            "end": 1477.5627
+        },
+        {
+            "speaker": "2",
+            "podcast": "and that's what this provides. Right? Yeah. I mean, I could wrap for a while on this too, Like I think insurance in D defy is hugely important. I personally think it hasn't been unlocked yet. Partially because insurance and d is pretty expensive. Because the stuff is still so new. Right? So you know, like, it's so new and so volatile and like hacks happen all the time that it's it's hard to sell people insurance when it's like you're paying real money for it. That's like a hard thing to stomach. As Deep On matures And I Hope Packs Become Less And Less frequent And Cost of Insurance Comes Down. I think there's ways where that'll also help things grow. But the other way to look at this, Justin is like, you know, the insurance industry itself, kind... Let's call it real world insurance is really slow to move because it's just like slow. And so if we did use optimus oracle to allow people to quickly build new types of insurance. And build it efficiently. I feel like that's that's something that could be a big unlock. Like Maybe There's Weather... I Was talking about this actually Today With Somebody. You know, People On their Wedding Day. They're Having an outdoor Wedding. Seems reasonable to go buy insurance to guard against the weather raining or something awful like that. Right? And Actually I think there's one people out there that would sell it too? Like, why does That product exist? And I'd argue it's because people haven't had a technology solution. To really implement that cheaply and inefficient. And I think we absolutely could. So, you know, ",
+            "start": 1477.9409,
+            "end": 1588.582
+        },
+        {
+            "speaker": "1",
+            "podcast": "I agree with you. There's a bright future there. Yeah. And we've kinda got off topic a little bit, but this is super interesting. It kinda makes me wanna get Ne mutual on. The show some time, but I digress. Let's talk about the cross bridge, which is something that I'm excited about. I know you're excited about as well how does that tie in with optimistic oracle and what is the relationship between Oo and the across bridge. So this is a completely different protocol? ",
+            "start": 1589.6343,
+            "end": 1615.6854
+        },
+        {
+            "speaker": "2",
+            "podcast": "Right. Yeah. So across Is A across Bridge. Across Me two, moves funds, moves eth in Usd between Poly gon And Ethereum And Ar optimism and And Soon Avalanche in At most. So E focused James. And across moves these assets, Bridges these assets really cheaply, Like, Our bridge costs are cheaper than anyone else out there on average. And it moves them really securely to. Because it's enforced by this optimistic cortical concept. Any any individual bridge transaction can kind of be disputed or undone in the in the protocol. And I think it's an example, like, well, I'll tell you how we we got here and building it, but It's an example of the technology where I think our are the mis labs, it's the foundation behind him mark. Our engineering team took really great. Protocol. And part of The the way they were able to Do this was because this Historical concept existed. So it was easy for them to ask the question. Did this deposit on To happen? Pay ask you off and score go that question. And if it did happen, send funds on Ethereum. That was an easy thing for us to do. And so it enables us to build this whole other protocol. So just in terms of how we got there, the idea for Cross Stemmed From of of Discussion Our Team Had, Like Two Years ago, Back when When East two Was Trying To Talk About When East two is all about shard, This is like it's Geo has changed a lot since then. When East two is about starting and you're trying to do cross shard communications. And the concept here is like, well, there's also sorts of technological ways you could do cross communications. There's also a way where you could just ensure. A Message Gets Past One Chain To Another. And Optimistic Enforce That Insurance. So Let me Give you an example Like Justin If You're On Shard a, and let's now make this be a chain. You're on Poly and online ethereum may net. Right? Or you're on Poly and you're trying to you're trying to do something on a ethereum may net. You could be a really easy trusted solution as you just trust me. You're like, I'm like, hey, justin send me ten ethan on Poly gong, and I'll send you ten ethan on ethereum main net. That, like, super easy to program Just one big problem, you have to trust me. But if I could lock up say eleven eth somewhere that you could see. And I said, hey, Justin, send me ten from poly. I'll send you ten ethan on Ethereum. And if I don't do it within two hours, you can take this eleven eth I locked up and like take it. Like slack... Let's use the optimus oracle to say, part didn't it do what he said he was gonna do. So I want this eleven week back. If that happened, like, that looks like a really great easy trusted solution. That's what I would call, like, ensuring the transaction. And that's that's essentially we did this in a much more capital efficient way. That's what I just described used to a lot of higher capital, but effectively across does this in a very capital efficient way where we have real layers that are able to instantly move assets between chains because they bonded themselves in a way that says, hey, I'm I'm good for This. And the office, you can use that concept to say, hey, This relay layer didn't do what they said they were gonna to do. And In that case, they get they get flash. So what kind of asset are These layers bonding them themselves? They Using The Oo Token Or They Using Ether? How does That Work? Yeah. They Bong themselves in Whatever Asset that They're Moving. So we're they bong themselves in the Usc or e or whatever else. Right? ",
+            "start": 1616.3379,
+            "end": 1856.9346
+        },
+        {
+            "speaker": "1",
+            "podcast": "Okay. And does the Uma have any role in this bridge or with the Or? ",
+            "start": 1857.967,
+            "end": 1863.2228
+        },
+        {
+            "speaker": "2",
+            "podcast": "Neumann token is very much... It's all related to solving to dispute with the Oracle. So across, you can think of as completely separate protocol, like Poly market, it doesn't use Token at all, it does its own thing. It just uses the optimus oracle. Right? And from our perspective, more usage of the optimus score, the better, right? The more value we secure in the optimus score, the better it is for the Oo protocol itself. The Oo token is purely used to vote on disputes, and there is a t model bit built in here. Like using the oracle, we we we extract value like the token holders, have an e. The human talking value goes up, the more value secured by the Protocol itself. And so we're just incentivized to get more usage of a oracle a Blue oracle itself. ",
+            "start": 1864.8099,
+            "end": 1921.823
+        },
+        {
+            "speaker": "1",
+            "podcast": "Okay. And now I'm just trying to think and compare This across bridge to other bridges like hop or, I guess, synapse is another one or wormhole. Even. Like how would like what are just the as simple as you can put at the main differences there. Like are people lp to create these transactions are really just bonding and leveraging the optimistic oracle. And how do those compare guess? ",
+            "start": 1922.5383,
+            "end": 1948.1199
+        },
+        {
+            "speaker": "2",
+            "podcast": "Yeah. I'll try to keep it at high level because again, the skit... Well, you direct me. He tell me how Deep You wanna to go. Right? But good First of all, all these of the bridges, I actually have I have a lot respect for players in the space and they're all doing some interesting work. There's some that I think are not decentralized at all. And those ones I'm much, much more worried about Yeah. But and I think generally speaking, bridges are this point of centralization where there's sort of these dirty truths that a lot of them have that aren't really aren't really... They're like, oh, yeah. We have this no that's that's it's doing the validation of moving stuff between chains, but they're not really telling you that wait. It's like one person running that node type thing. So I think that decentralized matters, and I do think these protocols will decentralized more over time. The advantage of across is it's decentralized from day one. They To go. Anyone Can Be a Real layer. Anyone Can Dispute Things. It Truly Like There Is No Point of Centralized Control. The comparison to, like, hop in synapse. These bridges uses news Am on the different chains. So With their at a very simple level, they're saying, hey, we're going have an Am pool on one chain that say Usc versus like, hop And we're gonna have an am m pool another chain that's also Versus, and we'll move the balances of the hop token between chains and then Use that to send Usd from one in the other By basically doing a trade, in one pool, moving the hop Usc to the other pool and then doing a trade and sending it off on the other side. And I think that that can work pretty well, It's it's just less capital efficient than because you you you have to have a lot of capital, a lot of In all these places. The biggest advantage, and again, I feel like I'm getting real too nuanced nuance here, but the biggest advantage of what across is doing that I think is just a cool financial engineering engineering innovation we have a single Lp pool. So you... If you're gonna pool a We deposit Usd on ethereum, and that's it. And the protocol itself will then move that liquidity to pools on all the other chains and it will be balance those pools as needed. So we have a more capital efficient design because the protocol is able to kind of like control where liquidity should be. We then have real errors that are going and the real layers of the ones that are instantly filling people on chains. They're like, hey, I wanna move money from Chain A to Chain B, Wheeler fills instantly, and then the relay they would claim their refund after this challenge period. On any chain they want. So a relay layer actually functions as like they're able to move their own relay capital to the chain they want. And the protocols rebalancing these pools in sort of real time. So again, I feel like I'm I'm getting a little bit nuanced here, but it's just it's like a really cool piece of engineering in terms of being able to balance liquidity across these pools. In close to real time, bundling transactions, which saves on gas fees and keeping the whole thing pretty capital efficient. ",
+            "start": 1948.9291,
+            "end": 2162.2222
+        },
+        {
+            "speaker": "1",
+            "podcast": "Oh, yeah. This is helpful. And so what I'm hearing here is that this cross bridge leveraging Oo is optimistic oracle is more decentralized than other bridges and it's more capital efficient than other bridges as well. So now I'm just kinda wondering like, what are the trade offs here? And I'm thinking like, right with, like, optimism optimistic roll ups, like optimism and. I know this is maybe bad comparison or a bad example. It's just like, when you are trying to withdraw your funds, there is, like the seven day withdrawal period to allow for dispute. So is there anything similar to that? Related to this bridge? Or... Yeah. I just like, what are the trade offs if any? So if you think of this ",
+            "start": 2163.1135,
+            "end": 2204.5764
+        },
+        {
+            "speaker": "2",
+            "podcast": "this a cross bridge the re layers have a two hour delay before they can get their capital out. So if I'm... If you wanna move a hundred grand or ten from Poly to Ethereum. As a relay layer, I'm going... There's a there's an Lp pool that exists. But as a relay layer, I'm gonna send you ten on a ethereum, and then I'm out that ten for a two hour period, like I don't have it for two hours. And then I get paid back after that two hour dispute window. I charge a fee for that, but like, that that is a cost where some of these other protocols don't have. To Have that that waiting period. The interesting thing is, though, When You Look at this news case, like It Makes It More Decentralized Because Hey, I Like Anyone Can Say, Hey, I Didn't Do My Job As A Relay. Like, This is a truly the dispute function is truly decentralized. Whereas, I'd say that something sort the designs, you're trusting a network. Nodes or valid that you don't really have a lot of transparency and they'll like what they're doing. And like that network of nodes or valid could be like nodes one entity. And there's just less there's less transparency, what's going on there. Here, it's super transparent, But The Trade off is That The Relay Has this two hour waiting period before They Get Paid back. The Cost of That turns out Is Not That high. Because the relay doesn't need to be paid that much money to to lend money for two hours. But just to really answer your question, which I think it's a good one like there is a trade off here. A relay has a capital cost to provide liquidity instantly. Well still allowing for living be this challenge period where we can say, hey, something. That that relay... You you didn't relay, you didn't do what you said you're gonna do. So are those relay layers essentially providing ",
+            "start": 2205.666,
+            "end": 2325.331
+        },
+        {
+            "speaker": "1",
+            "podcast": "unsecured loans for two hours for a fee? Is that am I not understanding this? ",
+            "start": 2325.8667,
+            "end": 2331.6023
+        },
+        {
+            "speaker": "2",
+            "podcast": "They're very much secured. Right? They get to the relay gets paid back at liquidity pool, so they're very much secured loans, but they are providing a loan for two hours. ",
+            "start": 2332.1758,
+            "end": 2340.4158
+        },
+        {
+            "speaker": "1",
+            "podcast": "Okay. Got it. Yep. That makes sense. Wow, okay. Yeah. I mean, it fits right into the scalability. Myeloma. But it's like you know, That's what You try to do. Right When you're trying to to figure out scale inefficiency Is like, what are you willing to sacrifice And then how do you mitigate That as as little as possible. Right? ",
+            "start": 2341.2302,
+            "end": 2358.951
+        },
+        {
+            "speaker": "2",
+            "podcast": "Yeah. And again, like, different use cases, you go on this trial in different use cases. Hit on different points here. Turns out the way people uses bridges, it's not hard to have a relay charge of small p that adds up over time to do these two hour loans. It turns out that actually like kinda of works. Right? And that's because Like, things aren't super spiky, Like, people are kind of bridging relatively consistently. There's like, like, the way the bridge is getting used. This works. There could be... There are other use cases though where maybe that doesn't work very well. And like, everyone's trying to bridge all at exactly the same time This too hour delay becomes incredibly costly. In this bridge use case, it's not. And I think that works pretty well. And then Justin, as time goes on and get even more confident with the system that two or delay can come shorter which makes the whole thing more efficient. So maybe that delay becomes half an hour. Maybe that delay is shorter on l to the L two bridges because you know, you mind blocks faster. It's like you don't have there's not as many spam attacks. On the ethereum, need a fairly long delay because, like, if gas costs shoot to the moon and someone can't get the can't get a transaction through. That's problematic. So we needed to be long enough that even an extreme distressed circumstances, someone can still get a dispute transaction through. So there's always optimizations that kinda happen over time and that you figure out you figure out what works in these trade offs. ",
+            "start": 2359.5908,
+            "end": 2459.3699
+        },
+        {
+            "speaker": "1",
+            "podcast": "Yeah. It feels like Oo and the cross bridge have pretty much her positioned himself. Pretty well for the multi chain future? So would you see as, like Oo role in this multi chain future? And you feel like you're you are positioned as well? ",
+            "start": 2460.3374,
+            "end": 2479.3147
+        },
+        {
+            "speaker": "2",
+            "podcast": "One nerdy view. When you're on a single blockchain, atomic transactions an atom makes a lot is really important. Being you able to do things like flash, everything happens in one transaction and you're done. The autistic to global design works less well in that environment. Because in the obstacle design, you need to wait this dispute period or this challenge period. And so if you're try to do things atomic, Well, it's Kind of annoying you have to Program it differently. But In A Cross chain world, there Is No atomic transactions anymore. They're not Possible. It's like something happens on one blockchain and then like, you gotta get it to another blockchain. They're they don't happen at the same time. And so an optimistic system actually works really well here because there's already a break delay between these two things. And so you can prove things on one chain versus another optimistic in a way that like fits with with the system. And this is like a super nerdy answer. But basically, because a multi chain world, is fundamentally not atomic in lots of ways, The d oracle works really well because it's not an its atomic system and it can communicate these truths between blockchain. ",
+            "start": 2480.3525,
+            "end": 2562.3486
+        },
+        {
+            "speaker": "1",
+            "podcast": "So this sounds like it's that two hour delay is a feature, not a bug. Correct? ",
+            "start": 2562.9985,
+            "end": 2567.125
+        },
+        {
+            "speaker": "2",
+            "podcast": "I kinda think so. Right? And you can think of, like, Like look. Everything multi chain and the child made these points to. Everything multi chain becomes significantly more complex. You now have to think about the security guarantees of different chains and how they interact and all that. But introducing a delay a challenge period feels like a safe way to to one of the steeper ways you can understand the complexity or sort of sandbox what's going on on different chains. So I think that's really useful and really important. That's like the nerdy answer. And then, you know, I'm just a really pragmatic practice So and then on a pragmatic mad can talk to the level, a multi chain world, people are using blockchain to do more things. We're gonna like, we're gonna build social media on a blockchain. We're gonna build all the source stuff. So the use cases the types of data we need in those applications. I think are just much broader. Right? And we're not just needing price data. We need all sorts and it's certainly not price data on just like the top fifty crypto cryptocurrencies. We need all sorts of other types of data. And that's where this design works really well, being able to prove any bit of arbitrary data onto any blockchain, like that's a feature. ",
+            "start": 2568.3948,
+            "end": 2656.4492
+        },
+        {
+            "speaker": "1",
+            "podcast": "Absolutely. So I've I've got a couple other questions, but they're not necessarily related to Oo specifically. So before we get into those, you know, is there anything else that you wanna touch on that maybe I you haven't had a chance to address where I haven't asked? ",
+            "start": 2657.8772,
+            "end": 2672.1467
+        },
+        {
+            "speaker": "2",
+            "podcast": "The real twin, I I I'd actually say for your audience It's like across as a protocol, that's again, something we started the sort of internal Hack and it's growing into a full on full fledged product across Me two launched three weeks ago. And again, like, to the credit of our community and our engineering team, it's a really amazing piece of technology. We are also, like, launching it into the community, and we I encourage your audience to get involved in our community because it doesn't have a token yet. We promise the community that there will be a token associated with it. And we're trying to launch the thing really fairly and have it be a a community owned piece of technology. And so basically, Your Audience like Get Involved in the Across This board Pay attention. I think There's cool stuff That's Gonna Be Happening There. ",
+            "start": 2673.2634,
+            "end": 2732.4287
+        },
+        {
+            "speaker": "1",
+            "podcast": "I Mean, Didn't Even Ask Win Token But You Offer That up Anyway. So Kudos To you. ",
+            "start": 2733.24,
+            "end": 2738.5837
+        },
+        {
+            "speaker": "2",
+            "podcast": "We've Been Trans We've Been Transparent About It. But I think Yeah. It's like, in bearish markets, it's a cool time to be a builder, and I think it's a really cool time to get involved in in communities of promising technologies. And I think we are I think across a promising technology and I yeah, just love to kind of build in this environment with the people in our community. ",
+            "start": 2739.7004,
+            "end": 2766.227
+        },
+        {
+            "speaker": "1",
+            "podcast": "Yeah. I'm glad to talk about the bear market, because that is actually my next question. And well, not, you know, not from a price standpoint, but you know, you and your team, Oo have been around for quite some time and you've seen bear markets. So I'm just curious like, what advice do you have for developers and teams that are building in the bear market? Like, what should they focus on, what advice do you have? ",
+            "start": 2766.7192,
+            "end": 2791.6921
+        },
+        {
+            "speaker": "2",
+            "podcast": "I like their markets because you get to focus on the tech and the ideas. And Not Like To Hype In The Marketing. Right. And If anything I think Oo Like, we I think we outperform on our ideas in our tech and we under perform on our marketing. It's kind just culturally who we are. So I like that. And I guess my advice would be focused on the tech in the community and the ideas That's this is the time to do that. This is the time to really, like, let Deep thinking come up with innovative ideas and try to build them. And I think that's sort of a time to be celebrated versus just like the Go Go go, Like, Number go up. Let's Let's Shell And Market. Like That Has Its Use. Trust me. Like The whole Cycle of Crypto It's got its own brilliant games theory where the hype cycle of crypto gets smart people involved in this space. I'm convinced of that. But it is in the bear markets where the like, the people that are that really get it. Those are the ones that stick around and those are great people. ",
+            "start": 2792.4258,
+            "end": 2874.76
+        },
+        {
+            "speaker": "1",
+            "podcast": "Yeah. I Totally agree. I think it's Refreshing A Little bit. I Mean, obviously Like The price action Is Not Great. But It's Refreshing To Kinda See that you know, there were all of these basically centralized companies that were using File on the back end they were calling themselves Defy that actually weren't. Right? I think some of them were saying un bank yourself by giving us your money and we'll invest it for you, like, that's that's not how this works. And so it's refreshing to Kinda see The Bear market kind of Provide a cleansing of that environment. If You will. I don't know if you have any similar thoughts on that. But it's nice to see just kind of like, in my mind, the blue chip, Defy projects who do have sound economics and sound just, I guess, code architecture kinda rise to the top again. Do you have any thoughts on that? Yeah. I can count the table hard on that, Justin. Like... ",
+            "start": 2875.9507,
+            "end": 2932.712
+        },
+        {
+            "speaker": "2",
+            "podcast": "So I have a weird career path. Like, I was a relatively young guy sitting at the Goldman Sachs Trading Desk. In two thousand and eight in two thousand nine, when like Le Brothers was blowing up, for example. And I was there like, on the weekend, Markets are closed. I was a treasury trader, but the swaps traders sa beside me. Swaps traders had no fucking clue what the risk exposure of Le was. Right? And I mean, I was super impressed with the risk management decisions getting made there. But this is an example of, like what was wrong with The Financial System We Had. There Is Just No Transparency Where the risk Was. And Goldman Was The Best Of Anybody At Managing This. A lot of you Will Hate On Goldman and That's fine too. But like these guys were at least Good at their Job. Right? And I watched the swaps test to Sit There Like making Crazy Guesses About The Risks. But What The risk Exposure Was And Trying frantically To Try to Get Their Hands Around It. And That's The Whole. Like That's What D defy is Supposed To Solve Right? Like you can see what people's risk exposure is. And so if you wanna know something I'm just pissed off about, it is this C that people have no idea what the risk exposure of these entities are were. And that's entirely what we're trying to solve. And so kudos to, like the actual e five projects, like maker compound of a like these guys and kudos to the communities around them too that are analyzing those positions and being like what's safe, what's not safe, Like let's manage it. There's transparency there. And it is a huge innovation for there to be transparency there, and the other stuff is not d five. It gives a space of bad name, and it sucks. It's like, really, I feel I really feel bad for retail consumers that got hurt with something like you know, Celsius. That's just not the way it's supposed to be. That was not what the promises is. And so let's just make sure we're We don't do that again. That's not d defy. That was like traditional banking in a regulatory arbitrage pool that ",
+            "start": 2934.5496,
+            "end": 3069.6978
+        },
+        {
+            "speaker": "1",
+            "podcast": "Trying existed. Yeah. Exactly. And I I think obviously you and I in the same Page I think the majority of people who are Still on Crypto Twitter probably also on the same page there. And the... Those that aren't who came in through this cycle hopefully they stick ground and they learn because I don't know. I feel like the bear market does put principles first, which is also exciting. Like I said, kind of a refresher in a cleansing. But anyway, so we're kind of over overtime. Actually, But yeah, So I just want to say, you know, where can people go to find out more about yourself art and then the Oo protocol and the a cross bridge? ",
+            "start": 3072.1497,
+            "end": 3111.9177
+        },
+        {
+            "speaker": "2",
+            "podcast": "Yeah. To reach me best places is Twitter. I'm How two thousand one, h a two thousand one on Twitter. For oo, Also Twitter's great and or join our disco community. Just go to at oo project dot org and our links are there. And for a across, again, Discord and Twitter, the bridge itself is that the domain across dot two across that t. I also think people should check out our bridge. It's a great way to bridge between Poly and L two's and Ethereum works great. ",
+            "start": 3112.6492,
+            "end": 3145.3875
+        },
+        {
+            "speaker": "1",
+            "podcast": "Alright. Yeah. Well, thanks again for coming Heart. I really appreciate it. And anyone who's watching live on Youtube, Poly on Tv. Thank you for watching. I said live. But it's recorded. Thank you for watching the video. And for anyone who's listening on Spotify. Thanks for listening on Spotify as well. Heart. Thanks again. Really appreciate you coming on. Really excited about what's good going On with Blue Cross. ",
+            "start": 3146.1997,
+            "end": 3166.8113
+        },
+        {
+            "speaker": "2",
+            "podcast": "Justin thank you so much. Thanks Gavin. ",
+            "start": 3167.6912,
+            "end": 3168.9712
+        }
+    ],
+    "summaries": [
+        {
+            "title": "1. Understanding the Importance of Background Art in Design and the Rise of Cryptocurrency in New York: A Poly Alpha Podcast Episode Featuring Art Lambert, Co-founder of Oo Protocol",
+            "summary": "The Poly Alpha podcast features an interview with Art Lambert, co-founder of Oo Protocol, discussing decentralized finance in the crypto industry. Lambert shares insights on the current state of Oo Protocol and the industry as a whole. The text also explores the growing popularity of decentralized finance and cryptocurrency, highlighting the reasons behind the interest, such as financial inclusivity and transparency. It discusses the role of technology advancements, like blockchain, in enabling the growth of DeFi and how individuals are getting involved through investing, trading, and participating in decentralized applications. Additionally, the text discusses the philosophy behind smart contracts and their potential to revolutionize financial products."
+        },
+        {
+            "title": "2. Exploring the Mechanism of Blockchain and the Role of Oracles in Providing Data for Developers: The Importance of Universal Market Access in Fintech",
+            "summary": "This text discusses the concept of universal market access in the fintech industry and the need for internet-based businesses, like fintech, to be global in nature. It explores the development of an optimistic oracle solution for financial contracts using blockchain technology. The text explains how decentralized oracle protocols work and the incentives for disputes. It highlights the role of oracles in providing external data to blockchain networks and the importance of different oracle designs for various data requirements. The text emphasizes the need for research and exploration in this space to find the most suitable oracle design for different use cases."
+        },
+        {
+            "title": "3. Exploring the Potential of Optimistic Oracle for Insurance Claims on the Blockchain and the Importance of Insurance in the DeFi Space: The Evolution of a Protocol for Synthetic Assets",
+            "summary": "This text discusses the transition of a protocol from working on synthetic assets to creating a separate protocol that operates on optimistic Oracle. It explores the role of oracles in decentralized finance and their evolution over time. The text also discusses the potential benefits of leveraging optimistic oracle technology for insurance claims in the blockchain space. It highlights different approaches to insurance implementation, focusing on traditional insurance and para insurance models. The text emphasizes the importance of insurance in decentralized finance and suggests that optimistic oracles could be the key to achieving product-market fit in this space."
+        },
+        {
+            "title": "4. The Cross Bridge and its Relationship with Optimistic Oracle: Comparing Different Bridges and Oracles for Transactions in Cross-Chain Asset Transfer",
+            "summary": "This text explores the connection between the Cross Bridge protocol and Optimistic Oracle and how they work together for cross-chain asset transfer. The author discusses the origins and evolution of cross-chain communication and the importance of the optimistic oracle concept. They mention the use of bonding in assets to secure the relay layers involved in asset transfer. The Neumann token is crucial for resolving disputes with the Oracle, while the Oo token is used for voting on disputes. The text compares different bridges and discusses the importance of decentralization. The Cross protocol is praised for its decentralized nature and innovative financial engineering. The benefits and potential trade-offs of using the Cross bridge are also discussed."
+        },
+        {
+            "title": "5. Understanding Scale Inefficiency and Mitigation in Short-Term Loans and the Benefits of a Two Hour Delay in Work: The Security and Efficiency of Bridge Use Cases in a Multi-Chain World",
+            "summary": "This text discusses the concept of a two-hour delay in work and its benefits, such as increased productivity and well-being. It also explores the complexity of a multi-chain world and the need for security guarantees and interactions between different chains. The text highlights the use of a delay or challenge period to understand this complexity and sandbox different chains. Additionally, it discusses the trade-off of delayed capital in relay layers and the concept of unsecured loans for a short duration. The author seeks clarification on their understanding of these concepts."
+        },
+        {
+            "title": "6. Introducing Across: A Community-Owned Technology and the Importance of Transparency in the Financial System: Advice for Developers and Teams Building in a Bear Market",
+            "summary": "The text discusses the technology called Across, which aims to create a community-owned piece of technology. It started as an internal hack and has now become a full-fledged product. The team plans to launch a token in the future and encourages the audience to get involved in the Across community. The text also discusses the advantages of participating in communities focused on promising technologies during bearish markets. It emphasizes the value of prioritizing technology and innovative ideas over marketing hype in the crypto market. The text also highlights the need for transparency in the financial system and praises decentralized finance projects for their efforts in providing transparency and managing risk. The author emphasizes the importance of staying informed and learning in order to navigate the cryptocurrency market successfully. The text also mentions various platforms and tools available for connecting communities and expresses gratitude to Heart and excitement about the current developments with Blue Cross."
+        }
+    ]
+}

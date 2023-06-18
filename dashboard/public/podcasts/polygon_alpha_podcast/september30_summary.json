@@ -1,0 +1,358 @@
+{
+    "podcast": {
+        "title": "Polygon Alpha Podcast",
+        "host": "Justin Havens",
+        "image": ""
+    },
+    "episode": {
+        "title": "Cross Chain DeFi Borrowing Aggregation | Fuji Protocol | Boyan & Daigaro | Polygon Alpha Podcast",
+        "number": "17",
+        "date": "SEP 30, 2022",
+        "description": "",
+        "url": "https://www.youtube.com/watch?v=15xrqqAnGMY",
+        "speakers": {
+            "0": "Justin Havens"
+        },
+        "file": "september30.mp3"
+    },
+    "transcripts": [
+        {
+            "speaker": "0",
+            "podcast": "Hello everyone, Welcome to the Poly Alpha podcast. Where the Poly gun community gathers insights from today's leaders decentralized finance web three in Crypto. I'm your host Justin Havens, a aka Crypto t. Let's get started. On today's episode of Poly alpha, we are joined by D and Boy from Fuji protocol. By Ga, Boy. Thanks for being here with us today. How are y'all all doing today? Feeling awesome. Thanks for having us Justin. Yeah. Thank you. Thank you. Happy to have y'all all here. It's real pleasure. So we usually like to get started off with just the background of our guests. So, you know, what is your background? What were you doing before web three? Dia let's start with you and then we'll move on over to Bo. ",
+            "start": 0,
+            "end": 46.22184
+        },
+        {
+            "speaker": "2",
+            "podcast": "Sure. So I'm one of those guys that used to work in a different industry and then I transitioned into Crypto, but I have always are At least, I... Since two thousand fourteen, I've known of bitcoin, I remember reading the the white paper and getting hooked since then Though I didn't do anything until later on. However, my my background or my professional background is in aerospace engineering, completely different industry. But I think the experience I have had there has helped me. And that's why I kind of new programming and in twenty twenty, I got to or I read about the decentralized finance and I think that's how I got cooked And and yeah, I think that summarizes a little bit our myself. ",
+            "start": 46.85992,
+            "end": 105.22386
+        },
+        {
+            "speaker": "1",
+            "podcast": "Yeah. And Yes, my background is a bit diverse to. So I before joining Fuji, I have been working for a couple years as a Cto of B2b web two startup up in Paris before this like tech experience, I have been working in a bank and in fund. So Defy was like when I find out about Defy, I felt in love we did because like it's the intersection of my to, professional passions and background finance and technology. And yes, like I met the d Ga last year during Hack and where our journey started fuji journey started yes, last January. ",
+            "start": 106.25796,
+            "end": 186.37701
+        },
+        {
+            "speaker": "0",
+            "podcast": "That's so interesting. So, Like, you were an aerospace engineer and then Boy, you were in traditional finance, but you switched over to web development But the two of you met at a Hack? What Hack was that and what drove the two of you to go to that Hack to even meet each other? Yes, actually, it was like ",
+            "start": 186.86938,
+            "end": 206.06808
+        },
+        {
+            "speaker": "1",
+            "podcast": "we even didn't meet because it was an online hack ton. We met couple of months after we founded Fuji. So yes, actually, it yes, it was a complete complete remote relationship. Yes. And it was completely by chance. We I guess it was the case for both of us we subscribed. We got to the like looking for other teammates And yes, we formed the team with other people and yes, here, this is how we we met and how eventually things happen. ",
+            "start": 206.91653,
+            "end": 260.02966
+        },
+        {
+            "speaker": "2",
+            "podcast": "Yes. I think if I cannot just at something. We were just on this court, kind of looking I'm looking for teammates and it was kind of serendipity deputy that that Willie met. And yeah, I think we kind of had a same vision of building something, new, something different, probably not just... For for... And I'm talking about the it on. We wanted to have some in original. And I think that's how we came up with the idea for Fuji. ",
+            "start": 260.74713,
+            "end": 296.38828
+        },
+        {
+            "speaker": "0",
+            "podcast": "Okay. So Fuji was a product of the hack. ",
+            "start": 297.34097,
+            "end": 299.80212
+        },
+        {
+            "speaker": "1",
+            "podcast": "Yes, we came up with it by just I mean during a brainstorm like by asking ourselves, okay, what? Everyone else is doing right now and it was in the hype of like yes, D defy summer was over, but cod defy was very hot. And by that time, there were a lot of eu ag that were up on the market. And yes, we say, yes, so everyone is looking to maximize their yields, but no one is looking to minimize their cost, right? And yes, this is how yes, we looked at the other side of ",
+            "start": 300.2938,
+            "end": 354.89343
+        },
+        {
+            "speaker": "0",
+            "podcast": "of the market. And so an opportunity a very interesting opportunity. Yeah. And let's on that, now, let's get into Fuji protocol a little bit because it is a lending and borrowing ag. And you see a lot of the centralized exchange ag, and then you also see, like you said, yield ag as well. Why did you feel like there was a need in the market for this type of ag in the D f space? So I think it's a good question because ",
+            "start": 355.6847,
+            "end": 383.6764
+        },
+        {
+            "speaker": "2",
+            "podcast": "the departing where we say it's a need, that's still debatable because we're still trying to find our product market fit. But Definitely, if you think about what d allows and the fact that you can start using your assets as a collateral to take a loan, And you know, probably right now, most people just use it to farm some other stuff or do some kind of strategy within Defy, I think if you have a longer vision, I mean, it's it's a way of saving that I think would allow people when they borrow and fight, they would allow them to have credit line access to whatever they want in real life. And I think as we think about these sometimes and we say, oh, maybe we're too early in, facilitating this lending aggregation. But yes, I mean, this is just to mention some of the things that cross our mind when we were thinking. Well, right now, if you want to borrow or you have to search the best rates, you have to see which platform you have to use. And the optimization of doing this wasn't there. So that's the angle we took. ",
+            "start": 384.06915,
+            "end": 464.39304
+        },
+        {
+            "speaker": "1",
+            "podcast": "Yes, exactly just to that yes, we see first the rates, the interest rates in different markets are highly volatile. So for the regular user, if they have to switch between different lending providers themselves. They can. There are also tools to do so in an easy way. But there is the overhead of the efforts that have that users have to invest. To in order to achieve this optimization. On the other side, we are seeing we're seeing on every chain, several money markets, several lending protocols being there. So if we add also the complexity of money markets on different chains, proposing different conditions, So we see how this market is super segmented. So yes, I guess yes, it's like it's I would call it a need for for the next wave of users or even for the current users to have two such as Fuji two to aggregate for them to relieve them from the burden of like looking throughout the the markets, doing this these actions themselves. So yeah, this is our niche. This is ",
+            "start": 465.19064,
+            "end": 573.7756
+        },
+        {
+            "speaker": "0",
+            "podcast": "these our users. And I go, I like what you said about you know, being too early because I think a lot of people would just think that d defy in general might be a little too early, but someone's got to be the very, very early innovators in this space And I I can see in the future, they're obviously being a need for lending and borrowing ag just like there's a need for decks, ag or to centralized exchange ag as well and yield optimizing ag as well. But I guess, like, when you're going through this... Well, I'm just kinda thinking like, there are so many decentralized exchange ag out there Why do you feel like there are so many of them? Is it just easy to put together from a comp comp standpoint? Or is it more difficult to build on top of like Abe and compound than it is like Uni swap V two and Quick swap V two. Yeah. The dex aggregation, it it has ",
+            "start": 574.22845,
+            "end": 631.18994
+        },
+        {
+            "speaker": "1",
+            "podcast": "it challenges. But in a way, it like once the ag fetch is like the best route for a given swap. And the relationship between the decks and the user after completing the swap, ends, right? The user gets their tokens and they do whatever they want. While with lending and borrowing aggregation, there is much more complexity because users, once they borrow or land, they still the relationship between the ag and the user continues in time till the moment they repaid their loan. So actually, it's not only that's why we are describing fuji that first, we are routing the user to the best over to the best interest rate depending on lending on borrowing, which is okay, kind of easy. But after that, what is most challenges is to how to optimize continuously. So that users pay the least or like have the best lending Apr. So yes, this is maybe part of the answer why there are so many d ag and not so much lending ag. ",
+            "start": 631.64996,
+            "end": 729.2742
+        },
+        {
+            "speaker": "0",
+            "podcast": "Yeah. And that's really interesting point you put out there too is that, yeah, you're right, when someone uses a deck ag, if they're interacting with Uni swap or quick swap, the shipments at that point. The trade has happened and now it's over if you're using a lending and borrowing ag, and it ag me to ave over compound, I still have to relationship with Aj because they're they they have my collateral, Right? Or the protocol has my collateral, not they. Yeah, that that's really interesting. So how... I mean, what kind of challenges have you gone through building on top of these lending and borrowing protocols. Is it? And I also wanna know like, which lending and borrowing protocols do you currently support on the Poly gun network? ",
+            "start": 730.1365,
+            "end": 780.8613
+        },
+        {
+            "speaker": "2",
+            "podcast": "I what I can add also in terms of part of the complexity is also the risk. I think just because of what B mentioned that the relationship is longer. There's also risk associated, for example, on being middle leisure in where you are relying on the underlying protocols security as well. So there's an aspect of risk that has to be kind of manage by the ag. And I think that's also part of the challenge. ",
+            "start": 781.4192,
+            "end": 816.0359
+        },
+        {
+            "speaker": "1",
+            "podcast": "Yes. So on on back on your or on your question about Poly. Right now, we are aggregating Ave two and Ave three. And yes, on Poly gong, actually Has pretty like a pretty dominant position. And we agree that it's not the same like to aggregate other market and and compound market, if we can say they there on the same level of like security assumptions, Tv and some other smaller protocols that have just couple ten million or twenty million dollars of Tv. So this was our main challenge in our View one, how to account for this for these difference is how to account for the different risk that each of these lending markets half. So that's why actually for our V two, we think to allow for more we plan allow to allow more flexibility for users, which means to to still aggregate markets, but to aggregate different set of markets. Which means like we'll have like the biggest less risky markets like other and compound. On one side and some other smaller or more risky but maybe with higher like with some farming going on there. But we think to give the user, the choice of selecting what risk they are ",
+            "start": 816.59235,
+            "end": 949.33496
+        },
+        {
+            "speaker": "0",
+            "podcast": "willing to take Yeah. That may... Yeah. That's that's interesting. And so you're only using of v two and V three right now on the Poly gun network because that's... That is the most Tv, which makes sense like that. Those are the most liquid markets. But could you foresee a future where you implement like Like cheat out or something like that where you have a vault and then you meant my, which is a Cd style, stable coin. Is that something that you can integrate into the protocol and that... It's it's a it's a very different type of lending in borrowing I guess, when you compare it to all V two and V three. Right? But how would that fit in your protocol if at all? ",
+            "start": 950.19495,
+            "end": 993.63135
+        },
+        {
+            "speaker": "1",
+            "podcast": "If we can differentiate like the kinds of lending and borrowing available currently in Defy, like we can see money markets type of compound and money markets type g, maker, Ab Dab. So Yes, exactly. And with our Alpha version, our view one, we have like we were focused on just the first type. But we definitely in our V two, we foresee to to aggregate also the other type of markets? And why not like having a combination of both what I mean by combination of bodies, like you can take out a loan in Usd, for example. And we route you to have at the beginning. But after that, like we find out that the user finds out that they want to actually not paying not paying the interest on this table coin and switch to another one. And here is where we can we can provide this kind of 4g vote where users will be the vote will be rebalance between stable coins that accrue some that are bearing some interest paying some interest for them and stable coins ",
+            "start": 994.83777,
+            "end": 1098.678
+        },
+        {
+            "speaker": "0",
+            "podcast": "to refinance for them so that they they they don't pay any interest at all. So essentially, a user could swap their stable coin position based on the current market rate to benefit to take advantage, I guess of that ",
+            "start": 1099.1361,
+            "end": 1113.2155
+        },
+        {
+            "speaker": "1",
+            "podcast": "arbitrage situation. Yes, like to swap the debt or also to swap the collateral, like they have for position with Collateral W. And for some reason, they want to swap it for W or mat And yes, so it will be possible with this kind of vote. ",
+            "start": 1113.5929,
+            "end": 1135.6715
+        },
+        {
+            "speaker": "0",
+            "podcast": "That's really interesting. Yeah. I can definitely see a use case there. Just it just makes things a lot more convenient for the user, which... I mean, that's mainly what ag do in general. Right? A lot less research. The protocol does the research for you. So, like, do do you have one global position at Fuji for all of, like, for all of my assets? ",
+            "start": 1136.9478,
+            "end": 1156.6294
+        },
+        {
+            "speaker": "2",
+            "podcast": "Yeah. I think I can answer that. So for example, in the architecture that we have designed, there's something called a pair. Basically a pair is a collateral and debt asset. And I'm talking here specifically about a borrowing bolt. In where you're able to take a loan. So with this pair, everybody that is in this market our pull together and basically the bolt is the one representing the pool in the lending providers. So in the more specific in the V two architecture, we actually refining the volt as an E forty six forty six, twenty six. A little bit of d legs there, sorry. But the idea here is that the pool, everybody that enters this bolt. They get chairs of the pool, both in their collateral or in and in their depth ",
+            "start": 1157.188,
+            "end": 1234.0898
+        },
+        {
+            "speaker": "0",
+            "podcast": "I really want to talk about V two and like what's next on the roadmap, because I think that's going to be we're a lot of the really exciting things are happening. But I have just like two more questions on where we are right now. And the first one is, if there is like a farming opportunity on the specific lending and borrowing pro call, like, what does the Fuji protocol do with those farmed tokens Or do they... Does it does it even matter? Can't do the Fuji protocol do anything with them? Yes, it's actually it's important quite important question ",
+            "start": 1234.7241,
+            "end": 1264.7401
+        },
+        {
+            "speaker": "1",
+            "podcast": "because most of the protocols provide this farming opportunities. And we have to account for it when choosing one protocol over another. And even in our current version, we farm the fuji farms, the rewards. Current and compound compound them for more collateral for the users. So actually, this is another feature So the first one they're routing the ref and this is the third very important feature for our users that is the farming that it's how of compound compound for them the rewards from the underlying protocols. Which means that like we found the token and sell it for more collateral and compound it into the pool, so that everyone that has a share like get see their collateral increase ",
+            "start": 1265.6759,
+            "end": 1337.2455
+        },
+        {
+            "speaker": "0",
+            "podcast": "Oh, that's really interesting. Okay. So the farm tokens are essentially just dumped to improve the collateral factor for the borrowers. Correct? Wow, that's amazing. And so currently, Fuji protocol, the markets are are pretty much siloed depending on which blockchain you are on. Right? So if you wanna borrow and lend on Poly gone, you're stuck using only Of v two and Of av v three maybe I shouldn't say stuck because those are very, very good protocols to Lend and borrow from. But what's the next step? It's the multi chain future. Right? So do you wanna to talk a little bit more about version two and what that has to offer for users and and developers alike? ",
+            "start": 1337.874,
+            "end": 1380.6777
+        },
+        {
+            "speaker": "2",
+            "podcast": "Yeah. I I think I'm just gonna speak briefly about the multi chain world. I think there's two general tests, right, people that think there's going to be this layer one that is going to dominate everything and everybody should just build there I think there's evidence now and we're seeing that the excesses of the multi chain world is there and like is probably going to continue in where certain applications are going to be in specific chains and the market is going to exist on these different chains. So I think based on these and the idea that this will continue and that the new wave of coming users will have to deal with this multi chain world. I think that's where our Fuji two with crushing capability starts. So maybe Bo and you want extend? ",
+            "start": 1381.329,
+            "end": 1444.0585
+        },
+        {
+            "speaker": "1",
+            "podcast": "Actually, it's something that was tinted by our own users, like asking questions like, okay. Now I want to use Fuji on Phantom, but I have some on some other chain. And like what bridge you will advise. So and actually, we see there is a like a huge friction in in this like multi chain world, right? Like users are forced to switch between different products between Ui to achieve something that could be easy. Even protocols calls that are multi chain, they they don't have a way for their users to interact the from within the same interface on the different chase. Like, they... Okay, they have a link to... Okay, go to this bridge and and do whatever you want and come back. And yes, for real aggregation of lending markets, we want we want to propose to users all this experience to happen in one place. Which means, for example, user has collateral on Chain a. They want to borrow, they want to borrow and to get the assets on Chain B because there is something they want to do with the borrow amount. And we have like if the user is about to to do this operation then they have to to do like five between five and seven or eight transactions. And what we are aiming with Fuji Two is to allow this to happen in only single transaction. Which means the user, they just select the the the chain where their collateral leaves, where they want to borrow and there is just one transaction and they get the borrowed amount on their address in Chain b. So yes, this is our ambition and it is like it's good time for this kind of application to to be proposed to users because we are seeing like more and more like layers of the bridge layer, being able to get into the application layer. Which means that the bridge itself, it won't be anymore like another application. It will be part of the core application that users are used to using for their use. ",
+            "start": 1444.7767,
+            "end": 1635.136
+        },
+        {
+            "speaker": "0",
+            "podcast": "This is fascinating. So on the V two version, I could essentially say, hey, I wanna use Wrapped ether as collateral and I wanna borrow Usd dc against it and it would just show me different protocols on different change in which rate would be the most preferred for me, the lowest, I guess. So that that's really interesting. But then like the on the case of like, collateral and debt swaps, which we talked about earlier. It makes sense to me, I guess on if it's just on a siloed protocol or blockchain, to blockchain basis. But when you go multi chain with collateral and debt swaps, it gets a little fuzzy to me, Can you talk through, like maybe more of the mechanics on how that works? Yeah. So actually, this crop chain ",
+            "start": 1636.1892,
+            "end": 1683.7623
+        },
+        {
+            "speaker": "1",
+            "podcast": "Cross chain fuji that we are building. It we started to conceive it back in April this year during e after amsterdam Hack. We yes, we participated as a team under a different name, but we wanted to build like a proof of concept of we call it a debt teleport. Which means like you have debt position at J and A and you want to swap you want to move it to teleport the whole position, collateral and and that's to another one because conditions are better. Yes, we we build like this proof of concept, we were even amongst the finalist. And it is possible. It is possible and it resembles a bit of a cross chain flash loan. Like knowing that the flash loan can like the definition of flash loan is being executed in the same transaction. So I'm saying flash loan in quotes. But yes, actually the debt swaps and the collateral swaps that we talked are are possible, thanks to flash loans. So if we manage to create a system where we can we can mimic this loan crop chain. Like I think it will be it will be for our V victory. So yes, the dead swaps and the collateral swaps they are possible within a chain because we have to use a flash loan. But in the future, when when maybe Fuji relies on on our own pools of liquidity that trusted contract can take a flash. It can take a loan on Chain A and repaid on Chain B and there are some in our workings on rebalancing this liquidity pools. So in that case, we can talk about cross chain debt and collateral swaps. So yes, the case for V two is cross chain, lending and borrowing. ",
+            "start": 1687.809,
+            "end": 1849.5334
+        },
+        {
+            "speaker": "2",
+            "podcast": "Yes. And the debt swap will happen if the opportunity is within that chain, that can be done. The cross chain depth swapped, I think that's more complex. And I think it involves these cross flash loan. That basically it's you you need a temporary debt on on one side of the chain that there's some trust assumption that you will pay back And I think that's part of the system that kind of requires this liquidity post that ",
+            "start": 1850.0111,
+            "end": 1888.4799
+        },
+        {
+            "speaker": "0",
+            "podcast": "perhaps in a v victory, we can integrate. Yeah. This is really interesting. I feel like these are just a lot of the challenges that we've been talking about in the defy space for a while that Fuji is addressing or attempting to address. Because the this is like, really difficult. And when you said flash, yeah, I mean, when I think of flash, I think of a transaction that opens and closes within the same block. And I I but it's so flash quotes, because from a cross chain perspective, like a semi flash loan. I mean, yeah Or a fuji flashlight, I guess y'all can kinda determine what it's called. If y'all heard gonna be the first ones to do it, I'm not aware of anyone else doing that right now, is which is really interesting. I also want to talk about the four sixty two six standard I mean, how are y'all leveraging the E four six two six standard? And was it just, you know, the standard came out and you were thinking, oh, we need to use this in our protocols some way or another? Or was it you looking to solve a specific problem and then the E four Acoustic standard went live, and you decided to oh, this is what we were looking for out did all of that. So ",
+            "start": 1888.9967,
+            "end": 1960.7074
+        },
+        {
+            "speaker": "2",
+            "podcast": "I can talk about part it. And maybe Buddha you extent after that. But one of the problems that you face when you want to move data chain to chain is that if the data is changing, in the case, for example, debt, right? You're always like it's always acc. And if you wanna know how much you owe on on the other chain, this ever changing value, it's kind of a challenge to know okay. This was at this moment, but when it actually executed it on the other chain, it should be another number, right? So there's a challenge there. So E forty six twenty six allows for example, has this share system in where chairs are your are of fixed portion of a pool and the chairs don't change. The the amount of chairs are is not an ever changing number like the interest that you're owing. So with the structure that they already did, it's I think for us transferring shares between chains was more easy than transferring current debt balance or current collateral balance plus interest. So that's one aspect of it. And I think B, maybe on the we're seeing that more projects are building on this standard and like the functions are standardized. So if we think about kind of building strategies with other teams, I think this is something that will not only allow us to help user the individual users, but maybe in the part, we can also work with Bt ",
+            "start": 1961.3236,
+            "end": 2084.683
+        },
+        {
+            "speaker": "1",
+            "podcast": "kind of work. Yeah. Yeah. I think this the compost part is really important here. Because actually we saw for the like we have like the E twenty seven, twenty one and or others. But like for the lending and borrowing, we saw compound the V two being used like there are many forks of compounds like maybe eight percent of the lending market are forks of compound, V two. And like it established itself like as as the standard per s for lending and borrowing across chase. But what was missing on this market is dis standardization of like official standardization. I know that forty six twenty six is maybe not like the was not intended for this, it was intended for token vote. You would bearing tokens. But like bit of we extended it a bit. So to allow also to account for not only for the collateral that is acc yield, but also to use it as to account for the interest for the interest grow of the dataset set. So yeah, this is very important and also we see how E forty six twenty six is used for exactly this lending lending and borrowing side, for example, with F length They extend also E forty six twenty six for their new product, which is lending. So yes, we're super excited like to work with this standard because like we see a huge potential for comp and actually old standardization is welcome for products for ag like us. Right. We don't need to re implement for every different lending and boring market. Their own specific ",
+            "start": 2085.699,
+            "end": 2233.0608
+        },
+        {
+            "speaker": "0",
+            "podcast": "smart contracts? Yes. Yes. Standardization does make things a lot easier for the devs. Absolutely. And yeah, I think on the Poly D side, we're really excited to see how E four six two six, starts to implement itself. And I think there are, like, a lot of untapped use cases that people just have not yet discovered for four six two six. But we are starting to see a lot more projects starting to implement this, maybe or starting to play around with the four sixty two six standard like yourselves, m stable is one, I think super form, I think tattoo might be doing something with it. So it's exciting to see what those teams will do with that standard and what kind of comp comp it'll bring in the future as well. So I love to hear loved hearing else thoughts on that. But also, another thing I wanna talk about that related across chain has to do with the bundling or bundles and permits. And then you are also leveraging the E seven twelve standard as well regards that. Can you give the our audience maybe like a little background on what that is and how it plays into version two. Oh Vip seven twelve basically is a standard that ",
+            "start": 2235.9106,
+            "end": 2304.776
+        },
+        {
+            "speaker": "2",
+            "podcast": "allow signing messages for smart contracts. To be more readable to the user or the front end client, so that they're not just signing a random hex string that they don't even know what it is. So now how we're using this in in our version two is that When when when you have to execute something on behalf of a user, there's for example, like a router that does things on behalf view. There's a security assumption that this router you have to trust it, Right? And the... And when you're sending messages cross chain, you have to know who is the message sender that you can trust. So I think what we were able to do with with permits is that you can sign a message beforehand, saying that I'm going to send this collateral to the chain and I'm going to allow this specific router that I know belongs to the fuji smart contracts that they are gonna open the viral position and they're gonna send the funds to me. So it essentially allows on the receiving chain to do actions on behalf of the user, by yes signing a message and saving the user the additional transactions on the other chain. So yes, everyone knows about ",
+            "start": 2305.7856,
+            "end": 2413.0432
+        },
+        {
+            "speaker": "1",
+            "podcast": "actually this Ea pace as we call them permits, right? And like we know some E twenty tokens that instead of requiring from the user to do approve our transaction to approve for example, when we swap when we do a swap on uni swap, like we have to approve the token beforehand so that we can swap it. And some tokens, they allow for signing just a message and which which to be used as like approval for the contract to execute this transaction. So this is like the base case of the permits. And like our challenge the challenge for us was how to because the user in the cross chain the cross chain lending and borrowing, the user acts from chain a. And the actual borrowing the depositing and borrowing, will happen on Chain b. So from by another contract that as des ga described, the user has to trust And so that's how we came up with Idea that we can use the same mechanism for signing approval. But instead of like for the approval for Es twenty approvals like we use permits for debt management. Like the user signs this message, we transferred it to do the other chain and validate it on the other chain and the user like the contract is authorized by by by it to borrow on behalf of the user. The post borrow on behalf of the user. Yeah. Definitely helpful for... I mean, ",
+            "start": 2413.4153,
+            "end": 2543.9258
+        },
+        {
+            "speaker": "0",
+            "podcast": "When I sign a transaction and I see just a giant string of hex numbers. I don't take the time to try to pay attention to what it is. So I I always thought that this was a nice little implementation. And just a nice little I guess, improvement to the Ux for the users in general. Because I think like that's one of the main things that we're missing in D defy right now, but it's improving over time. It's just like the Ui and Ux. Improvement for the users, right? What are you y'all thoughts on Ui ux or what is Fuji philosophy on that? ",
+            "start": 2545.5322,
+            "end": 2578.3027
+        },
+        {
+            "speaker": "1",
+            "podcast": "Yes. Our philosophy about Ui and Access like to abstract away as much as days as we can. So the user like can focus on on what is the most important for them. I think the biggest advantage with Fuji Ii will be that this huge improvement in U. Ux is that the bridge the bridging logic itself is baked into the application itself. Next, like this the lending and borrowing, it requires some knowledge about health factors about collateral borrow limits, and all this. And yes, it's super important for us not to spare from this important information for the user. But to present it in a way that is the like obvious like they don't have to user don't have to to go on two tips and treat this dock or go to some links to get like to get the basic understanding. So that's why we like we are super focused on the Ui to present the all important information ",
+            "start": 2581.9883,
+            "end": 2677.618
+        },
+        {
+            "speaker": "0",
+            "podcast": "to be obvious for the for the user. Yeah. Absolutely. And it looks like we're starting to run up on time here a little bit, but there's some other things that I I wanna touch on specifically. One is token economics. Do you have a token? Will you have one in the future? Hate to ask a win token? But. ",
+            "start": 2678.6445,
+            "end": 2694.6567
+        },
+        {
+            "speaker": "2",
+            "podcast": "So what I can say is that one of our goals I think is first to show a product that offers value to the users. And I think the most important there is to have a product that shows traction, right? I think once you have that, then having a utility token makes sense. And And I think we're in the position in where we want to show a product that has traction. And once that's demonstrated then the token will come in and obviously token will belong to the users because that's the that's how you decentralized the product, Right? ",
+            "start": 2695.1494,
+            "end": 2739.613
+        },
+        {
+            "speaker": "0",
+            "podcast": "Right. Absolutely. I'm not gonna dig much deeper on that. So... But another question I do have is from a revenue standpoint, and like, how does the protocol generate revenue with all of this going on in the background. I mean, this feels like a very gas intensive aggregation system. ",
+            "start": 2740.4248,
+            "end": 2757.9832
+        },
+        {
+            "speaker": "2",
+            "podcast": "In our Version one, the way we were considering protocol revenue, was that we were charging zero point one percent on top of the whatever we were optimizing. So this was a protocol revenue and for Rv two, I think we haven't said anything stone yet, but probably this potentially could be an option. And also we plan to add services on the side that also add value compared to the current Lending platforms that things that you cannot do, for example, in V one, we try this one click closure position. And And, you know, in that, we were charging a one percent of the debt as a fee. And it was good. I mean, a lot we got a lot feedback that people like that because can close their position in one click. ",
+            "start": 2759.1113,
+            "end": 2827.9016
+        },
+        {
+            "speaker": "1",
+            "podcast": "Yes, I think here our direction for ",
+            "start": 2828.7,
+            "end": 2834.3882
+        },
+        {
+            "speaker": "2",
+            "podcast": "the ",
+            "start": 2834.766,
+            "end": 2835.0605
+        },
+        {
+            "speaker": "1",
+            "podcast": "for revenue streams is like we have like a basket of like some base services that they don't pay for, like the sustainability, like they don't generate the most bigger the biggest chunk of the revenues of the protocol. But like other like satellite services that are also very important when users manage their positions. And actually to charge users with for these services. So yes, I guess it's like well known like way of companies revenue generation, like does the service that users come for is for almost for free. And they're like other services, they are generating the revenues for like the whole product. Awesome. And ",
+            "start": 2835.816,
+            "end": 2902.8232
+        },
+        {
+            "speaker": "0",
+            "podcast": "one more question I have for each of you. Well, I've got a couple more actually, but what else on the road map? Or what other features of version two gets you all the most excited that maybe we haven't touched on quite yet. ",
+            "start": 2903.276,
+            "end": 2916.1216
+        },
+        {
+            "speaker": "2",
+            "podcast": "Sure. I think among some of the user research that we've done, one topic kept coming and probably because of the bear market coming across was this concept of liquidation protection. So how do users that have an open position, protect against getting liquidate And I think it's something that a product that it's added value service on top of a lending platform. That can extend the services that we offer on B2b. But maybe it's not for, ",
+            "start": 2917.5762,
+            "end": 2961.3184
+        },
+        {
+            "speaker": "1",
+            "podcast": "it's further down the road? Is this idea of cross chain flash loans that of course, needs much more thought and thinking to get achieved. But yes, I mean, for already for V two like we super excited to work this for the cross chain coast. Actually, we didn't mention, but like we we are partnering with Ko connect to make this happen. They launching major upgrade of their month or so. And we are leveraging on yes, we are leveraging their network and this new upgrade Ama upgrade. To make the x calls between the crushing calls happen. ",
+            "start": 2961.8574,
+            "end": 3030.538
+        },
+        {
+            "speaker": "0",
+            "podcast": "That's really interesting. Yeah. I think this is such an interesting concept and I think it's definitely something that's a need in the space. And the future is multi chain without a doubt. And with that comes ag that also go multi chain. And, like, from a flash loan standpoint, I can't even imagine how a cross chain flash loan would even happen. I'm I'm not a developer and that's it feels like moon math and some giga brain dev stuff that I just don't really have the ability to comprehend because at my heart, I'm a traditional finance person. So... But this has been great, Dag and Boy. I'm really glad okay on the show. I I feel like, you know, I've been trying to get Fuji protocol on the podcast since I was doing the index coup podcast about a year ago. So I'm glad to finally get you on one of the podcasts that I'm doing now. And in For that, I'll just... I'll leave it with you all, you know, where can people go to find out more about the two of you and Fuji? ",
+            "start": 3031.731,
+            "end": 3094.8706
+        },
+        {
+            "speaker": "2",
+            "podcast": "Sure. So I think our Twitter account is at Fuji Finance. So just follow us there. We do our main announcements there. You can also once you go to that, you can find our links to this court where you can follow the community there. And yeah, I think that's where you can find this. ",
+            "start": 3095.8389,
+            "end": 3118.3958
+        },
+        {
+            "speaker": "1",
+            "podcast": "Yeah. We have like an awesome community in this court like in different languages and yes, it's there like where we can chat and discuss like awesome features or ideas, crazy ideas. ",
+            "start": 3119.5862,
+            "end": 3135.784
+        },
+        {
+            "speaker": "0",
+            "podcast": "Awesome. Absolutely. Like I said, I appreciate y'all coming on. And for those of you all listening and watching. Thank you for listening and watching. Spotify, Youtube, subs stack, Apple podcasts, please subscribe and stay tuned for the next one next week. Dag Bo. Thanks again, and I'll see you all next time. Thank you, Justine. ",
+            "start": 3136.8943,
+            "end": 3158.333
+        }
+    ],
+    "summaries": [
+        {
+            "title": "1. Poly Alpha Podcast: Interview with Fuji Protocol Team Members",
+            "summary": "In this episode of the Poly Alpha podcast, Justin Havens interviews D and Boy from Fuji Protocol. They discuss their backgrounds and how they got involved in web three and decentralized finance. The aerospace engineer shares how his engineering skills have helped him in the world of cryptocurrency. They talk about their diverse experiences in finance and technology, and their love for Defy. They also mention meeting at a hack event, which led to their journey with Fuji. The text highlights the unique circumstances that brought them together and the successful collaboration that resulted. It also discusses the need for farmers to focus on cost reduction in addition to maximizing yields."
+        },
+        {
+            "title": "2. Transitioning from Aerospace Engineering to Crypto",
+            "summary": "This text explores the need for a lending and borrowing aggregator in the decentralized finance (DeFi) space, with a focus on Fuji protocol. It discusses the benefits of using assets as collateral in DeFi and the challenges users face in finding the best rates and platforms to borrow from. The text also discusses the complexities of lending and borrowing aggregation compared to token swaps and the challenges of building on top of lending and borrowing protocols. It highlights the importance of early innovators in the DeFi space and the potential for combining different types of lending and borrowing in the future."
+        },
+        {
+            "title": "3. Diverse Background Leads to Passion for Defy",
+            "summary": "The Ag Protocol provides users with easy access to information and a global position for their assets at Fuji. The concept of a borrowing bolt in the financial system is explained, where individuals can take loans from a pool of lending providers. The significance of farming opportunities in the Fuji protocol is discussed, as well as the current siloed nature of markets depending on the blockchain being used. The speaker believes in the future of multiple blockchain networks and introduces Fuji Two as a solution to streamline multi-chain interactions. This would simplify the user experience and take advantage of the integration of bridge layers into core applications."
+        },
+        {
+            "title": "4. Meeting at a Hackathon: How Two Professionals from Different Fields Found Common Ground",
+            "summary": "This text discusses the significance of standardization in the lending and borrowing market, particularly focusing on the use of the E4626 standard. It highlights the potential benefits of standardization in smart contracts and mentions the growing interest in implementing the E4626 standard. The text also discusses the use of signing messages for smart contracts to improve readability and trust in executing actions on behalf of users. It discusses the use of permits in cross-chain lending and borrowing and explores the concept of collateral and debt swaps. The text also mentions the concept of a cross-chain Fuji and the challenges faced in the Defi space."
+        },
+        {
+            "title": "5. Forming a Remote Relationship through an Online Hackathon",
+            "summary": "The text emphasizes the importance of improving user interface and user experience in the decentralized finance (DeFi) space. It discusses the challenge of understanding complex transaction details and the need for a more user-friendly interface. The text also mentions the significance of showcasing a product before introducing a utility token and discusses potential revenue models for Protocol Rv Two. Overall, the focus is on enhancing UI, providing essential information seamlessly, and generating revenue while improving user experience in the DeFi industry."
+        },
+        {
+            "title": "6. Building Something New: The Birth of Fuji",
+            "summary": "Climate change is causing disruptions to global food production, leading to concerns about food security. Urgent action is needed to mitigate these effects, including sustainable farming practices and investing in climate-resilient infrastructure. Revenue generation for companies often involves offering base services for free and charging for additional services. Liquidation protection can be an added value service on lending platforms to protect open positions. Cross chain flash loans are being developed through a partnership with Ko Connect. Multi-chain finance and cross-chain flash loans are complex concepts, but more information can be found on Fuji Finance's Twitter and community platform. Having a diverse community in a court setting allows for engaging discussions and sharing of ideas."
+        }
+    ]
+}

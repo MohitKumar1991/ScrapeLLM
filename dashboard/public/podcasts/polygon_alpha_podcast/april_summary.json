@@ -1,0 +1,331 @@
+{
+    "podcast": {
+        "title": "Polygon Alpha Podcast",
+        "host": "Justin Havens",
+        "image": "https://substackcdn.com/image/fetch/w_512,h_512,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fea37d999-885e-4616-aecc-33f8454a88cc_1400x1400.png"
+    },
+    "episode": {
+        "title": "Swapping Through Time | TimeSwap | Ricsson Ngo, Harshita Singh, Ameeth Devadas | Polygon Alpha Pod",
+        "number": "25",
+        "date": "APR 6, 2023",
+        "description": "",
+        "url": "https://www.youtube.com/watch?v=15xrqqAnGMY",
+        "speakers": {
+            "0": "Justin Havens",
+            "1": "Ameeth Devadas",
+            "2": "Harshita Singh",
+            "3": "Ricsson Ngo"
+        },
+        "file": "april.mp3"
+    },
+    "transcripts": [
+        {
+            "speaker": "0",
+            "podcast": "Hello everyone. Welcome to the Poly Alpha podcast. Join us as we explore the latest trends, innovations and strategies in this exciting world centralized finance in Web three. Our guests are experts and thought leaders in the industry sharing their insights and experiences to help you better navigate this rapidly evolving crypto landscape. I'm your host, Justin Haven, A aka crypto, so sit back, relax. Let's get started. Today, we are joined by Ami amir, Hash, And Rick, all founders c founders from the time swap team. The first fully decentralized automated market maker based, money market protocol without the use of oracle. Ami, Ar R on, thanks for being here with us today. How's everything going? ",
+            "start": 0,
+            "end": 50.98181
+        },
+        {
+            "speaker": "1",
+            "podcast": "All good. All good. Thank you for having us. Yeah. I mean, quite excited to see here. We have obviously been interacting for a long time. So we excited again chat with you speak to the Poly community more our time so man. Yeah. Video. ",
+            "start": 53.523746,
+            "end": 70.090004
+        },
+        {
+            "speaker": "0",
+            "podcast": "So let's start with some introductions. Let's for those that are just listening to the audio and not watching the video, we'll put the voices to the names. So let's just go through your roles and, you know, what is your role in what is your title at time swap? Our sheila, Let's start with you and then we'll go to a meet in Rick's on? ",
+            "start": 71.61,
+            "end": 92.268936
+        },
+        {
+            "speaker": "2",
+            "podcast": "Hi. So I'm harsh, I'm one of the C cofounder founder with Time labs. So Pete predominantly with Time I oversee business operations hiring business development investor relationships and finance. ",
+            "start": 93.63476,
+            "end": 107.512115
+        },
+        {
+            "speaker": "0",
+            "podcast": "Amazing. Thanks for that. And then Ami amir? ",
+            "start": 111.414536,
+            "end": 113.17227
+        },
+        {
+            "speaker": "1",
+            "podcast": "Yep. So... Yeah, Ami amir, what are the cofounder of time. So been in crypto early twenty seventeen, mostly through your typical cycle of buying and losing all our money shit coins and then later, researching on what type of my money into and then realize so this is, like, pretty insane technology. And then yes. Like, was here till during the twenty nineteen bear markets and obviously, during the early days of let's say, d five when we used to call it open finance, like Synthetic, which is Our today. And then obviously, d defy summer happened and like was obviously, thanks to go covid with was stuck at home. So was just, like, playing around with all the d defy farms and realize that probably defy the first breakout application for block, and so it gave me real conviction to, like, quit my previous gig in Fintech. So yeah, I was in Fintech before this and prior to that in tri. So, like, the full cycle from Graphite to Fintech now defy. So we are very excited to. Be part of this e ecosystem and also building the last couple of years. So, yeah. Let's get further into the completion. Fix an o you. ",
+            "start": 114.290825,
+            "end": 181.5089
+        },
+        {
+            "speaker": "3",
+            "podcast": "So my name is Rick. You can just call me Rick. I'm also called Time lord in the times of community as well. So yeah, my academic background is in mathematics. And I've been inspired by the different T five projects, roughly around two and a half years ago. And learning about all this interesting project and all this interesting project that is able to create finance in pure sense for sure, not not corrupted or not not corrupted by, let's say, governments. Right? It is free market in its year's respond, I'm really inspired to do something about it. And that's where I started time so, roughly two and a half years of. So I'm the technical founder, the the one who does the economics, as well as the tech side of tang. Nice to meet the everyone. Yeah. ",
+            "start": 185.42093,
+            "end": 242.57677
+        },
+        {
+            "speaker": "0",
+            "podcast": "Yeah. Thanks for that background. And so in my introduction, I said, time swap is the first fully decentralized, automated market maker based, money market protocol without the use of oracle. So that is a mouthful for a lot of people who are not familiar with D defy. So I... My next question is, what is time swap? ",
+            "start": 244.58292,
+            "end": 266.80768
+        },
+        {
+            "speaker": "1",
+            "podcast": "Yep. Let's can go ahead. ",
+            "start": 269.68372,
+            "end": 270.56107
+        },
+        {
+            "speaker": "3",
+            "podcast": "Alright. So alright. So I was The the first time I utilized D defy other than bitcoin ethereum was uni. Like, the first time I went to their website. The first time. I don't have to sign up for anything. I just have to put a number. They just swapped to whatever talking in one. That was, like, Was inspired. I was inspired by that. And obviously, after that, I've also learned about different projects like, like compound compound, for example. Right? And to that, I tried to read and try to understand. Okay, How do this pro works? Right? And based on how those works, what are the characteristics that makes it work, what are the difference? Right? And the thing about pro like Uni swap, and I'm also gonna include balance because they have very similar architecture. Curve curve is that this protocol works permission. Right? You can just literally create a decks. For any pair of tokens. It is fundamentally un, and I'll try to talk about more about this concept of ability a bit more later. And there's no go required in a sense that the the the key protocol, like, there's no keys to stop it, essentially, it just works very well. And when you look at, let's say, other protocols, the current, like, popular designs of lending borrowing protocols right now and even in options as well, is that they don't have all of these characteristics. If you want to create a money market, let's say, in, you have to ask permission from a dow. It's very governance heavy. And usually, when it's governance heavy, there are some problems with regards to know, There's no permission less innovation because of this. Right? So that made me wonder. Why is it that in protocols like uni to swap balance. You can do it permission. We're in protocols like ave compound compound. And many other very similar design as those protocols. Why can't they have this permission is designed? Right? And that's where I started, okay. I wanna start times soon. So time so is the the idea here is, I want to create money market protocol. Essentially a protocol to manage tokens true time essentially, to be a but with all the same characteristics and all the same benefits as protocols like abe. So the thing that makes times of very different from modern money market. Is number one, It's permission less, literally. There's lit... We literally don't have any keys You don't have to ask for permission. You could just call a single function. It will create the pool for you and... And you just have to add liquidity and you now have a pool wherein people could now lend or borrow from it in a free market process. And the best part about this one is it works permission l for any tokens, whether it's high quality token like it or Usd or whether the... It's the ship long tail token you can imagine like Shi bao, like a Shi pool. You can actually create a time of pool with that if you want to So that makes it so that... And it does so without any Oracle. It doesn't read from any Oracle price, so Oracle manipulation by definition cannot can ever happen in time so. Think the best metaphor I usually use for this is you can get a brain tumor if you don't have brain. So it's the same logic there. It's impossible to be hacked if you don't have an oracle by definition. Right? And because of this... And finally, time up is also generalized. Is generalized to any token as well. Whether it's high volatility token or a low token, it just works. And the idea here is I want to create the same experience as anyone that interacts with uni software balance. We can just create a pool easily with very minimal amount of gate keeping, but for money market. So that's what time up is all about. And the reason just to add something to it as well. The reason why it's called Time shop is because you're fundamentally swapping tokens through time. Whenever you're lending, you're moving your tokens from the present to the future. And whenever you're borrowing, you're moving tokens from the future to the present. You're managing tokens to time. ",
+            "start": 272.39554,
+            "end": 563.67065
+        },
+        {
+            "speaker": "0",
+            "podcast": "Right? And when I do think about lending and borrowing protocols like Ava, in compound, they do have to go through that governance process because they do have to assign certain risk parameters like the loan to value of a specific asset, right? If it's long term versus, you know, you need to be able to manage those those parameters almost like a credit committee at a bank or a risk committee at a bank in a sense. But you with time swap, y'all are attempting to extract way, even those specific parameters like, how would that... How does that work compared to abe compounds. Let's get into a little bit more details because I think most people are very familiar with of and compounds, maybe how how some of those parameters are different. ",
+            "start": 565.76337,
+            "end": 611.2193
+        },
+        {
+            "speaker": "1",
+            "podcast": "Yeah. I think the easiest example probably... Like, we launched the blur Dc pool on a ethereum like couple of weeks ago. Now let's say, a community like Blur, which has a very strong set of folders, like great set of investors. But it's a new token, so it's expected to be highly volatile. And obviously, if the liquidity is low on, let's say, send... Let's say, decent exchanges, the Oracle can be a problem. So where times are comes in is for communities like this, which have a strong, let's say, brand, they have a lot of users, the token has clear demand. On time of the day, the Uni of pool is created, same day you can create a money market because there is no external reliance. It's basically the person who has, let's say, the assets, believes token needs a money market they can go to time and create a pool. So just like you create a uni soft pool so let's say blur, you can now come and create money market pool on time. So this essentially is the fundamental difference in terms of, let's say, when we say permission less on time, We basically means permission, not just for users. It's also permission less for, let's say, the projects and communities to create let's say, a great let's say, economy around their token. So today, token economy has let's say, utility through, let's say, Uni because your exchange exchange value. Now with time of, these token communities can also capture value through time, not just in an instance. So that's fundamentally the main, let's say, value proposition as users as projects. Now when it comes to design, obviously, there are certain differences, like R mentioned earlier, we don't use Oracle. And obviously, like you mentioned, why do let's say, huawei compound compound need governance. It's because fundamentally, like you said, the risk parameter setting In our case, what we believe is that why should a set of people in a dow decide the risk why not let the people who are putting capital decide the risk Right? Essentially, we are doing the same thing with Uni of today, like, let's say, if somebody creates a Uni of pool. If the price in that pool is, let's say, different from, let's say, bin or some other market with larger liquidity, you're essentially giving let's say, Arbitrage is free money. Right? To bring the price back to whatever central venue. What you're are saying is why restrict to just exchange prices, why not even have risk also market driven rather than being decided by, let's say, few sort of people let a now or, let's say, some external let's say let's say, company that's deciding risk for the entire cost. So what we believe is isolating risk for pair of assets, whereas an Abe compound, all assets are in one pool. What we have decided is okay. Let's isolate the risk between only two assets So let's say in blur Case, the person who's lending has to only worry about blood token and its performance. Whereas in Rb, let's say other protocol, when your lending stable coins into the pool, you're lending it against twenty different assets. And if Huawei adds a new asset into the pool, you are taking risk against that also. So it's a slightly different thought process of how to scale money markets for every asset. And how do you, let's say, weigh the pros and cons? What are the trade offs you're making to achieve this goal of being fully permission less money market. So for building that, we have come out with certain let's say, mechanisms like this Oracle list no liquidation loans, market collateral etcetera. So all of this obviously is inspired from Uni stop. But the goal is that eventually or the vision is that eventually for any community. When they launch a token, they can have an exchange market on Uni shop, they can have a money market on time shop on the same day. That's like the eventual goal. ",
+            "start": 612.1738,
+            "end": 847.70374
+        },
+        {
+            "speaker": "2",
+            "podcast": "I think the simplest analogy that we always give is that Time is like Uni, but for lending and involving, which means that the way you can have exchange price discovery for any assets, you can have interest rates and collateral factor discovery on time swap. So one important thing to also note is that on time your Lt is also changing rates, with every transaction, the collateral factor is also dynamic. So there is a correction that happens in terms of market conditions. So when you go to a component Huawei or other protocols. So you will see that Lt or your collateral factor is a fixed number. So if it's a fixed number then it will only it can only change through governance. So there is response time, which is not correcting as per the market. So I think this with times of you're able to solve this problem of capital inefficiency where it is fairly possible that if you have to borrow some asset, you might be looking higher collateral owned component of because it's a fixed number. But it is also possible that since currently the market conditions are something else and your collateral sector can be much less also that we have seen on times out many times that you can get loans at a very local factor as compared to other protocols calls? ",
+            "start": 850.1022,
+            "end": 925.5964
+        },
+        {
+            "speaker": "0",
+            "podcast": "Yeah. And I love that analogy where you say time swap is like the uni swap for defy lending and borrowing. And that I think that resonates a lot for me and that helps me understand it because I think when most people think about mission in terms of like, Ave or compound or just defy lending and borrowing. They're thinking about anyone can you know, supply assets as collateral and anyone can borrow those assets. But permission can go further than that as well in the sense, you know, which y'all are talking about, you know, the the creation of markets Right? For Avant compound, you've got go through governance. For Time swap, it's very similar to Uni swap in making a liquidity provision pool and that you can just do it. The that is also permission list, which I think is is very interesting about time swap. And Like, who do you foresee being like the main end user here for Time swap? Is it just... I mean, obviously people who want to go long or short on a specific asset or wanna borrow against an asset for a specific amount of time? But who else do you see? Where else thoughts there? ",
+            "start": 927.5025,
+            "end": 1001.11633
+        },
+        {
+            "speaker": "1",
+            "podcast": "Yeah. I think for us, the way we think about this is like every user who uses Uni shop is a direct, like, say, end user for us. It's just that what kind of product do they need on a, let's say, time frame. Right? So everything that time shop does is based on time frames. It's basically you are essentially capped ring the time and risk value for a pair of assets. Right. So for us, it is essentially all the users of, let's say, defy, who are our end users, ring But if I want let's say, get into, let's say, short term specifics Right? So if you look at one specific design of a pool is such that... You see the non liquid loan that we are offering. It essentially replicates the payoff of, like, a put option that we see generally, these days in, let's say, decent options vault. Right? So these walls today, capture a lot of field, like they have about I think, three hundred million plus Tv across all the, and they have, like, managed to, let's say, create this let's say, new pool of capital that's accessing the risk through a different kind of instrument, right? An option is a different instrument. But what the projects have done is, they have abstract their complexity of option away and just provided it to the users, Okay, Just deposit your assets, it's gonna earn yield, we'll manage it. So the... That is one sum segment of users that we think would really find value with Time so because what we are essentially doing is something similar, Like, you're landing into the pool. There is borrowers in the other side that can be looked at similar to, like, how, like, like option sellers or on one side and borrows on the other side or say option buyers. So that is one sub segment. If I wanna talk about, like, today, who could find real value. So other things are obviously the long tail asset communities, if they wanna let's say, leverage, like like I mentioned, blur, right? Like, the blur community, if you wanna leverage your asset, you just deposit it on time. You can borrow against it. One set of users is that obviously projects themselves can be our end users like something that we mentioned earlier was initial debt financing offerings where projects themselves can raise capital by using their treasury assets. So this actually came into being with some conversations with other projects, like during this deep bear market, what many projects were doing was they were selling their native assets from their treasury into the market to meet their monthly expenses. And these projects told us will be rather prefer like use this asset in our, let's say, treasury as collateral to borrow. But unfortunately, there is no solution in the market today. So with time of now, these projects can also, like, deposit their treasury assets into, let's say a pool borrow directly against it from community. So like, the potential use cases for time solve this, like, pretty much up to the creativity of the end users and the market because The the M does one thing really well, it enables you to capture time and value for any pair. Now you can create all kinds of financial products that captures like this time frame and time value. So, like, some of the users, like I mentioned are long tail asset communities, even option traders, even simple lenders, like we are working on a vault, which is gonna come out pretty soon where essentially, our users don't have to worry about moving in and out of pools. You just supply assets like, stable going through this vault, and the world will actually manage this across different pools on time and earn deals for you. So, yeah, quite excited. Like lot of, like, use cases are possible because it's a fundamental defy primitive at the end of the day. ",
+            "start": 1002.07526,
+            "end": 1217.3864
+        },
+        {
+            "speaker": "0",
+            "podcast": "Yeah. I think that's something that is also kind of standing out to me is that there is this opportunity for future comp comp ability. Yes. Some of the... Yeah, you've touched on that a little bit, Ami me. But like like I can see, like, bonds being something that could be built on top of this so you mentioned options. Like, are you talking to any teams right now who are who are planning to use this? ",
+            "start": 1220.0398,
+            "end": 1245.1097
+        },
+        {
+            "speaker": "1",
+            "podcast": "I mean, I mean, we have predominantly working with, let's say, market makers because there are a lot of market makers who already work with like other options protocols where they are buyers to the option vault and they sell that on exchanges because the implied volatility is different compared to centralized markets. So that is definitely a sub segment of users that we are currently actively working with because they essentially fill the by side of the protocol and cell side is basically all the folks on D who are looking to earn yield. So essentially, you're channel this, let's say, borrower demand from the institutions and on the cell side, it's basically the users of Defy. ",
+            "start": 1246.0045,
+            "end": 1286.0708
+        },
+        {
+            "speaker": "0",
+            "podcast": "Very interesting. And Yep. So I've been paying attention to Time swap for quite some time. And, you know, when I hear about, you know, it being the Uni swap for borrowing and lending, and, you know, it it doesn't use Oracle for for, I guess, price discovery. You know, that's that's something that kinda makes me sq a little bit and think. I need to dig in a little more and see what see what's going on here. And I guess, my next question is, you know, what is it like building a project like this from the ground up to where it is it is a lot more immutable than maybe some other lending and borrowing projects. And is there any fork in this project, Like, I'll hear developers say, like, oh, this is sixty percent fork or this is twenty percent fork. What was that process like for y'all? ",
+            "start": 1290.4656,
+            "end": 1342.6079
+        },
+        {
+            "speaker": "3",
+            "podcast": "Yeah. So when I start the time up, I have some very important goals. Number one is make it as decentralized as possible because if you're building a protocol on top of a decentralized system, if the protocol on top of it is more this is also dis decentralized, it's more valuable. Because if a protocol that's built on a decentralized that system is more centralized. What's the point it's less valuable. In a sense that If it's centralized, why not just implement a central server. Right? It'll be cheaper that way. What's what's even the point. Right? What's the point of? Was the point of having a central protocol that is controlled by a group of a small group of people, if if that can be done the same way in a central server, which you know, has already existed. Right? So what's the point. So that's one. It has to be as decentralized as possible. So I started doing so and the process of figuring out how to do it, Right? Took me two and a half years. And I'm talking about hundreds of iterations. So what I do is I take a notebook, right, write? A formula down, see, okay. What if people lend what happened... What's gonna happen, How would the token can flow? What's the algorithm to price the interest rate and the collateral factor? Right? And then it's through the process of hundreds of iterations where I've I found the correct a Eureka moment. Right? Area... Okay. This is it. It has hold the characteristics that Uni has, which is what I want. Right? It is un unbelievable. Like you've never heard of uni swap or balance her economically break. Right? And the good... And the reason why those protocols doesn't economically break is because because of some of these factors. Number one, it does... And this is this is the most important thing is it doesn't have a prisoners dilemma issue. There's no scenario in uni software balance sir. We're in There's a user wherein if he doesn't do the correct action, everyone suffers. There's no scenario like that in Uni swap at all zero. Because if there's a scenario wherein in there's a user or some group of users. Wherein in if they do the wrong action, it hurts everyone else, you now create a scenario in which if that user you know, does something wrong. Everyone suffers. That's essentially prisoners dilemma. Right? And one great example is an Oracle. Right? There's mismatch of incentives essentially. Someone who wants to manipulate the Oracle in such a way that they can take take advantage of this. Essentially, oracle manipulation hat comes down to just a prisoner dilemma issue. And here's the thing. If there's a prisoners dilemma issue, There will never... It can never be decentralized ever. There will always be some centralized factor to control that prisoners dilemma issue. So that's a very important characteristic that that is really important. To me. So that's why there's inside the protocol. There's no there's no problem we're it's always designed such a way that if there's a user who does the wrong thing, it's actually a game for everyone else. So there's always an incentives for everyone to do the right thing. Because whenever you do the wrong thing, you suffer. Whenever you do the right thing, you maintain you don't suffer. So it's always based on per individual basis. Every risk and reward is always isolated per individual per address. And that's why there's... And this is why our protocol can be decentralized in a sense that it's permission less. We don't have to manage it anymore. There's no keys. We... If a pool is created, someone added liquidity into it. We literally cannot stop that person anymore. So it's through that process of building it up where I end up with how time Up is designed. And A big in inspiration from it is obviously from Uni Microsoft balance. Right? I I learned a lot of how they design it. I tried to understand, okay. Why is it to sign this way? Like, I tried to understand it from first principles. So it's from there that, you know, times of is designed such a way. ",
+            "start": 1344.775,
+            "end": 1639.2152
+        },
+        {
+            "speaker": "1",
+            "podcast": "Yeah. I think also to add on to, like, what Was mentioning. Yes. There is zero fogging in this... Like like this Am, like it's completely built from the grounds up. So if you look at our evolution also like, you're aware that we have the v two up right now, but the v one took us about eighteen months to actually get it to minute it because although it hit minute in eighteen months before that, we've probably went through about seven different designs of that Itself before we finalized on that one. So like, the entirety of twenty twenty one, we were just, like prototyping different designs running, like back algorithms and see how the results are. We went close to launching test two times what we decided okay. Let's optimize this more. And essentially, that's why it took us, like, eighteen months in the first go. But obviously, those eighteen months were very valuable because we learned so many things that essentially, the V two came out in about six months after to the V one was live. So we were about able to like, compound so much of the learnings that we had from our we want into the v two design. And essentially, like, the the process. Is there's always the compounding effect where, like, today, like, if you ask us, like, we know the edge cases and the end end, let's say, boundaries of, let's say, these different designs. So we're able to, like, better create newer versions plus build products on top of it. So it's a iterative process lot of compounding and learning. But yeah, it's been pretty... I mean, it is very challenging, but at the same time, like, you're constantly motivated because like, use you are like, literally shooting in the dark because there is no frame of reference. Right? Like you said, other protocols have some frame of reference, like when you're fork or changing some design. Here there is... It's literally a zero to one product. So we had to, like, learn ourselves on the job like, making mistakes trying things out. But, yeah, I wouldn't do it any other way, pretty exciting. ",
+            "start": 1641.0553,
+            "end": 1760.8778
+        },
+        {
+            "speaker": "2",
+            "podcast": "Normally when you tell anyone that, you know, it's two years we took time to build. So, for people in Crypto to it's almost ten years. But that's what we always say that when we started, it was zero to one project. And there is no benchmarking that you can do, right? So we wanted to be very safe and secure at the same time. So when we started, you, the journey from we want to be to was faster as Ami mead said, but when we were designing, we won, we took a lot of time to do a lot of we ran a lot of ga fight testing test also where we wanted to make sure there are a lot of users, user test net, we get the feedback. Just see if there are any cases. There are a lot of security audits with a version one and this version two. So ideally, like, I mean, the code which Dickson has created fee, which he always says most if you will compare it, it's mostly similar to Uni saw. But, yeah. I mean, on the surface level, you might see that it's, you know, like, x first why into z a simple equation. But when you look at the white paper, it's a twenty, twenty five pages white paper where, a lot of things goes into how those economic settlement happens at the back end. So there's a lot of cases intricacies in how Has designed this protocol. So I think this was a long journey but worth basically trying out this protocol. ",
+            "start": 1763.3457,
+            "end": 1839.6602
+        },
+        {
+            "speaker": "0",
+            "podcast": "Yeah, That's amazing. And you know, when I look at time swap and, you know, comparing... And and you're right, it has, like, features of both Uni swap and, you know, lending and borrowing protocols. As well. When I look at when I look at Ave, you know, if you borrow assets on O, you know, there's no there's no maturity date, you don't have to pay that back ever. You're just, you know, you're acc interest, sure, but you don't have to pay that back. But then on time swap, there are maturity dates and there are terms to these loans. So I'm wondering if you could explain, you know, why is that necessary under this. Specific structure? ",
+            "start": 1842.5372,
+            "end": 1881.8445
+        },
+        {
+            "speaker": "2",
+            "podcast": "Yeah. So I think times of one of the features that a borrower get is non liquid feature, which means that that there are no liquidation in time so. So essentially, if you do a borrowing, the only liquidation that happens is at maturity where an auto liquidation, If you don't repay your debt before maturity, then your collateral that you logged is distributed to the lenders. So it's for this, you need to have a timeline where, you know, let's say, if a borrower has taken a position, let's say if it's a one week... Also at seventh day of the pool, if at that given time, you don't repay loans, your basically, position is liquidate and distributed to the lenders dose. So, yeah, that's that's the way at the base of it how we designed it to be a fixed temp protocol. So that's how it is different from Abe compound compound in terms of... So Ava compound is a continuous protocol to call. We are a fixed term protocol to call. So and lots of... Different elements in terms of design changes also, of course, that we touched upon is that we don't use Oracle site. So if you're are not using oracle, that means liquidation, cannot happen let's say based on market changes, right? It can open happen at a thirteen days. So that's how Sits we are fixed protocol, we we decided at a particular date of maturity that now if you want to liquidate a borrower a dot. ",
+            "start": 1882.8016,
+            "end": 1965.4648
+        },
+        {
+            "speaker": "0",
+            "podcast": "Okay. Yeah. That makes sense to me. And Another question I have more like in the design and architecture has to do with, you know, the the price discovery of these assets. You know, like, I understand how uni swap determines the price of an asset because someone permission creates a pool with two assets and then the ratio between those two assets is the price of both of those assets in that vacuum. And then arbitrage will come in to keep that price in line with two the rest of the market outside of that vacuum so to speak. So is it similar with time swap or how does time swap protocol determine the price of these assets without Oracle? ",
+            "start": 1967.7048,
+            "end": 2009.0789
+        },
+        {
+            "speaker": "2",
+            "podcast": "Yeah. So basically on uni of right? Let's compare with Uni, you have x y equals to k. So where the different ratio of these variables decides, what's the exchange price. So sorry, x y two K. So the Y essentially decides what is the exchange or spot price for that particular asset pair. Similarly, the way times of V two is designed, it's x plus y into z equals to K, where the ratio of these variables, keeps changing after every transaction. So the way it works is that when a lending happens, your x plus y, essentially express y consider it like a principle that you lend into the pool. So since time of pools are bad directional directions So for example, if it's a Usd dc pool, you can either lend Usd dc or Eth. So x plus y essentially is basically determining mining what is the asset in the pool? What is the Usd In the pool? What is the... Let's say, heath in the pool? So consider x express y as equal into the principal or the asset available in the pool for borrowing. And z essentially is the time factor. Which determines the interest rate. So essentially the ratio of z upon x plus y determines at any point in time, what is the interest rate of that particular pair of the pool. And your collateral effect is also coming from once your interest rate comes from this Z why your collateral factor also is decided with the z variable. So whenever the pool reserves, of these x y z state changes, your interest rate and collateral factor also changes. So just to explain, for example, if you lend into the pool, your you are actually increasing the results of the principal in the pool, which is x and y. And since it's a constant product, that means your... Z has to decrease in order for to maintain the constant product, right? Because you have increased x plus y. So if you have to decrease z, that means your interest state is going to decrease because interest rate essentially coming from your z variable. So that's how... So interest rate goes down. Your collateral factors directly also mapped with interest rate, which is z. So it is actually proportional to. So your collateral factor also goes down. So the more lending happens, the lesser is the interested rate in collateral factor for the next lender. And similarly, when you do borrowing, you are actually taking out the reserves from the pool of, let's say, the assets that are in the pool. So you are decreasing the express sum. So when you do that, you are... You have to essentially increase the z variable reserves of the pool. So by doing this, you're actually increasing the interest rate and collateral factor for the next borrower. That's how the pool dynamics works and that's how we ensure that the price discovery of interest rate and collateral factor essentially. So at equilibrium with the market. ",
+            "start": 2010.0367,
+            "end": 2176.8093
+        },
+        {
+            "speaker": "0",
+            "podcast": "Okay. That's that's very, very helpful. Oh did you have something add? ",
+            "start": 2179.0415,
+            "end": 2181.752
+        },
+        {
+            "speaker": "3",
+            "podcast": "Yeah. So essentially at to summarize a little bit. Whenever you lend, it pushes Apr and C lower, whenever you borrow, it pushes Apr C higher. So whenever those two prices doesn't fit with the market price, a lender and borrow, It means it's a very good deal for a lender or a barrel and they can arbitrage that value. Very similar to you of as you could see. Except instead of x instead of discovering spot price or we're actually discovering volatility price, and that volatility price determines Apr and Ed. ",
+            "start": 2182.4695,
+            "end": 2217.2395
+        },
+        {
+            "speaker": "0",
+            "podcast": "That is amazing. Okay. And that that helps. Okay. So that helps determine the price, the Cd and what you're calling the the volatility price, which is just price is is kinda of what I'm saying. Right? In Demonstrates. Okay. That's that's amazing. And And so on, you know, I noticed when I I've been using Time swap for a while. And I noticed that at first, you had these one week. Lending and borrowing pools where the maturity was seven days. And now, at least on Poly gone, I've seen one month pools, the thirty day pools, which expire on March twenty, which is the same day of of the Z k E launch, there's my plug, So what what was... Why did you decide on that gradual increase? I just wanna know your thought process behind that as as builders. ",
+            "start": 2220.5193,
+            "end": 2270.7573
+        },
+        {
+            "speaker": "1",
+            "podcast": "Yeah. I think fundamentally, one of the key reasons for that is a new, let's say, feature with our version two. Like in the first version that we launched last year, lenders and liquidity providers cannot exit the pool before the pool matures. So I mean, you can think of it. Right? If it's a one month pool, and you cannot exit prior to that. People be like, okay, that's like a little long duration, I might need the capital in the middle. So essentially, it was, let's say, way for us to manage, let's say, user needs at the same time. Ensuring that we have sufficient duration to capture some, let's say, yield. So one week, why we stuck to that was like most of the option vault have this one week epoch system, which runs from Friday to Friday. So all the is a set of, let's say, users in Defy who are used to this time frame. So I thought was that, okay, If we wanna, like, capture maximum users, at the same time maintain some sort of, let's say, existing user behavior that they used to, one we seen, like like a decent. Now that was obviously applicable for a version one. Now with version two, you're able to exit the pool anytime as a lender or an L nlp, you can freely move in and out of the pools, which means now we can actually extend that duration to whatever time frame you need. So Obviously, this one month was, like the first pool that we have launched. Soon we are gonna, like, start launching longer durations, like forty five days, two weeks. Let's say, three months, maybe half yearly, maybe full year also. But, yeah, it's it's purely due to the, let's say, the improvement in the design itself, with a new feature that we have unlocked with the version two products. So that's that's that's the fundamental like reason. I mean, I I... We know that users also, let's say, like longer duration it's just that they would like to have the optional. It's not like people don't want to lend for long duration. They just want an optional to exit if it's possible. That optional did not exist in our version one in v two, that optional is in built into the protocol. So you can get into a one year pool today, but let's say, three months later, you needed the capital, you can exit. Obviously, you are not gonna get the full yield. You will only get yield for that specific duration where you are part of the pool. ",
+            "start": 2271.6494,
+            "end": 2411.9673
+        },
+        {
+            "speaker": "3",
+            "podcast": "And currently, we deployed this pool, but because it's permission less, right? Anyone could just create a pool for whatever generation they want. If some... If everyone doesn't... If someone doesn't agree that our short duration pool is not enough, they can freely just deploy a two year pool or a three year pool, whatever they want and just add liquid liquidity to it. And if there's a demand for lending borrowing for that kind of duration, let it be. ",
+            "start": 2416.3606,
+            "end": 2442.759
+        },
+        {
+            "speaker": "0",
+            "podcast": "So it is... It that was one of my questions, because right now, I'm just kinda seeing, like one market on like one on Ethereum, one on Poly gun. And so that's just what's showing on the front end, but so anyone can today go in and create any ",
+            "start": 2445.3235,
+            "end": 2460.0193
+        },
+        {
+            "speaker": "1",
+            "podcast": "I guess, pool if they wanted to. Correct? Listen and I can take that. The way we are looking at this is a product is a completely, like zero to one product. Right. There is no frame of reference. So users have to fundamentally understand how this thing works before they start api in, like, one of the problems with permission listeners is also that it is permission for cameras as well. Like, scammers can create a random token, bump it on Uni swap listed here with, like, five thousand person yield and get community to lend into it, and they can, like, freely borrow the stable coin using their, like, scam token on the other side. So it it is like a conscious choice initially where we want to, like, ensure we get users to understand how the protocol works. So we believe more curated, let's say, go to market is good for the first few months. But eventually, we will, like fully decentralized where anybody can create a pool. But having said that, like, obviously, being fully decentralized means our smart contracts are on chain. And if somebody wants to do it, they don't need a permission, they can directly go to the on chain contract, and they can do that even today. So, obviously, at smart contract level, we are not, let's say, q rating, we are just q on the front end that we control. But at the smart contract level, anybody can go or deploy a pool even today. ",
+            "start": 2460.5684,
+            "end": 2545.5254
+        },
+        {
+            "speaker": "0",
+            "podcast": "Okay. And as y'all are billing this project over the past eighteen months and then the six months after that, and you've been talking to users, investors, the community, like, what are some of the misconceptions that you found yourself continually having to address about time swap? Or I guess, like, just what was the... Like, what's the most common question that you received about the project that, like, stands out to you the most. ",
+            "start": 2548.5667,
+            "end": 2573.1694
+        },
+        {
+            "speaker": "1",
+            "podcast": "Yeah. I think the most common risk consumption comes from the name itself because time swap means lot of people confuse for, like, exchange, like a x, or there like oh, you're like a swap protocol. You're like a x, and we're are like, No. It's time so we swapping assets through time, which is basically lending boring. So obviously, when we say that for the first time people like doesn't make sense. But when you tell them, like, when you're doing borrowing, you're actually giving a collateral, getting another thing back at maturity, your again, giving this back, getting your collateral. Right? So you're actually swapping but through time. So when we explain that like, like that, people like, oh shit. Now it makes sense. Okay? So That is obviously one question that we've been getting quite commonly. I think from a protocol perspective, I think some of the questions that you asked earlier. I think, like, how does it discover prices without an oracle because for a lending boring market, the prices are necessary for collateral fertilization. So I think the other common question is, like, like, how does that work? Like like, how does the protocol ensure collateral capitalization without an Oracle. So I think the free market arbitrage process is something that, like, we take the example of Uni shop, like, look at Uni. Right? It doesn't have an oracle it doesn't even quote a price. It just tells you like, okay. At this point of time, if you give this asset, you get this asset in so much quantity. Right? And then the free market economy basically ensures the exchange price is equal to all the other markets. So, yeah, I think these are some common questions. I mean Shi If any questions that you guys wanna chime do. ",
+            "start": 2573.8862,
+            "end": 2670.856
+        },
+        {
+            "speaker": "2",
+            "podcast": "Yeah. I think one of the other misconceptions while initially when we use to speak with let's say investors also used to be that, you know, okay, You was trying to build for long. We predominantly people think that, okay, time swap is for long. But we always see that if it can work for long, then definitely it can work much much better for high end assets as well. So We are not just capturing or we are not just building for long tail assets. Of course, our inherent design allows us to scale to long term assets very securely. But it also means that Time can work equally good for high end assets where it can also offer competitive prices in terms of interest rates and collateral So that is something which is a concession as of now also like no generally, people say that times of for long. ",
+            "start": 2672.371,
+            "end": 2721.7644
+        },
+        {
+            "speaker": "3",
+            "podcast": "Essentially, the... Just to add to that as a metaphor, Time is essentially evolved to be able to survive in the worst desert you can imagine. Right? Many other lending bound protocols can only survive in a rain for us. Throw them to throw them to to a desert or a manipulation about billions of dollars loss. But Time is the only protocol that can survive on a desert in the most volatile from the shit long tail tokens store, pretty good long tail tokens. Right? And because they can work there. It means it will... It's gonna survive, like cancer in a ring for. Because of all its ability to survive in a desert. You can imagine in a reinforce, it'll be a breeze for it to survive and pro. ",
+            "start": 2723.3574,
+            "end": 2774.034
+        },
+        {
+            "speaker": "0",
+            "podcast": "Survive and thrive. Yeah. I think I mean, I'm a a big fan at the Time swap name personally, because I I worked in traditional finance for, like, thirteen, fourteen years. And I always thought about lending as borrowing as like a time machine. Right? You're bringing something into the future into the present, and the cost you pay for using that time machine is the interest rate depending on what that is. So when I saw the name, I was like these guys, they get me. They understand. ",
+            "start": 2776.4902,
+            "end": 2804.7263
+        },
+        {
+            "speaker": "3",
+            "podcast": "And and to add to that, another thing that a lot of quan will really understand is time value is the same as volatility value. They're one in the same. Anytime there's the concept concept of time, there's uncertainty by definition. This is also the reason why time is all about pricing volatility. Because when you're pricing quality, volatility, you're actually pricing the time value. So that's... So time and is actually two sides of the same coin essentially. And the can't understand ",
+            "start": 2806.3206,
+            "end": 2843.9038
+        },
+        {
+            "speaker": "0",
+            "podcast": "Yeah. That's very interesting. Yeah. And... Okay. Do like, do you see Or defy protocols becoming more of a trend because, like, in the beginning that that was it, right? Like you didn't want any type of reliance on on any external parties in your project. Right? Like, synthetic and, you know, Uni swap and ba her and all of those. Do you see that becoming more of a trend? Like And and I try to think, like, is there a way to do that with, like, stable coins? I think that would be really interesting because like even l like that uses chain link. And I guess Rye is is oracle list, I think. I I could be wrong there. Also uses oracle Write as as well? Yep. ",
+            "start": 2844.5015,
+            "end": 2895.6436
+        },
+        {
+            "speaker": "2",
+            "podcast": "Because this is collateral, so it has to price in that. ",
+            "start": 2896.3596,
+            "end": 2898.7463
+        },
+        {
+            "speaker": "0",
+            "podcast": "Right. Exactly. ",
+            "start": 2900.0386,
+            "end": 2900.8386
+        },
+        {
+            "speaker": "3",
+            "podcast": "So my my answer to that is, I do believe that in the future, it will become more and more oracle at least at the core of the whole d ecosystem. Because if we want to build the core, you want it to be as un as possible. Right? And the moment you utilize an Oracle, there's now a probability of hacking because of the disparity between information and reality. Right? Because in Oracle, you're just saying something. That's it. There's the difference between an Oracle saying something versus making a transaction in doing something. Right? So time, there's nothing in time software wherein it it determines the behavior of the of the protocol based on and information. Instead, all the price comes from action from the fact that people move tokens. Everything. So essentially, you can imagine Oracle. I think the best metaphor I like to use here is this. There's a difference between you saying that you shot someone versus you actually shooting someone. Right? When you when you just say you shut someone, it could be true. It could be false. And there's no rep precaution. Right? Wherein if you actually shoot someone, right? There's actual rep precaution from everyone else. And that's why Time swapped is secure because there's no scenario where we're making decisions based on some information. Instead, every decision... Every behavior is based on through from actual token transfer, from real behavior. For sure, every time you do a stupid transaction in time up. You get precaution always. There's always our there's always a reaction to every action in Time so. And this is also the reason why uni has never broken down. For many years. It's also the reason why balance just works without any management whatsoever. Right? Wherein in... If you look at protocols with with Or, you could see that any protocols who try to go to the long tail assets, they simply get hacked because of the because of the difference between reality versus information. Right? Gets hacked. And usually when we're talking about long tail tokens, the probability of hacking increases. We're in for high quality tokens, it becomes smaller, but never zero. So that's the thing you really have to be careful about. Right? When you're interacting with a protocol that relies on Oracle, it... The probability of the whole protocol just breaks down may be very small, but it's never ever zero. So that's very scary. So in my opinion, it's very important that if you want to create a protocol, you want the court to be as as possible, especially economically speaking. You want it to be un unblock. I could imagine you would might want to require Oracle at the edge. Because again, we have to interact with the real world, but that should be at the edge of the protocol. Right? And that's important. Because if the core protocol has, let's say, zero point zero zero one percent probability of breaking, due to economic reality. Right? Then you could imagine all the protocols built on top of it, will just topple down. So we end up with this cascading issue that you know that, we've been experiencing this past few years in. Right? Wherein a protocol get hacked and some other protocol falls down with it. Right? And another And one reason why I believe that Oracle is required in some way at the edge is because Oracle will only... It's impossible to remove an Oracle if the source of truth is outside the blockchain. So for example, a dollar. A dollar... The source of fruit of one dollar is outside the blockchain. I've been I've been figuring out if there's a way to create a stable coin without any airlines oracle And unfortunately, You can. Right? For example, Usd, Usd, the company behind them. They're the oracle. They're saying, okay. We have this one Usd one Usd d, there's this one treasury backing it. So they are the Oracle. Right? Or for example, if we're talking about algorithm, they utilize an oracle say, okay. One it task was the price right now? One thousand seven hundred dollars or something like that, as collateral. Right? So any information where the information source of truth is outside the system. Unfortunately, you have no trace but you use an Oracle. But here's the thing. Interest rate and collateral factor, spot price. It's not us it's not as information that this outside of the system. Instead, it's a emergent information out of the actions of everyone in the ecosystem Think about it. Spot price is not that information because someone says. It's an information. Due to the due to the combined economic behavior and transactions by thousands and millions of people all over the order. That's how spot price comes out. There's no there's no one single spot price in the world. Is just it's just a simplification of hundreds and hundreds of... Sorry, millions and millions of transactions happening every day. That's how spot price gets gets created. A simplification of something very complex. And that goes the same way for interest rate and collateral factor. It's just an information that comes out from the collective decisions and transactions, and actions of millions of people. So in that scenario, using an oracle for those kind of information is quite... It's not the best way to do about it. It's best to just implement the system, where you're getting these actions and creating an Am to absorb those actions and create that information out of it. Hopefully I didn't go to. ",
+            "start": 2901.3186,
+            "end": 3308.9148
+        },
+        {
+            "speaker": "0",
+            "podcast": "No. I thought No. I I think that makes sense. I I had an interview with Nick. From the teller protocol, which is, you know, the the centralized oracle protocol, and we tossed on a lot of those subjects I'm like, you know, how how do you find the value of or if you're not using external factors. Like, you have to. And that's just that's just how it works. We are sadly running up on time here which is unfortunate because I have, like, forty other questions that I could ask go. But Mh you know, to be, you know, to be aware of y'all time. And the time of our listeners Just wanna ask y'all all one more question. Like, are there any other topics that maybe, like, you just wanna touch on or discuss or where... We're just where can people go to find out more about the three of you and time swap. ",
+            "start": 3310.0322,
+            "end": 3359.167
+        },
+        {
+            "speaker": "1",
+            "podcast": "Yep. I think the best place to... Learn what we do is obviously Twitter, I guess, I think that's the factor facto of the the media outlet in the news publication for an industry so we all live and die by to. So, yeah, All of us on Twitter time of labs, that's our official account. So all our announcement, everything goes through that, if you wanna get a little bit more, let's say, into the culture of four time, we have a time soft internal account, which does all the same announcements, but why she posting. So if you like to get you used in a more entertaining format, follow our intern, but if you wanna, like, follow the City stuff, the official account is time of labs. And obviously, all three of us are on Twitter time at zero x four twenty sixty nine. I guess, time lord, eat and Hu is Hash one two five come correct. So I think all of us are on Twitter, so Obviously, I mean, follow us on Twitter, we have our own, like, discord. Which is quite active. We have regular events, especially, like, it's called the time traveler community such it is follow twitter, you'll see Gm time travelers because like, our community is built around the concept of time traveling has time. This call is great then obviously, we have medium where you can learn all about, let's say, long form articles about time, there is obviously a kit book, which explains the entire moon math, which Is designed in simpler terms, which diagrams and makes it more easier for folks like us to understand. So it's something that even I consume today. So overall, like, there is a... Then like all kinds of let's say, informational stuff that we've put out there because we do know this is slightly more, let's say, not your regular kind of deep... A product, you need some more, let's say, help. So we are doing everything we can to help our users understand how best to use time. So, yeah, I think the those are some of the best ways to get in touch with us. ",
+            "start": 3360.8416,
+            "end": 3476.006
+        },
+        {
+            "speaker": "2",
+            "podcast": "Now just saying that we are also very regular with our community calls. So it's a bi weekly twitter space that we do. So if anyone if you have any questions regarding time in general with the team. You can anytime catch up at four Pm On Fridays. ",
+            "start": 3478.6382,
+            "end": 3491.4578
+        },
+        {
+            "speaker": "0",
+            "podcast": "Alright. Amazing. Well, thank the three of you for coming on to the Poly alpha show. For everyone who's listening and watching. Thank you for listening and watching. Be sure to follow us on Poly john's official Youtube channel. You can also find us on Spotify and Apple and subs. Thank So thanks again. Thanks to the three of you at time to swap, and we'll catch you all next time. See you later. Thanks. Justin, I have a happy time traveler. Happy time travel. ",
+            "start": 3493.5425,
+            "end": 3523.1272
+        },
+        {
+            "speaker": "3",
+            "podcast": "Justin ",
+            "start": 3525.83,
+            "end": 3525.8848
+        }
+    ],
+    "summaries": [
+        {
+            "title": "1. Exploring the Latest Trends in Decentralized Finance",
+            "summary": "The Poly Alpha podcast focuses on decentralized finance (DeFi) in Web three, featuring experts who share insights and experiences. In a recent episode, the founders of Time Swap discuss their fully decentralized automated market maker based money market protocol. The co-founder of Time Labs, Harsh, discusses his role in overseeing business operations and finance. Another co-founder, Rick, shares his inspiration for starting the project and his role as the technical founder. The podcast highlights the benefits of regular exercise for mental health."
+        },
+        {
+            "title": "2. Introductions and Roles at Time Swap",
+            "summary": "The text discusses Time Swap, a decentralized finance platform for lending and borrowing. It operates as a permissionless money market protocol that allows users to manage tokens through time. Unlike other protocols, Time Swap does not require permission or governance, allowing for greater innovation and flexibility. It aims to provide the same user experience as popular protocols like UniSwap and Balancer, but specifically for money markets. Time Swap eliminates the need for external reliance and allows token communities to create a money market for their tokens, capturing value over time. It also addresses the issue of capital inefficiency by adjusting interest rates and collateral factors based on market conditions."
+        },
+        {
+            "title": "3. Co-founder of Time Labs Discusses Business Operations and Finance",
+            "summary": "The speaker discusses the potential for collaboration in a certain field and asks about teams planning to utilize these opportunities. They discuss the company's collaboration with market makers and the importance of decentralization in their protocol. They also discuss the challenges and iterative process of developing a new product. The speaker mentions the lengthy process of building a secure crypto protocol and the features and differences between Time Swap and Ave protocols. They also inquire about the price determination mechanism in Time Swap."
+        },
+        {
+            "title": "4. The Journey from Fintech to DeFi",
+            "summary": "This text explains how the ratio of variables x, y, and z determines the interest rate and collateral factor in pool lending. It discusses the transition from one-week maturity pools to one-month pools on Time Swap, allowing for more flexibility in terms of duration. It also discusses the deployment of permissionless pools and the potential consequences of allowing anyone to create pools of any duration. The text highlights the limitations of current cryptocurrency markets and the need for users to have a fundamental understanding of decentralized finance protocols. It mentions the initial curated approach and the eventual transition to a fully decentralized system."
+        },
+        {
+            "title": "5. The Inspiration Behind Time: A Project to Create a Pure and Free Market for Finance",
+            "summary": "This text discusses the concept of time swap and addresses common questions and misconceptions surrounding it. Time swap involves swapping assets through time, which is essentially lending and borrowing. The text explains how the protocol discovers prices without an oracle and ensures collateral capitalization. It also addresses the misconception that time swap is only suitable for long tail assets, highlighting its scalability and secure design. The text emphasizes the resilience of the Time protocol in volatile environments and compares it to a desert survivor. It also explores the relationship between time and volatility in pricing. The text concludes by discussing the possibility of reducing reliance on external parties in cryptocurrency projects and the importance of collateral pricing in financial transactions."
+        },
+        {
+            "title": "1. What is Time Swap?",
+            "summary": "Climate change is negatively impacting global food production, resulting in food shortages and increased vulnerability for communities dependent on agriculture. Urgent action is needed to address this issue, including implementing sustainable farming practices and investing in climate-resilient infrastructure. The reliance on oracles in blockchain protocols is discussed, with the author emphasizing the potential risks and suggesting protocols should be built on real behavior rather than relying solely on information from oracles. Time Labs, a media outlet focused on the concept of time, offers various platforms for users to connect and learn about effective time management."
+        }
+    ]
+}
