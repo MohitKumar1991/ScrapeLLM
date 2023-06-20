@@ -2,6 +2,7 @@ import { Separator } from "@/components/ui/separator"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Menu } from "../../components/podcast/menu"
 import { useRouter } from "next/router"
+import Image from "next/image"
 import {
   Card,
   CardContent,
@@ -9,11 +10,21 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 
-import YoutubeEmbed from "@/components/podcast/video"
 import { cn, readableTime } from "@/lib/utils"
 import { Avatar, AvatarFallback } from "@/components/ui/avatar"
 import polygonAlphaPodcast from '../../../public/podcasts/polygon_alpha_podcast/details.json'
 import { useEffect, useState } from "react"
+
+//convert Name to initials -  Justin Havens to JH
+const nameToInitials = (name: string) => {
+  const names = name.split(" ")
+  let initials = ""
+  names.forEach((name) => {
+    initials += name.charAt(0)
+  })
+  return initials
+}
+
 
 export interface EpisodeDetails {
   summaries: Summary[],
@@ -127,23 +138,51 @@ export default function EpisodePage() {
             <div className="grid lg:grid-cols-8">
               <div className="col-span-3 lg:col-span-4 lg:border-l">
                 <div className="h-full px-4 py-6 lg:px-8">
-                  <Tabs defaultValue="music" className="h-full space-y-6">
+                  <Tabs defaultValue="podcast" className="h-full space-y-6">
                     <div className="space-between flex items-center">
                       <TabsList>
                         <TabsTrigger value="podcast" className="relative">
-                          Podcast
+                          Podcast Summary
                         </TabsTrigger>
-                        <TabsTrigger value="summary">
-                          Summary
+                        <TabsTrigger value="transcript">
+                          Transcript
                         </TabsTrigger>
-                        <TabsTrigger value="transcript">Transcript</TabsTrigger>
                       </TabsList>
                     </div>
+
                     <TabsContent
-                      value="summary"
-                      className="h-full flex-col border-none p-0 data-[state=active]:flex"
-                    >
-                    {  episodeSummary && episodeSummary['summaries'].map((sm:Summary) => (<Card className={cn("w-[800px] my-4")}>
+                      value="podcast"
+                      className="border-none p-0 outline-none" >
+                      <div className="flex items-center justify-between">
+                      <Image
+                            src={episodeDetails.image}
+                            alt={episodeDetails.title}
+                            width={150}
+                            height={150}
+                            className={'square'}
+                      />
+                        <div className="space-y-1 text-left ml-4">
+                          <h2 className="text-2xl font-normal">
+                            {episodeDetails.title}
+                          </h2>
+                          <p className="text-sm text-muted-foreground">
+                            {episodeDetails.date} | Episode No <span className="font-bold">{episodeDetails.number}</span>
+                          </p>
+                        </div>
+                      </div>     
+                      <div className="mt-12 space-y-1">
+                        <h2 className="text-2xl font-semibold tracking-tight">
+                          Description
+                        </h2>
+                        <p className="text-sm text-muted-foreground whitespace-break-spaces">
+                          {episodeDetails.description}
+                        </p>
+                      </div>
+                      <Separator className="my-8" />
+                      <h2 className="text-2xl font-semibold tracking-tight">
+                          Summary
+                        </h2>
+                      {  episodeSummary && episodeSummary['summaries'].map((sm:Summary) => (<Card className={cn("w-[800px] my-4")}>
                         <CardHeader>
                           <CardTitle>{sm['title']}</CardTitle>
                         </CardHeader>
@@ -158,37 +197,6 @@ export default function EpisodePage() {
                         </CardContent>
                       </Card>))
                     }
-                      <Separator className="my-4" />
-                    </TabsContent>
-                    <TabsContent
-                      value="podcast"
-                      className="border-none p-0 outline-none"
-                    >
-                      <div className="flex items-center justify-between">
-                        <div className="space-y-1 text-center">
-                          <h2 className="text-2xl font-normal">
-                            {episodeDetails.title}
-                          </h2>
-                          <p className="text-sm text-muted-foreground">
-                            {episodeDetails.date} | Episode No <span className="font-bold">{episodeDetails.number}</span>
-                          </p>
-                        </div>
-                      </div>
-                      <Separator className="my-4" />
-                      
-                      <div className="space-x-4 pb-4">
-                        <YoutubeEmbed embedId="NHOFkcun06s" />
-                      </div>
-                      
-                      <div className="mt-6 space-y-1">
-                        <h2 className="text-2xl font-semibold tracking-tight">
-                          Description
-                        </h2>
-                        <p className="text-sm text-muted-foreground whitespace-break-spaces">
-                          {episodeDetails.description}
-                        </p>
-                      </div>
-                      <Separator className="my-4" />
                     </TabsContent>
                     <TabsContent
                       value="transcript"
@@ -196,7 +204,7 @@ export default function EpisodePage() {
                     >
                     { episodeSummary && episodeSummary['transcripts'].map((t:Transcript) => (<div className=" flex items-center space-x-4 rounded-md border p-4">
                         {
-                          t['speaker'] == '0'? <UtteranceInfo start={t['start']} end={t['end']} name={"MM"} /> :  null
+                          parseInt(t['speaker'])%2 == 0? <UtteranceInfo start={t['start']} end={t['end']} name={nameToInitials(episodeDetails["speakers"][t['speaker']] || episodeDetails["speakers"]['0'])} /> :  null
                         }
                         <div className="flex-1 space-y-1">
                           <p className="text-sm text-muted-foreground">
@@ -204,7 +212,7 @@ export default function EpisodePage() {
                           </p>
                         </div>
                         {
-                          t['speaker'] == '1'? <UtteranceInfo start={t['start']} end={t['end']} name={"CN"} />  :  null}
+                          parseInt(t['speaker'])%2 == 1? <UtteranceInfo start={t['start']} end={t['end']} name={nameToInitials(episodeDetails["speakers"][t['speaker']] || episodeDetails["speakers"]['0'])} />  :  null}
                       </div> ))}
                       <Separator className="my-4" />
                     </TabsContent>
