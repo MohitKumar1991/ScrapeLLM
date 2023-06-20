@@ -25,8 +25,73 @@ const nameToInitials = (name: string) => {
   return initials
 }
 
-
+/*
+could be like this
+ "title": "Swapping Through Time | TimeSwap | Ricsson Ngo, Harshita Singh, Ameeth Devadas | Polygon Alpha Pod",
+            "number": "26",
+            "date": "APR 6, 2023",
+            "description": "Decentralized and oracle-less fixed time preference protocol. Lend and borrow without the use of oracles",
+            "url": "https://polygonalpha.substack.com/p/swapping-through-time-timeswap-ricsson",
+            "speakers": {
+                "0": "Justin Havens",
+                "1": "Ricsson Ngo",
+                "2": "Harshita Singh",
+                "3": "Ameeth Devadas"
+            },
+            "image": "https://substackcdn.com/image/fetch/w_320,h_213,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_center/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fba97d23e-9b49-474a-b8c6-4f3e6465fada_640x640.png",
+            "file": "april.mp3"
+*/
 export interface EpisodeDetails {
+  title: string
+  number: string
+  date: string
+  description: string
+  url: string
+  speakers: {
+    [key: string]: string
+  }
+  image: string
+  file: string
+}
+
+export interface Episode {
+  id: number
+  details: EpisodeDetails
+}
+
+export interface EpisodeProps {
+  episode: Episode
+  album: Album
+  podcast: PodCast
+  episodeSummary: EpisodeSummary
+}
+
+export interface TranscriptProps {
+  transcript: Transcript
+  index: number
+  episodeSummary: EpisodeSummary
+  episode: EpisodeDetails
+}
+
+export interface SummaryProps {
+  summary: Summary
+  episodeSummary: EpisodeSummary
+  episode: EpisodeDetails
+  index: number
+}
+
+export interface TranscriptListProps {
+  episodeSummary: EpisodeSummary
+  episode: EpisodeDetails
+}
+
+export interface SummaryListProps {
+  episodeSummary: EpisodeSummary
+  episode: EpisodeDetails
+}
+
+
+export interface EpisodeSummary {
   summaries: Summary[],
   transcripts: Transcript[]
 }
@@ -110,14 +175,14 @@ export default function EpisodePage() {
     return <div>Invalid episode id</div>
   }
 
-  const episodeDetails = polygonAlphaPodcast['episodes'][parseInt(episodeId)];
+  const episodeDetails = polygonAlphaPodcast['episodes'][parseInt(episodeId)] as EpisodeDetails;
   console.log("episodeDetails",episodeDetails)
   if (!episodeDetails) {
     return <div>Episode not found</div>
   }
   const fileName = episodeDetails.file.split(".")[0] + "_summary.json"
   
-  const [ episodeSummary, setEpisodeSummary ]  = useState<EpisodeDetails>();
+  const [ episodeSummary, setEpisodeSummary ]  = useState<EpisodeSummary>();
   //get the filename from the podcast details and make http request to /podcasts/{filename} to load the details
   useEffect(() => {
     fetch(`/podcasts/polygon_alpha_podcast/${fileName}`)

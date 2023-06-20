@@ -64,7 +64,7 @@ export default function MusicPage() {
                         <ScrollArea>
                           <div className="flex space-x-4 pb-4">
                             {polygonAlphaPodcast.episodes.map((episode, idx) => (
-                              <AlbumArtwork
+                            <AlbumArtwork
                                 key={episode.number}
                                 album={episode}
                                 url={"/episodes/"+idx}
